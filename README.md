@@ -14,6 +14,7 @@ stackoverflow-Java-top-qa
 * [将数组转换为List](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/create-arraylist-arraylistt-from-array-t.md)
 * [如何遍历map对象](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/iterate-through-a-hashmap.md)
 * [public，protected，private，不加修饰符。有什么区别呢？](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/in-java-whats-the-difference-between-public-default-protected-and-private.md)
+* [如何判断数组Array是否包含指定的值？](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/in-java-whats-the-difference-between-public-default-protected-and-private.md)
 
 > 代码规范
 
@@ -44,9 +45,10 @@ stackoverflow-Java-top-qa
 - 
 
 - [Why does this code using random strings print “hello world”?](http://stackoverflow.com/questions/15182496/why-does-this-code-using-random-strings-print-hello-world)
-- [Iterate over each Entry in a Map](http://stackoverflow.com/questions/46898/iterate-over-each-entry-in-a-map)
+- 
 - [How can I create an executable jar with dependencies using Maven?](http://stackoverflow.com/questions/574594/how-can-i-create-an-executable-jar-with-dependencies-using-maven)
 - [How to avoid Java code in JSP files?](http://stackoverflow.com/questions/3177733/how-to-avoid-java-code-in-jsp-files)
+- 
 - [In Java, how can I test if an Array contains a certain value?](http://stackoverflow.com/questions/1128723/in-java-how-can-i-test-if-an-array-contains-a-certain-value)
 - [Why is executing Java code in comments with certain Unicode characters allowed?](http://stackoverflow.com/questions/30727515/why-is-executing-java-code-in-comments-with-certain-unicode-characters-allowed)
 - [Dealing with “java.lang.OutOfMemoryError: PermGen space” error](http://stackoverflow.com/questions/88235/dealing-with-java-lang-outofmemoryerror-permgen-space-error)
