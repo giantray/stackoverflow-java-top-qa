@@ -19,4 +19,4 @@ while (entries.hasNext()) {
 ```
 
 stackoverflow链接：
-http://stackoverflow.com/questions/271526/avoiding-null-statements-in-java?page=2&tab=votes#tab-top
+http://stackoverflow.com/questions/1066589/iterate-through-a-hashmap
