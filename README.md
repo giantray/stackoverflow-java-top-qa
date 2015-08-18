@@ -15,7 +15,7 @@ stackoverflow-Java-top-qa
 
 > 代码规范
 
-*
+* [去掉烦人的“!=null"(判空语句](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/avoiding-null-statements-in-java.md)
 
 > 网络
 
@@ -28,7 +28,6 @@ stackoverflow-Java-top-qa
 ### 待翻译问题链接(还剩0问题)
 - [Why is processing a sorted array faster than an unsorted array?](http://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-an-unsorted-array)
 - [Why is subtracting these two times (in 1927) giving a strange result?](http://stackoverflow.com/questions/6841333/why-is-subtracting-these-two-times-in-1927-giving-a-strange-result)
-- [Avoiding “!= null” statements in Java?](http://stackoverflow.com/questions/271526/avoiding-null-statements-in-java)
 - [Proper use cases for Android UserManager.isUserAGoat()?](http://stackoverflow.com/questions/13375357/proper-use-cases-for-android-usermanager-isuseragoat)
 - [Differences between HashMap and Hashtable?](http://stackoverflow.com/questions/40471/differences-between-hashmap-and-hashtable)
 - [Read/convert an InputStream to a String](http://stackoverflow.com/questions/309424/read-convert-an-inputstream-to-a-string)
