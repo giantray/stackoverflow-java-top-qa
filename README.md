@@ -17,7 +17,7 @@ stackoverflow-Java-top-qa
 * [如何判断数组Array是否包含指定的值？](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/in-java-whats-the-difference-between-public-default-protected-and-private.md)
 * [重写（Override）equlas和hashCode方法时应考虑的问题](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/what-issues-should-be-considered-when-overriding-equals-and-hashcode-in-java.md)
 * [从一个多层嵌套循环中直接跳出](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/breaking-out-of-nested-loops-in-java.md)
-
+* [如何将String转换为Int](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/converting-string-to-int-in-java.md)
 
 > 编程技巧
 
@@ -44,7 +44,6 @@ stackoverflow-Java-top-qa
 - [Generating random integers in a range with Java](http://stackoverflow.com/questions/363681/generating-random-integers-in-a-range-with-java)
 - [Why is printing “B” dramatically slower than printing “#”?](http://stackoverflow.com/questions/21947452/why-is-printing-b-dramatically-slower-than-printing)
 - [What is a serialVersionUID and why should I use it?](http://stackoverflow.com/questions/285793/what-is-a-serialversionuid-and-why-should-i-use-it)
-- [Converting String to int in Java?](http://stackoverflow.com/questions/5585779/converting-string-to-int-in-java)
 - [Is there a unique Android device ID?](http://stackoverflow.com/questions/2785485/is-there-a-unique-android-device-id)
 - [How to test a class that has private methods, fields or inner classes](http://stackoverflow.com/questions/34571/how-to-test-a-class-that-has-private-methods-fields-or-inner-classes)
 - [Why does this code using random strings print “hello world”?](http://stackoverflow.com/questions/15182496/why-does-this-code-using-random-strings-print-hello-world)
