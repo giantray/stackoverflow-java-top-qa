@@ -21,14 +21,14 @@ stackoverflow-Java-top-qa
 
 > 网络
 
-*
- 
+* [如何使用java.net.URLConnection接收及发送HTTP请求](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/using-java-net-urlconnection-to-fire-and-handle-http-requests.md)
+
 > 性能
 
 * [LinkedList、ArrayList各自的使用场景，如何确认应该用哪一个呢？](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/when-to-use-linkedlist-over-arraylist.md)
 
 
-### 待翻译问题链接(还剩0问题)
+### 待翻译问题链接(还剩x问题)
 - [Why is processing a sorted array faster than an unsorted array?](http://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-an-unsorted-array)
 - [Why is subtracting these two times (in 1927) giving a strange result?](http://stackoverflow.com/questions/6841333/why-is-subtracting-these-two-times-in-1927-giving-a-strange-result)
 - [Proper use cases for Android UserManager.isUserAGoat()?](http://stackoverflow.com/questions/13375357/proper-use-cases-for-android-usermanager-isuseragoat)
@@ -41,7 +41,8 @@ stackoverflow-Java-top-qa
 - [Converting String to int in Java?](http://stackoverflow.com/questions/5585779/converting-string-to-int-in-java)
 - [Is there a unique Android device ID?](http://stackoverflow.com/questions/2785485/is-there-a-unique-android-device-id)
 - [How to test a class that has private methods, fields or inner classes](http://stackoverflow.com/questions/34571/how-to-test-a-class-that-has-private-methods-fields-or-inner-classes)
-- [Using java.net.URLConnection to fire and handle HTTP requests](http://stackoverflow.com/questions/2793150/using-java-net-urlconnection-to-fire-and-handle-http-requests)
+- 
+
 - [Why does this code using random strings print “hello world”?](http://stackoverflow.com/questions/15182496/why-does-this-code-using-random-strings-print-hello-world)
 - [Iterate over each Entry in a Map](http://stackoverflow.com/questions/46898/iterate-over-each-entry-in-a-map)
 - [How can I create an executable jar with dependencies using Maven?](http://stackoverflow.com/questions/574594/how-can-i-create-an-executable-jar-with-dependencies-using-maven)
