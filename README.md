@@ -12,6 +12,7 @@ stackoverflow-Java-top-qa
 * [Java += 操作符实质](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/java-operator.md)
 * [将InputStream转换为String](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/read-convert-an-inputstream-to-a-string.md)
 * [将数组转换为List](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/create-arraylist-arraylistt-from-array-t.md)
+* [如何遍历map对象](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/iterate-through-a-hashmap.md)
 
 > 代码规范
 
@@ -31,7 +32,6 @@ stackoverflow-Java-top-qa
 - [Proper use cases for Android UserManager.isUserAGoat()?](http://stackoverflow.com/questions/13375357/proper-use-cases-for-android-usermanager-isuseragoat)
 - [Differences between HashMap and Hashtable?](http://stackoverflow.com/questions/40471/differences-between-hashmap-and-hashtable)
 - [Creating a memory leak with Java [closed]](http://stackoverflow.com/questions/6470651/creating-a-memory-leak-with-java)
-- [Iterate through a HashMap [duplicate]](http://stackoverflow.com/questions/1066589/iterate-through-a-hashmap)
 - [Why is char[] preferred over String for passwords?](http://stackoverflow.com/questions/8881291/why-is-char-preferred-over-string-for-passwords)
 - [Generating random integers in a range with Java](http://stackoverflow.com/questions/363681/generating-random-integers-in-a-range-with-java)
 - [Why is printing “B” dramatically slower than printing “#”?](http://stackoverflow.com/questions/21947452/why-is-printing-b-dramatically-slower-than-printing)
