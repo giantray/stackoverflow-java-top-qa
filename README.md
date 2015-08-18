@@ -24,7 +24,8 @@ stackoverflow-Java-top-qa
  
 > 性能
 
-*
+* [LinkedList、ArrayList各自的使用场景，如何确认应该用哪一个呢？](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/when-to-use-linkedlist-over-arraylist.md)
+
 
 ### 待翻译问题链接(还剩0问题)
 - [Why is processing a sorted array faster than an unsorted array?](http://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-an-unsorted-array)
@@ -35,7 +36,6 @@ stackoverflow-Java-top-qa
 - [Why is char[] preferred over String for passwords?](http://stackoverflow.com/questions/8881291/why-is-char-preferred-over-string-for-passwords)
 - [Generating random integers in a range with Java](http://stackoverflow.com/questions/363681/generating-random-integers-in-a-range-with-java)
 - [Why is printing “B” dramatically slower than printing “#”?](http://stackoverflow.com/questions/21947452/why-is-printing-b-dramatically-slower-than-printing)
-- [When to use LinkedList over ArrayList?](http://stackoverflow.com/questions/322715/when-to-use-linkedlist-over-arraylist)
 - [What is a serialVersionUID and why should I use it?](http://stackoverflow.com/questions/285793/what-is-a-serialversionuid-and-why-should-i-use-it)
 - [In Java, what's the difference between public, default, protected, and private?](http://stackoverflow.com/questions/215497/in-java-whats-the-difference-between-public-default-protected-and-private)
 - [Converting String to int in Java?](http://stackoverflow.com/questions/5585779/converting-string-to-int-in-java)
