@@ -10,10 +10,10 @@ stackoverflow-Java-top-qa
 
 * [Java是按值传递还是按引用传递](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/is-java-pass-by-reference-or-pass-by-value.md)
 * [Java += 操作符实质](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/java-operator.md)
-* [将InputStream转换为String](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/read-convert-an-inputstream-to-a-string.md)
-* [将数组转换为List](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/create-arraylist-arraylistt-from-array-t.md)
-* [如何遍历map对象](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/iterate-through-a-hashmap.md)
-* [public，protected，private，不加修饰符。有什么区别呢？](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/in-java-whats-the-difference-between-public-default-protected-and-private.md)
+* [将InputStream转换为String](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/read-convert-an-inputstream-to-a-string.md)
+* [将数组转换为List](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/create-arraylist-arraylistt-from-array-t.md)
+* [如何遍历map对象](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/iterate-through-a-hashmap.md)
+* [public，protected，private，不加修饰符。有什么区别呢？](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/in-java-whats-the-difference-between-public-default-protected-and-private.md)
 
 > 代码规范
 
@@ -25,7 +25,7 @@ stackoverflow-Java-top-qa
  
 > 性能
 
-* [LinkedList、ArrayList各自的使用场景，如何确认应该用哪一个呢？](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/when-to-use-linkedlist-over-arraylist.md)
+* [LinkedList、ArrayList各自的使用场景，如何确认应该用哪一个呢？](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/when-to-use-linkedlist-over-arraylist.md)
 
 
 ### 待翻译问题链接(还剩0问题)
