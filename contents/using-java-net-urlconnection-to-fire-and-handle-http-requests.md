@@ -3,20 +3,20 @@
 首先声明，下面的代码，都是基本的例子。更严谨的话，还应加入处理各种异常的代码(如IOExceptions、NullPointerException、ArrayIndexOutOfBoundsException)
 
 ###准备
-首先，需要设置请求的URL以及charset(编码)；另外还需要哪些参数，则取决于各自url的要求。
+首先，需要设置请求的URL以及charset(编码)；额外的参数，则取决于各自url的要求。
 ```java
 String url = "http://example.com";
 String charset = "UTF-8";
 String param1 = "value1";
 String param2 = "value2";
 // ...
-String query = String.format("param1=%s¶m2=%s", 
-URLEncoder.encode(param1, charset), 
-URLEncoder.encode(param2, charset));
+String query = String.format("param1=%s&param2=%s", 
+     URLEncoder.encode(param1, charset), 
+     URLEncoder.encode(param2, charset));
 ```
-请求参数必须是name=value这样的格式，每个参数间用&连接。一般来说，你还得用 [URLEncoder#encode()](http://docs.oracle.com/javase/6/docs/api/java/net/URLEncoder.html)对参数做[编码](http://en.wikipedia.org/wiki/Percent-encoding)
+url中附带的请求参数，必须是name=value这样的格式，每个参数间用&连接。一般来说，你还得用 [URLEncoder#encode()](http://docs.oracle.com/javase/6/docs/api/java/net/URLEncoder.html)对参数做[编码](http://en.wikipedia.org/wiki/Percent-encoding)
 
-上面例子还用到了String#format()，这只是为了方便，我更喜欢用这个方式来完成string的拼接。
+上面例子还用到了String#format()。字符拼接方式，看个人喜好，我更喜欢用这个方式。
 
 ###发送一个[HTTP GET](http://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html#sec9.3)请求（可选：带上参数）
 这依然是个繁琐的事情。默认的方式如下：
@@ -25,7 +25,7 @@ URLConnection connection = new URL(url + "?" + query).openConnection();
 connection.setRequestProperty("Accept-Charset", charset);
 InputStream response = connection.getInputStream();
 ```
-url和参数之间，要用？号连接。请求头（header）中的[Accept-Charset](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.2)，用于告诉服务器，你所发送参数的编码。如果你不发送任何参数，也可以不管Accept-Charset。如果你无需设置任何header，也可以用[URL#openStream()](http://docs.oracle.com/javase/6/docs/api/java/net/URL.html#openStream%28%29) 而非openConnection。
+url和参数之间，要用？号连接。请求头（header）中的[Accept-Charset](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.2)，用于告诉服务器，你所发送参数的编码。如果你不带送任何参数，也可以不管Accept-Charset。另外如果你无需设置header，也可以用[URL#openStream()](http://docs.oracle.com/javase/6/docs/api/java/net/URL.html#openStream%28%29) 而非openConnection。
 不管那种方式，假设服务器端是 [HttpServlet](http://docs.oracle.com/javaee/6/api/javax/servlet/http/HttpServlet.html)，那么你的get请求将会触发它的doGet()方法，它能通过[HttpServletRequest#getParameter()](http://docs.oracle.com/javaee/6/api/javax/servlet/ServletRequest.html#getParameter%28java.lang.String%29)获取你传递的参数。
 
 ###发送一个[HTTP POST](http://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html#sec9.5)请求，并带上参数
@@ -45,7 +45,7 @@ InputStream response = connection.getInputStream();
 
 提醒：
 
-当你要提交一个HTML表单时，务必要把<input type="hidden"这类元素的值，以name=value的形式也一并提交。另外，还有<input type="submit">这类元素，也是如此。因为，通常服务端也需要这个信息，来确认哪一个按钮触发了这个提交动作。
+当你要提交一个HTML表单时，务必要把`<input type="hidden"`,`<input type="submit">`这类元素的值，也以name=value的形式提交，因为，服务端通常也需要这个信息，已确认哪一个按钮触发了这个提交动作。
 
 也可以使用[HttpURLConnection](http://docs.oracle.com/javase/6/docs/api/java/net/HttpURLConnection.html) 来代替[URLConnection](http://docs.oracle.com/javase/6/docs/api/java/net/URLConnection.html) ，然后调用[HttpURLConnection#setRequestMethod()](http://docs.oracle.com/javase/6/docs/api/java/net/HttpURLConnection.html#setRequestMethod%28java.lang.String%29)来将请求设为POST类型。
 
@@ -56,8 +56,8 @@ httpConnection.setRequestMethod("POST");
 
 同样的，如果服务端是[HttpServlet](http://docs.oracle.com/javaee/6/api/javax/servlet/http/HttpServlet.html),将会触发它的[doPost()](http://docs.oracle.com/javaee/6/api/javax/servlet/http/HttpServlet.html#doPost%28javax.servlet.http.HttpServletRequest,%20javax.servlet.http.HttpServletResponse%29)方法,可以通过[HttpServletRequest#getParameter()](http://docs.oracle.com/javaee/6/api/javax/servlet/ServletRequest.html#getParameter%28java.lang.String%29)获取post参数
 
-###真正触发HTTP请求的发送
-你可以显式地通过[URLConnection#connect()](http://docs.oracle.com/javase/6/docs/api/java/net/URLConnection.html#connect%28%29)来发送请求，但是，当你调用获取响应信息的方法时，一样将自动发送请求。例如当你使用[URLConnection#getInputStream()](http://docs.oracle.com/javase/6/docs/api/java/net/URLConnection.html#getInputStream%28%29)时，就会自动触发请求，因此，不用多次一举地调用connect()方法。上面我的例子，也都是直接调用getInputStream()方法。
+###触发HTTP请求的发送
+你可以显式地通过[URLConnection#connect()](http://docs.oracle.com/javase/6/docs/api/java/net/URLConnection.html#connect%28%29)来发送请求，但是，当你调用获取响应信息的方法时，一样将自动发送请求。例如当你使用[URLConnection#getInputStream()](http://docs.oracle.com/javase/6/docs/api/java/net/URLConnection.html#getInputStream%28%29)时，就会自动触发请求，因此，connect()方法往往都是多余的。上面我的例子，也都是直接调用getInputStream()方法。
 
 获取HTTP响应信息
 1. HTTP响应码：
@@ -126,11 +126,13 @@ for (String cookie : cookies) {
 }
 // ...
 ```
-上面的split(";", 2)[0],作用是去掉一些跟服务端无关的cookie信息（例如expores，path等）。也可用cookie.substring(0, cookie.indexOf(';'))实现同样的目的
+上面的split(";", 2)[0],作用是去掉一些跟服务端无关的cookie信息（例如expores，path等）。也可用cookie.substring(0, cookie.indexOf(';'))达到同样的目的
 
 ###流的处理
-不管你是否通过connection.setRequestProperty("Content-Length", contentLength)为content设置了定长，  [HttpURLConnection](http://docs.oracle.com/javase/6/docs/api/java/net/HttpURLConnection.html)在发送请求前，默认都会缓存整个请求的body。如果发送一个比较大的post请求（例如上传文件），有可能会导致OutOfMemoryException。为了避免这个问题，可以设置[HttpURLConnection#setFixedLengthStreamingMode()](http://docs.oracle.com/javase/6/docs/api/java/net/HttpURLConnection.html#setFixedLengthStreamingMode%28int%29)
+不管你是否通过connection.setRequestProperty("Content-Length", contentLength)方法，为content设置了定长，  [HttpURLConnection](http://docs.oracle.com/javase/6/docs/api/java/net/HttpURLConnection.html)在发送请求前，默认都会缓存整个请求的body。如果发送一个比较大的post请求（例如上传文件），有可能会导致OutOfMemoryException。为了避免这个问题，可以设置[HttpURLConnection#setFixedLengthStreamingMode()](http://docs.oracle.com/javase/6/docs/api/java/net/HttpURLConnection.html#setFixedLengthStreamingMode%28int%29)
+```java
 httpConnection.setFixedLengthStreamingMode(contentLength);
+```
 但如果content长度是未知的，则可以用[HttpURLConnection#setChunkedStreamingMode()](http://docs.oracle.com/javase/6/docs/api/java/net/HttpURLConnection.html#setChunkedStreamingMode%28int%29)。这样，header中Transfer-Encoding会变成chunked，你的请求将会分块发送，例如下面的例子，请求的body，将会按1KB一块，分块发送
 ```java
 httpConnection.setChunkedStreamingMode(1024);
