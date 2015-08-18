@@ -30,6 +30,7 @@ stackoverflow-Java-top-qa
 > 性能
 
 * [LinkedList、ArrayList各自的使用场景，如何确认应该用哪一个呢？](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/when-to-use-linkedlist-over-arraylist.md)
+* [StringBuilder和StringBuffer有哪些区别呢](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/stringbuilder-and-stringbuffer.md)
 
 
 ### 待翻译问题链接(还剩x问题)
@@ -70,7 +71,6 @@ stackoverflow-Java-top-qa
 - [Comparing Java enum members: == or equals()?](http://stackoverflow.com/questions/1750435/comparing-java-enum-members-or-equals)
 - [Failed to load the JNI shared Library (JDK)](http://stackoverflow.com/questions/7352493/failed-to-load-the-jni-shared-library-jdk)
 - [Does Java support default parameter values?](http://stackoverflow.com/questions/997482/does-java-support-default-parameter-values)
-- [StringBuilder and StringBuffer](http://stackoverflow.com/questions/355089/stringbuilder-and-stringbuffer)
 - [How to concatenate two arrays in Java?](http://stackoverflow.com/questions/80476/how-to-concatenate-two-arrays-in-java)
 - [What's the simplest way to print a Java array?](http://stackoverflow.com/questions/409784/whats-the-simplest-way-to-print-a-java-array)
 - [Why can't I switch on a String?](http://stackoverflow.com/questions/338206/why-cant-i-switch-on-a-string)
