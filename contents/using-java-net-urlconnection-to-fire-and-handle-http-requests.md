@@ -15,6 +15,7 @@ URLEncoder.encode(param1, charset),
 URLEncoder.encode(param2, charset));
 ```
 请求参数必须是name=value这样的格式，每个参数间用&连接。一般来说，你还得用 [URLEncoder#encode()](http://docs.oracle.com/javase/6/docs/api/java/net/URLEncoder.html)对参数做[编码](http://en.wikipedia.org/wiki/Percent-encoding)
+
 上面例子还用到了String#format()，这只是为了方便，我更喜欢用这个方式来完成string的拼接。
 
 ###发送一个[HTTP GET](http://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html#sec9.3)请求（可选：带上参数）
@@ -43,13 +44,16 @@ InputStream response = connection.getInputStream();
 ```
 
 提醒：
+
 当你要提交一个HTML表单时，务必要把<input type="hidden"这类元素的值，以name=value的形式也一并提交。另外，还有<input type="submit">这类元素，也是如此。因为，通常服务端也需要这个信息，来确认哪一个按钮触发了这个提交动作。
 
 也可以使用[HttpURLConnection](http://docs.oracle.com/javase/6/docs/api/java/net/HttpURLConnection.html) 来代替[URLConnection](http://docs.oracle.com/javase/6/docs/api/java/net/URLConnection.html) ，然后调用[HttpURLConnection#setRequestMethod()](http://docs.oracle.com/javase/6/docs/api/java/net/HttpURLConnection.html#setRequestMethod%28java.lang.String%29)来将请求设为POST类型。
+
 ```java
 HttpURLConnection httpConnection = (HttpURLConnection) new URL(url).openConnection();
 httpConnection.setRequestMethod("POST");
 ```
+
 同样的，如果服务端是[HttpServlet](http://docs.oracle.com/javaee/6/api/javax/servlet/http/HttpServlet.html),将会触发它的[doPost()](http://docs.oracle.com/javaee/6/api/javax/servlet/http/HttpServlet.html#doPost%28javax.servlet.http.HttpServletRequest,%20javax.servlet.http.HttpServletResponse%29)方法,可以通过[HttpServletRequest#getParameter()](http://docs.oracle.com/javaee/6/api/javax/servlet/ServletRequest.html#getParameter%28java.lang.String%29)获取post参数
 
 ###真正触发HTTP请求的发送

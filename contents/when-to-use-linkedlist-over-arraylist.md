@@ -4,8 +4,8 @@
 
 ###耗时上各有优缺点。ArrayList稍有优势
 List只是一个接口，而LinkedList、ArrayList是List的不同实现。LinkedList的模型是双向链表，而ArrayList则是动态数组
-首先对比下常用操作的算法复杂度
 
+首先对比下常用操作的算法复杂度
 #####LinkedList
 - get(int index) : O(n)
 - add(E element) : O(1)

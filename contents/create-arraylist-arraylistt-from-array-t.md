@@ -16,7 +16,9 @@ Arrays.asList(array)或者Arrays.asList(new Element(1),new Element(2),new Elemen
 2. 如果修改数组的值，list中的对应值也会改变！
 
 如果希望避免这两个坑，请改用这个方式
+```java
 Collections.addAll(arraylist, array);
+```
 
 stackoverflow原址：
 http://stackoverflow.com/questions/157944/how-to-create-arraylist-arraylistt-from-array-t

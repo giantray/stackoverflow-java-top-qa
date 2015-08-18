@@ -12,8 +12,9 @@ if (someobject != null) {
 ###回答
 
 这是初、中级程序猿经常会遇到的问题。他们总喜欢在方法中返回null，因此，在调用这些方法时，也不得不去判空。另外，也许受此习惯影响，他们总潜意识地认为，所有的返回都是不可信任的，为了保护自己程序，就加了大量的判空。
-吐槽完毕，回到这个题目本身：
-进行判空前，请区分以下两种情况：
+
+吐槽完毕，回到这个题目本身，进行判空前，请区分以下两种情况：
+
 1. null 是一个有效有意义的返回值(Where null is a valid response in terms of the contract; and)
 2. null是无效有误的(Where it isn't a valid response.)
 
@@ -21,13 +22,17 @@ if (someobject != null) {
 
 ####先说第2种情况
 null就是一个不合理的参数，就应该明确地中断程序，往外抛错误。这种情况常见于api方法。例如你开发了一个接口，id是一个必选的参数，如果调用方没传这个参数给你，当然不行。你要感知到这个情况，告诉调用方“嘿，哥们，你传个null给我做甚"。
+
 相对于判空语句，更好的检查方式有两个
-(1)assert语句，你可以把错误原因放到assert的参数中，这样不仅能保护你的程序不往下走，而且还能把错误原因返回给调用方，岂不是一举两得。（原文介绍了assert的使用，这里省略）
-(2)也可以直接抛出空指针异常。上面说了，此时null是个不合理的参数，有问题就是有问题，就应该大大方方往外抛。
+
+1. assert语句，你可以把错误原因放到assert的参数中，这样不仅能保护你的程序不往下走，而且还能把错误原因返回给调用方，岂不是一举两得。（原文介绍了assert的使用，这里省略）
+2. 也可以直接抛出空指针异常。上面说了，此时null是个不合理的参数，有问题就是有问题，就应该大大方方往外抛。
 
 ####第1种情况会更复杂一些。
 这种情况下，null是个”看上去“合理的值，例如，我查询数据库，某个查询条件下，就是没有对应值，此时null算是表达了“空”的概念。
+
 这里给一些实践建议：
+
 -  假如方法的返回类型是collections，当返回结果是空时，你可以返回一个空的collections（empty list),而不要返回null.这样调用侧就能大胆地处理这个返回，例如调用侧拿到返回后，可以直接print list.size()，又无需担心空指针问题。（什么？想调用这个方法时，不记得之前实现该方法有没按照这个原则？所以说，代码习惯很重要！如果你养成习惯，都是这样写代码（返回空collections而不返回null)，你调用自己写的方法时，就能大胆地忽略判空）
 -  返回类型不是collections，又怎么办呢？
 那就返回一个空对象（而非null对象），下面举个“栗子”，假设有如下代码
@@ -44,6 +49,7 @@ public interface Parser {
 解决这个问题的一个方式，就是使用Null Object pattern（空对象模式）
 
 我们来改造一下
+
 类定义如下，这样定义findAction方法后，确保无论用户输入什么，都不会返回null对象
 public class MyParser implements Parser {
   private static Action DO_NOTHING = new Action() {
@@ -59,7 +65,7 @@ public class MyParser implements Parser {
 
 
 对比下面两份调用实例
-1. 冗余:每获取一个对象，就判一次空
+1. 冗余:  每获取一个对象，就判一次空
 ```java
 Parser parser = ParserFactory.getParser();
 if (parser == null) {
@@ -73,7 +79,9 @@ if (action == null) {
 ```
 
 2. 精简
+```java
 ParserFactory.getParser().findAction(someInput).doSomething();
+```
 因为无论什么情况，都不会返回空对象，因此通过findAction拿到action后，可以放心地调用action的方法。
 
 

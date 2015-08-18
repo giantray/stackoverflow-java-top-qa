@@ -16,7 +16,7 @@ stackoverflow-Java-top-qa
 * [public，protected，private，不加修饰符。有什么区别呢？](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/in-java-whats-the-difference-between-public-default-protected-and-private.md)
 * [如何判断数组Array是否包含指定的值？](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/in-java-whats-the-difference-between-public-default-protected-and-private.md)
 * [重写（Override）equlas和hashCode方法时应考虑的问题](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/what-issues-should-be-considered-when-overriding-equals-and-hashcode-in-java.md)
-* [从一个多层嵌套循环中直接退出](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/breaking-out-of-nested-loops-in-java.md)
+* [从一个多层嵌套循环中直接跳出](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/breaking-out-of-nested-loops-in-java.md)
 
 
 > 编程技巧

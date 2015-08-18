@@ -1,6 +1,6 @@
 ##StringBuilder和StringBuffer有哪些区别呢
 
-###最主要的区别，StringBuffer的实现使用了synchronized（锁），而StringBuilder没有。
+###最主要的区别，StringBuffer的实现用了synchronized（锁），而StringBuilder没有。
 
 因此，StringBuilder会比StringBuffer快。
 
@@ -9,10 +9,10 @@
 - 不需要考虑线程安全问题,
 - JRE是1.5+
 
-可以用StringBuilder,
-反之，请用StringBuffer。
+可以用StringBuilder,反之，请用StringBuffer。
 
 性能测试例子:
+
 如下这个例子，使用StringBuffer，耗时2241ms,而StringBuilder是753ms
 ```java
 public class Main {
