@@ -13,6 +13,7 @@ stackoverflow-Java-top-qa
 * [将InputStream转换为String](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/read-convert-an-inputstream-to-a-string.md)
 * [将数组转换为List](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/create-arraylist-arraylistt-from-array-t.md)
 * [如何遍历map对象](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/iterate-through-a-hashmap.md)
+* [public，protected，private，不加修饰符。有什么区别呢？](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/in-java-whats-the-difference-between-public-default-protected-and-private.md)
 
 > 代码规范
 
@@ -37,7 +38,6 @@ stackoverflow-Java-top-qa
 - [Generating random integers in a range with Java](http://stackoverflow.com/questions/363681/generating-random-integers-in-a-range-with-java)
 - [Why is printing “B” dramatically slower than printing “#”?](http://stackoverflow.com/questions/21947452/why-is-printing-b-dramatically-slower-than-printing)
 - [What is a serialVersionUID and why should I use it?](http://stackoverflow.com/questions/285793/what-is-a-serialversionuid-and-why-should-i-use-it)
-- [In Java, what's the difference between public, default, protected, and private?](http://stackoverflow.com/questions/215497/in-java-whats-the-difference-between-public-default-protected-and-private)
 - [Converting String to int in Java?](http://stackoverflow.com/questions/5585779/converting-string-to-int-in-java)
 - [Is there a unique Android device ID?](http://stackoverflow.com/questions/2785485/is-there-a-unique-android-device-id)
 - [How to test a class that has private methods, fields or inner classes](http://stackoverflow.com/questions/34571/how-to-test-a-class-that-has-private-methods-fields-or-inner-classes)
