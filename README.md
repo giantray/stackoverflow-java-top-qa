@@ -19,9 +19,10 @@ stackoverflow-Java-top-qa
 * [从一个多层嵌套循环中直接退出](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/breaking-out-of-nested-loops-in-java.md)
 
 
-> 代码规范
+> 编程技巧
 
 * [去掉烦人的“!=null"(判空语句](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/avoiding-null-statements-in-java.md)
+* [获取完整的堆栈信息](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/get-current-stack-trace-in-java.md)
 
 > 网络
 
@@ -74,17 +75,12 @@ stackoverflow-Java-top-qa
 - [How to concatenate two arrays in Java?](http://stackoverflow.com/questions/80476/how-to-concatenate-two-arrays-in-java)
 - [What's the simplest way to print a Java array?](http://stackoverflow.com/questions/409784/whats-the-simplest-way-to-print-a-java-array)
 - [Why can't I switch on a String?](http://stackoverflow.com/questions/338206/why-cant-i-switch-on-a-string)
-- [What issues should be considered when overriding equals and 
-- 
-- 
-
 - [How to create a Java String from the contents of a file?](http://stackoverflow.com/questions/326390/how-to-create-a-java-string-from-the-contents-of-a-file)
 - [Why does Java have transient variables?](http://stackoverflow.com/questions/910374/why-does-java-have-transient-variables)
 - [How can I convert a stack trace to a string?](http://stackoverflow.com/questions/1149703/how-can-i-convert-a-stack-trace-to-a-string)
 - [How do you assert that a certain exception is thrown in JUnit 4 tests?](http://stackoverflow.com/questions/156503/how-do-you-assert-that-a-certain-exception-is-thrown-in-junit-4-tests)
 - [What is a JavaBean exactly?](http://stackoverflow.com/questions/3295496/what-is-a-javabean-exactly)
 - [What exactly is Apache Camel?](http://stackoverflow.com/questions/8845186/what-exactly-is-apache-camel)
-- [Get current stack trace in Java](http://stackoverflow.com/questions/1069066/get-current-stack-trace-in-java)
 - [How can I permanently have line numbers in IntelliJ?](http://stackoverflow.com/questions/13751/how-can-i-permanently-have-line-numbers-in-intellij)
 - [How do servlets work? Instantiation, shared variables and multithreading](http://stackoverflow.com/questions/3106452/how-do-servlets-work-instantiation-shared-variables-and-multithreading)
 - [Access restriction on class due to restriction on required library rt.jar?](http://stackoverflow.com/questions/860187/access-restriction-on-class-due-to-restriction-on-required-library-rt-jar)
