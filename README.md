@@ -9,6 +9,8 @@ stackoverflow-Java-top-qa
 > 基础语法
 
 * [Java是按值传递还是按引用传递](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/is-java-pass-by-reference-or-pass-by-value.md)
+* [Java += 操作符实质](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/java-operator.md)
+
 
 
 > 代码规范
@@ -26,8 +28,6 @@ stackoverflow-Java-top-qa
 ### 待翻译问题链接(还剩0问题)
 - [Why is processing a sorted array faster than an unsorted array?](http://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-an-unsorted-array)
 - [Why is subtracting these two times (in 1927) giving a strange result?](http://stackoverflow.com/questions/6841333/why-is-subtracting-these-two-times-in-1927-giving-a-strange-result)
-- [Is Java “pass-by-reference” or “pass-by-value”?](http://stackoverflow.com/questions/40480/is-java-pass-by-reference-or-pass-by-value)
-- [Java += operator](http://stackoverflow.com/questions/8710619/java-operator)
 - [Avoiding “!= null” statements in Java?](http://stackoverflow.com/questions/271526/avoiding-null-statements-in-java)
 - [Proper use cases for Android UserManager.isUserAGoat()?](http://stackoverflow.com/questions/13375357/proper-use-cases-for-android-usermanager-isuseragoat)
 - [Differences between HashMap and Hashtable?](http://stackoverflow.com/questions/40471/differences-between-hashmap-and-hashtable)
