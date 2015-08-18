@@ -15,6 +15,9 @@ stackoverflow-Java-top-qa
 * [如何遍历map对象](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/iterate-through-a-hashmap.md)
 * [public，protected，private，不加修饰符。有什么区别呢？](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/in-java-whats-the-difference-between-public-default-protected-and-private.md)
 * [如何判断数组Array是否包含指定的值？](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/in-java-whats-the-difference-between-public-default-protected-and-private.md)
+* [重写（Override）equlas和hashCode方法时应考虑的问题](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/what-issues-should-be-considered-when-overriding-equals-and-hashcode-in-java.md)
+* [从一个多层嵌套循环中直接退出](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/breaking-out-of-nested-loops-in-java.md)
+
 
 > 代码规范
 
@@ -42,13 +45,9 @@ stackoverflow-Java-top-qa
 - [Converting String to int in Java?](http://stackoverflow.com/questions/5585779/converting-string-to-int-in-java)
 - [Is there a unique Android device ID?](http://stackoverflow.com/questions/2785485/is-there-a-unique-android-device-id)
 - [How to test a class that has private methods, fields or inner classes](http://stackoverflow.com/questions/34571/how-to-test-a-class-that-has-private-methods-fields-or-inner-classes)
-- 
-
 - [Why does this code using random strings print “hello world”?](http://stackoverflow.com/questions/15182496/why-does-this-code-using-random-strings-print-hello-world)
-- 
 - [How can I create an executable jar with dependencies using Maven?](http://stackoverflow.com/questions/574594/how-can-i-create-an-executable-jar-with-dependencies-using-maven)
 - [How to avoid Java code in JSP files?](http://stackoverflow.com/questions/3177733/how-to-avoid-java-code-in-jsp-files)
-- 
 - [In Java, how can I test if an Array contains a certain value?](http://stackoverflow.com/questions/1128723/in-java-how-can-i-test-if-an-array-contains-a-certain-value)
 - [Why is executing Java code in comments with certain Unicode characters allowed?](http://stackoverflow.com/questions/30727515/why-is-executing-java-code-in-comments-with-certain-unicode-characters-allowed)
 - [Dealing with “java.lang.OutOfMemoryError: PermGen space” error](http://stackoverflow.com/questions/88235/dealing-with-java-lang-outofmemoryerror-permgen-space-error)
@@ -58,7 +57,6 @@ stackoverflow-Java-top-qa
 - [Android SDK installation doesn't find JDK](http://stackoverflow.com/questions/4382178/android-sdk-installation-doesnt-find-jdk)
 - [How do I call one constructor from another in Java?](http://stackoverflow.com/questions/285177/how-do-i-call-one-constructor-from-another-in-java)
 - [Initialization of an ArrayList in one line](http://stackoverflow.com/questions/1005073/initialization-of-an-arraylist-in-one-line)
-- [Breaking out of nested loops in Java](http://stackoverflow.com/questions/886955/breaking-out-of-nested-loops-in-java)
 - [Java inner class and static nested class](http://stackoverflow.com/questions/70324/java-inner-class-and-static-nested-class)
 - ['Must Override a Superclass Method' Errors after importing a project into Eclipse](http://stackoverflow.com/questions/1678122/must-override-a-superclass-method-errors-after-importing-a-project-into-eclips)
 - [How do I compare strings in Java?](http://stackoverflow.com/questions/513832/how-do-i-compare-strings-in-java)
@@ -76,7 +74,10 @@ stackoverflow-Java-top-qa
 - [How to concatenate two arrays in Java?](http://stackoverflow.com/questions/80476/how-to-concatenate-two-arrays-in-java)
 - [What's the simplest way to print a Java array?](http://stackoverflow.com/questions/409784/whats-the-simplest-way-to-print-a-java-array)
 - [Why can't I switch on a String?](http://stackoverflow.com/questions/338206/why-cant-i-switch-on-a-string)
-- [What issues should be considered when overriding equals and hashCode in Java?](http://stackoverflow.com/questions/27581/what-issues-should-be-considered-when-overriding-equals-and-hashcode-in-java)
+- [What issues should be considered when overriding equals and 
+- 
+- 
+
 - [How to create a Java String from the contents of a file?](http://stackoverflow.com/questions/326390/how-to-create-a-java-string-from-the-contents-of-a-file)
 - [Why does Java have transient variables?](http://stackoverflow.com/questions/910374/why-does-java-have-transient-variables)
 - [How can I convert a stack trace to a string?](http://stackoverflow.com/questions/1149703/how-can-i-convert-a-stack-trace-to-a-string)
