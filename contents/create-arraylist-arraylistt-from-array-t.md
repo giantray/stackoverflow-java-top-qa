@@ -5,11 +5,13 @@
 ```java
 Element[] array = {new Element(1),new Element(2),new Element(3)};
 ```
-如何将其转换为ArrayList<Element> arraylist呢？
+如何将其转换为ArrayList`<Element>` arraylist呢？
 
 ###回答
 Arrays.asList(array)或者Arrays.asList(new Element(1),new Element(2),new Element(3))
+
 不过，这样做有些坑要注意：
+
 1. 这样做生成的list，是定长的。也就是说，如果你对它做add或者remove，都会抛UnsupportedOperationException。
 2. 如果修改数组的值，list中的对应值也会改变！
 
