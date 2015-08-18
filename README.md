@@ -122,13 +122,6 @@ stackoverflow-Java-top-qa
 - [Which @NotNull Java annotation should I use?](http://stackoverflow.com/questions/4963300/which-notnull-java-annotation-should-i-use)
 - [How to call SOAP web service in Android](http://stackoverflow.com/questions/297586/how-to-call-soap-web-service-in-android)
 
-
-
-
-### 已翻译问题链接(去重)
-
-qa-tuple.md:问题 (http://stackoverflow.com/questions/2970608/what-are-named-tuples-in-python)
-
 ### contributors
 
 thx a lot:)
