@@ -10,7 +10,7 @@ stackoverflow-Java-top-qa
 
 * [Java是按值传递还是按引用传递](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/is-java-pass-by-reference-or-pass-by-value.md)
 * [Java += 操作符实质](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/java-operator.md)
-
+* [将InputStream转换为String](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/read-convert-an-inputstream-to-a-string.md)
 
 
 > 代码规范
@@ -30,7 +30,6 @@ stackoverflow-Java-top-qa
 - [Why is subtracting these two times (in 1927) giving a strange result?](http://stackoverflow.com/questions/6841333/why-is-subtracting-these-two-times-in-1927-giving-a-strange-result)
 - [Proper use cases for Android UserManager.isUserAGoat()?](http://stackoverflow.com/questions/13375357/proper-use-cases-for-android-usermanager-isuseragoat)
 - [Differences between HashMap and Hashtable?](http://stackoverflow.com/questions/40471/differences-between-hashmap-and-hashtable)
-- [Read/convert an InputStream to a String](http://stackoverflow.com/questions/309424/read-convert-an-inputstream-to-a-string)
 - [Creating a memory leak with Java [closed]](http://stackoverflow.com/questions/6470651/creating-a-memory-leak-with-java)
 - [Iterate through a HashMap [duplicate]](http://stackoverflow.com/questions/1066589/iterate-through-a-hashmap)
 - [Create ArrayList (ArrayList<T>) from array (T[])](http://stackoverflow.com/questions/157944/create-arraylist-arraylistt-from-array-t)
