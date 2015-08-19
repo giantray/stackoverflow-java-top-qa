@@ -18,6 +18,7 @@ stackoverflow-Java-top-qa
 * [重写（Override）equlas和hashCode方法时应考虑的问题](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/what-issues-should-be-considered-when-overriding-equals-and-hashcode-in-java.md)
 * [从一个多层嵌套循环中直接跳出](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/breaking-out-of-nested-loops-in-java.md)
 * [如何将String转换为Int](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/converting-string-to-int-in-java.md)
+* [如何分割（split）string字符串](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/how-to-split-a-string-in-java.md)
 
 > 编程技巧
 
@@ -109,7 +110,6 @@ stackoverflow-Java-top-qa
 - [decompiling DEX into Java sourcecode](http://stackoverflow.com/questions/1249973/decompiling-dex-into-java-sourcecode)
 - [How to create a generic array in Java?](http://stackoverflow.com/questions/529085/how-to-create-a-generic-array-in-java)
 - [Why does Math.round(0.49999999999999994) return 1](http://stackoverflow.com/questions/9902968/why-does-math-round0-49999999999999994-return-1)
-- [How to split a string in Java](http://stackoverflow.com/questions/3481828/how-to-split-a-string-in-java)
 - [Eclipse: Set maximum line length for auto formatting?](http://stackoverflow.com/questions/3697287/eclipse-set-maximum-line-length-for-auto-formatting)
 - [What is the difference between a soft reference and a weak reference in Java?](http://stackoverflow.com/questions/299659/what-is-the-difference-between-a-soft-reference-and-a-weak-reference-in-java)
 - [How to create a file and write to a file in Java?](http://stackoverflow.com/questions/2885173/how-to-create-a-file-and-write-to-a-file-in-java)
