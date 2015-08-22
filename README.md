@@ -23,7 +23,7 @@ stackoverflow-Java-top-qa
 * [如何将String转换为Int](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/converting-string-to-int-in-java.md)
 * [如何分割（split）string字符串](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/how-to-split-a-string-in-java.md)
 * [在java中如何对比（compare）string](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/how-do-i-compare-strings-in-java.md)
-* [Map<Key,Value>基于Value值排序](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/how-to-sort-a-mapkey-value-on-the-values-in-java.md)
+* [`Map<Key,Value>`基于Value值排序](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/how-to-sort-a-mapkey-value-on-the-values-in-java.md)
 
 > 编程技巧
 
