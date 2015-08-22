@@ -23,6 +23,7 @@ stackoverflow-Java-top-qa
 * [如何将String转换为Int](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/converting-string-to-int-in-java.md)
 * [如何分割（split）string字符串](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/how-to-split-a-string-in-java.md)
 * [在java中如何对比（compare）string](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/how-do-i-compare-strings-in-java.md)
+* [Map<Key,Value>基于Value值排序](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/how-to-sort-a-mapkey-value-on-the-values-in-java.md)
 
 > 编程技巧
 
@@ -65,7 +66,6 @@ stackoverflow-Java-top-qa
 - [Initialization of an ArrayList in one line](http://stackoverflow.com/questions/1005073/initialization-of-an-arraylist-in-one-line)
 - [Java inner class and static nested class](http://stackoverflow.com/questions/70324/java-inner-class-and-static-nested-class)
 - ['Must Override a Superclass Method' Errors after importing a project into Eclipse](http://stackoverflow.com/questions/1678122/must-override-a-superclass-method-errors-after-importing-a-project-into-eclips)
-- [How to sort a Map<Key, Value> on the values in Java?](http://stackoverflow.com/questions/109383/how-to-sort-a-mapkey-value-on-the-values-in-java)
 - [Declare array in Java?](http://stackoverflow.com/questions/1200621/declare-array-in-java)
 - [Fastest way to determine if an integer's square root is an integer](http://stackoverflow.com/questions/295579/fastest-way-to-determine-if-an-integers-square-root-is-an-integer)
 - [How to fix: Unsupported major.minor version 51.0 error?](http://stackoverflow.com/questions/10382929/how-to-fix-unsupported-major-minor-version-51-0-error)
