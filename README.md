@@ -39,10 +39,10 @@ stackoverflow-Java-top-qa
 
 * [LinkedList、ArrayList各自的使用场景，如何确认应该用哪一个呢？](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/when-to-use-linkedlist-over-arraylist.md)
 * [StringBuilder和StringBuffer有哪些区别呢](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/stringbuilder-and-stringbuffer.md)
+* [为什么处理排序的数组要比非排序的快](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/Why-is-processing-a-sorted-array-faster-than-an-unsorted-array.md)
 
 
 ### 待翻译问题链接(还剩x问题)
-- [Why is processing a sorted array faster than an unsorted array?](http://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-an-unsorted-array)
 - [Why is subtracting these two times (in 1927) giving a strange result?](http://stackoverflow.com/questions/6841333/why-is-subtracting-these-two-times-in-1927-giving-a-strange-result)
 - [Proper use cases for Android UserManager.isUserAGoat()?](http://stackoverflow.com/questions/13375357/proper-use-cases-for-android-usermanager-isuseragoat)
 - [Creating a memory leak with Java [closed]](http://stackoverflow.com/questions/6470651/creating-a-memory-leak-with-java)
