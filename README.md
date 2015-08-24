@@ -24,6 +24,7 @@ stackoverflow-Java-top-qa
 * [如何分割（split）string字符串](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/how-to-split-a-string-in-java.md)
 * [在java中如何对比（compare）string](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/how-do-i-compare-strings-in-java.md)
 * [`Map<Key,Value>`基于Value值排序](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/how-to-sort-a-mapkey-value-on-the-values-in-java.md)
+* [`HashMap和Hashtable的区别](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/differences-between-hashmap-and-hashtable.md)
 
 > 编程技巧
 
@@ -44,7 +45,6 @@ stackoverflow-Java-top-qa
 - [Why is processing a sorted array faster than an unsorted array?](http://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-an-unsorted-array)
 - [Why is subtracting these two times (in 1927) giving a strange result?](http://stackoverflow.com/questions/6841333/why-is-subtracting-these-two-times-in-1927-giving-a-strange-result)
 - [Proper use cases for Android UserManager.isUserAGoat()?](http://stackoverflow.com/questions/13375357/proper-use-cases-for-android-usermanager-isuseragoat)
-- [Differences between HashMap and Hashtable?](http://stackoverflow.com/questions/40471/differences-between-hashmap-and-hashtable)
 - [Creating a memory leak with Java [closed]](http://stackoverflow.com/questions/6470651/creating-a-memory-leak-with-java)
 - [Why is char[] preferred over String for passwords?](http://stackoverflow.com/questions/8881291/why-is-char-preferred-over-string-for-passwords)
 - [Generating random integers in a range with Java](http://stackoverflow.com/questions/363681/generating-random-integers-in-a-range-with-java)
