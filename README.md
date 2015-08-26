@@ -24,6 +24,7 @@ stackoverflow-Java-top-qa
 * [如何分割（split）string字符串](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/how-to-split-a-string-in-java.md)
 * [在java中如何对比（compare）string](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/how-do-i-compare-strings-in-java.md)
 * [`Map<Key,Value>`基于Value值排序](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/how-to-sort-a-mapkey-value-on-the-values-in-java.md)
+* [如何便捷地将两个数组合到一起](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/how-to-concatenate-two-arrays-in-java.md)
 
 > 编程技巧
 
@@ -75,7 +76,6 @@ stackoverflow-Java-top-qa
 - [Comparing Java enum members: == or equals()?](http://stackoverflow.com/questions/1750435/comparing-java-enum-members-or-equals)
 - [Failed to load the JNI shared Library (JDK)](http://stackoverflow.com/questions/7352493/failed-to-load-the-jni-shared-library-jdk)
 - [Does Java support default parameter values?](http://stackoverflow.com/questions/997482/does-java-support-default-parameter-values)
-- [How to concatenate two arrays in Java?](http://stackoverflow.com/questions/80476/how-to-concatenate-two-arrays-in-java)
 - [What's the simplest way to print a Java array?](http://stackoverflow.com/questions/409784/whats-the-simplest-way-to-print-a-java-array)
 - [Why can't I switch on a String?](http://stackoverflow.com/questions/338206/why-cant-i-switch-on-a-string)
 - [How to create a Java String from the contents of a file?](http://stackoverflow.com/questions/326390/how-to-create-a-java-string-from-the-contents-of-a-file)
