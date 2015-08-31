@@ -17,7 +17,7 @@ stackoverflow-Java-top-qa
 * [将数组转换为List](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/create-arraylist-arraylistt-from-array-t.md)
 * [如何遍历map对象](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/iterate-through-a-hashmap.md)
 * [public，protected，private，不加修饰符。有什么区别呢？](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/in-java-whats-the-difference-between-public-default-protected-and-private.md)
-* [如何判断数组Array是否包含指定的值？](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/in-java-whats-the-difference-between-public-default-protected-and-private.md)
+* [如何判断数组Array是否包含指定的值？](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/in-java-how-can-i-test-if-an-array-contains-a-certain-value.md)
 * [重写（Override）equlas和hashCode方法时应考虑的问题](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/what-issues-should-be-considered-when-overriding-equals-and-hashcode-in-java.md)
 * [从一个多层嵌套循环中直接跳出](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/breaking-out-of-nested-loops-in-java.md)
 * [如何将String转换为Int](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/converting-string-to-int-in-java.md)
