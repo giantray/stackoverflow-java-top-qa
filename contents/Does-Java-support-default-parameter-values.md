@@ -10,7 +10,7 @@ void MyParameterizedFunction(String param1, int param2, bool param3=false);
 
 答案是否定的，不过我们可以通过多种方式处理这种参数默认值的情况。
 
-### 创建者模式
+### [创建者模式](http://en.wikipedia.org/wiki/Builder_pattern)
 使用创建者模式，你可以设定部分参数是有默认值，部分参数是可选的。如：
 
 ```
