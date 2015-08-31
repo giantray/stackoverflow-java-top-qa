@@ -26,6 +26,7 @@ stackoverflow-Java-top-qa
 * [`Map<Key,Value>`基于Value值排序](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/how-to-sort-a-mapkey-value-on-the-values-in-java.md)
 * [`HashMap和Hashtable的区别](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/differences-between-hashmap-and-hashtable.md)
 * [如何便捷地将两个数组合到一起](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/how-to-concatenate-two-arrays-in-java.md)
+* [Java 是否支持默认的参数值](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/Does-Java-support-default-parameter-values.md)
 
 > 编程技巧
 
@@ -75,7 +76,6 @@ stackoverflow-Java-top-qa
 - [Examples of GoF Design Patterns in Java's core libraries](http://stackoverflow.com/questions/1673841/examples-of-gof-design-patterns-in-javas-core-libraries)
 - [Comparing Java enum members: == or equals()?](http://stackoverflow.com/questions/1750435/comparing-java-enum-members-or-equals)
 - [Failed to load the JNI shared Library (JDK)](http://stackoverflow.com/questions/7352493/failed-to-load-the-jni-shared-library-jdk)
-- [Does Java support default parameter values?](http://stackoverflow.com/questions/997482/does-java-support-default-parameter-values)
 - [What's the simplest way to print a Java array?](http://stackoverflow.com/questions/409784/whats-the-simplest-way-to-print-a-java-array)
 - [Why can't I switch on a String?](http://stackoverflow.com/questions/338206/why-cant-i-switch-on-a-string)
 - [How to create a Java String from the contents of a file?](http://stackoverflow.com/questions/326390/how-to-create-a-java-string-from-the-contents-of-a-file)
