@@ -27,6 +27,8 @@ stackoverflow-Java-top-qa
 * [`HashMap和Hashtable的区别](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/differences-between-hashmap-and-hashtable.md)
 * [如何便捷地将两个数组合到一起](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/how-to-concatenate-two-arrays-in-java.md)
 * [Java 是否支持默认的参数值](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/Does-Java-support-default-parameter-values.md)
+* [Java 产生指定范围的随机数](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/generating-random-integers-in-a-range-with-Java.md)
+
 
 > 编程技巧
 
@@ -49,7 +51,6 @@ stackoverflow-Java-top-qa
 - [Proper use cases for Android UserManager.isUserAGoat()?](http://stackoverflow.com/questions/13375357/proper-use-cases-for-android-usermanager-isuseragoat)
 - [Creating a memory leak with Java [closed]](http://stackoverflow.com/questions/6470651/creating-a-memory-leak-with-java)
 - [Why is char[] preferred over String for passwords?](http://stackoverflow.com/questions/8881291/why-is-char-preferred-over-string-for-passwords)
-- [Generating random integers in a range with Java](http://stackoverflow.com/questions/363681/generating-random-integers-in-a-range-with-java)
 - [Why is printing “B” dramatically slower than printing “#”?](http://stackoverflow.com/questions/21947452/why-is-printing-b-dramatically-slower-than-printing)
 - [What is a serialVersionUID and why should I use it?](http://stackoverflow.com/questions/285793/what-is-a-serialversionuid-and-why-should-i-use-it)
 - [Is there a unique Android device ID?](http://stackoverflow.com/questions/2785485/is-there-a-unique-android-device-id)
