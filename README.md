@@ -28,7 +28,7 @@ stackoverflow-Java-top-qa
 * [如何便捷地将两个数组合到一起](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/how-to-concatenate-two-arrays-in-java.md)
 * [Java 是否支持默认的参数值](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/Does-Java-support-default-parameter-values.md)
 * [Java 产生指定范围的随机数](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/generating-random-integers-in-a-range-with-Java.md)
-
+* [JavaBean 到底是什么](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/what-is-a-javabean-exactly.md)
 
 > 编程技巧
 
