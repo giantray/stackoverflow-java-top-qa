@@ -57,7 +57,6 @@ stackoverflow-Java-top-qa
 - [Why is printing “B” dramatically slower than printing “#”?](http://stackoverflow.com/questions/21947452/why-is-printing-b-dramatically-slower-than-printing)
 - [What is a serialVersionUID and why should I use it?](http://stackoverflow.com/questions/285793/what-is-a-serialversionuid-and-why-should-i-use-it)
 - [Is there a unique Android device ID?](http://stackoverflow.com/questions/2785485/is-there-a-unique-android-device-id)
-- [How to test a class that has private methods, fields or inner classes](http://stackoverflow.com/questions/34571/how-to-test-a-class-that-has-private-methods-fields-or-inner-classes)
 - [Why does this code using random strings print “hello world”?](http://stackoverflow.com/questions/15182496/why-does-this-code-using-random-strings-print-hello-world)
 - [How can I create an executable jar with dependencies using Maven?](http://stackoverflow.com/questions/574594/how-can-i-create-an-executable-jar-with-dependencies-using-maven)
 - [How to avoid Java code in JSP files?](http://stackoverflow.com/questions/3177733/how-to-avoid-java-code-in-jsp-files)
