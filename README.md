@@ -47,6 +47,7 @@ stackoverflow-Java-top-qa
 * [为什么处理排序的数组要比非排序的快](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/Why-is-processing-a-sorted-array-faster-than-an-unsorted-array.md)
 
 > 测试
+
 * [如何测试 private 方法，变量或者内部类](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/How_to_test_a_class_that_has_private_methods,_fields_or_inner_classes.md)
 
 ### 待翻译问题链接(还剩x问题)
