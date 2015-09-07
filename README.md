@@ -86,7 +86,6 @@ stackoverflow-Java-top-qa
 - [Why does Java have transient variables?](http://stackoverflow.com/questions/910374/why-does-java-have-transient-variables)
 - [How can I convert a stack trace to a string?](http://stackoverflow.com/questions/1149703/how-can-i-convert-a-stack-trace-to-a-string)
 - [How do you assert that a certain exception is thrown in JUnit 4 tests?](http://stackoverflow.com/questions/156503/how-do-you-assert-that-a-certain-exception-is-thrown-in-junit-4-tests)
-- [What is a JavaBean exactly?](http://stackoverflow.com/questions/3295496/what-is-a-javabean-exactly)
 - [What exactly is Apache Camel?](http://stackoverflow.com/questions/8845186/what-exactly-is-apache-camel)
 - [How can I permanently have line numbers in IntelliJ?](http://stackoverflow.com/questions/13751/how-can-i-permanently-have-line-numbers-in-intellij)
 - [How do servlets work? Instantiation, shared variables and multithreading](http://stackoverflow.com/questions/3106452/how-do-servlets-work-instantiation-shared-variables-and-multithreading)
