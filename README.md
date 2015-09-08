@@ -29,6 +29,7 @@ stackoverflow-Java-top-qa
 * [Java 是否支持默认的参数值](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/Does-Java-support-default-parameter-values.md)
 * [Java 产生指定范围的随机数](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/generating-random-integers-in-a-range-with-Java.md)
 * [JavaBean 到底是什么](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/what-is-a-javabean-exactly.md)
+* [wait()和sleep()的区别](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/difference-between-wait-and-sleep.md)
 
 > 编程技巧
 
@@ -96,7 +97,6 @@ stackoverflow-Java-top-qa
 - [Uncatchable ChuckNorrisException](http://stackoverflow.com/questions/13883166/uncatchable-chucknorrisexception)
 - [Can I add jars to maven 2 build classpath without installing them?](http://stackoverflow.com/questions/364114/can-i-add-jars-to-maven-2-build-classpath-without-installing-them)
 - [Update Eclipse with Android development tools v. 23](http://stackoverflow.com/questions/24437564/update-eclipse-with-android-development-tools-v-23)
-- [Difference between wait() and sleep()](http://stackoverflow.com/questions/1036754/difference-between-wait-and-sleep)
 - [Setting multiple jars in java classpath](http://stackoverflow.com/questions/219585/setting-multiple-jars-in-java-classpath)
 - [Iterating through a list, avoiding ConcurrentModificationException when removing in loop](http://stackoverflow.com/questions/223918/iterating-through-a-list-avoiding-concurrentmodificationexception-when-removing)
 - [Is null check needed before calling instanceof](http://stackoverflow.com/questions/2950319/is-null-check-needed-before-calling-instanceof)
