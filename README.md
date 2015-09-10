@@ -11,7 +11,6 @@ stackoverflow-Java-top-qa
 ### 目录
 > 基础语法
 
-* [Java是按值传递还是按引用传递](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/is-java-pass-by-reference-or-pass-by-value.md)
 * [Java += 操作符实质](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/java-operator.md)
 * [将InputStream转换为String](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/read-convert-an-inputstream-to-a-string.md)
 * [将数组转换为List](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/create-arraylist-arraylistt-from-array-t.md)
