@@ -24,16 +24,17 @@ synchronized (mon) { mon.notify(); }
 如果有多个线程在等待（且`synchronized` 锁对象是同一个，如上例中的mon），则可以调用[ `notifyAll` ](http://docs.oracle.com/javase/6/docs/api/java/lang/Object.html#notifyAll%28%29)来唤醒。但是，只有其中一个线程能抢到锁并继续执行（因为  `wait` 的线程都是在 `synchronized` 块内，需要争夺 `synchronized` 锁）。其他的线程会被锁住，直到他们依次获得锁。
  
 再补充几点：
-1. `wait` 方法由 `Object` 对象调用（例如：你可以让 `synchronized` 锁对象调用 `wait` ,如上面例子的mon.wait()）,而 `sleep` 则由线程调用。
 
-2. `wait` 之后，可能会伪唤醒（`spurious wakeups`）（正在waiting的线程,无故就被唤醒了，如遇到interrupted, timing out等情况）。因此，你需要多设置一些检查，如果不满足实际的运行条件，则继续等待，如下：
+-  `wait` 方法由 `Object` 对象调用（例如：你可以让 `synchronized` 锁对象调用 `wait` ,如上面例子的mon.wait()）,而 `sleep` 则由线程调用。
+
+-  `wait` 之后，可能会伪唤醒（`spurious wakeups`）（正在waiting的线程,无故就被唤醒了，如遇到interrupted, timing out等情况）。因此，你需要多设置一些检查，如果不满足实际的运行条件，则继续等待，如下：
 ```
 synchronized {
     while (!condition) { mon.wait(); }
 }
 ```
 
-3. 当线程调用 `sleep` 时，并没有释放对象锁，而 `wait` 则释放了对象锁：
+- 当线程调用 `sleep` 时，并没有释放对象锁，而 `wait` 则释放了对象锁：
 ```
 synchronized(LOCK) {
     Thread.sleep(1000); // LOCK is held
