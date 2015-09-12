@@ -1,6 +1,6 @@
 # serialVersionUID 有什么作用？该如何使用？
 
-当一个对象实现 Serializable 接口时，多数 ide 会提示声明一个静态常量 serialVersionUID(版本标识），那 serialVersionUID 到底有什么作用呢？应该如何 serialVersionUID ？
+当一个对象实现 Serializable 接口时，多数 ide 会提示声明一个静态常量 serialVersionUID(版本标识），那 serialVersionUID 到底有什么作用呢？应该如何使用 serialVersionUID ？
 
 serialVersionUID 是实现 Serializable 接口而来的，而 Serializable 则是应用于Java 对象序列化/反序列化。对象的序列化主要有两种用途:
 
@@ -10,15 +10,16 @@ serialVersionUID 是实现 Serializable 接口而来的，而 Serializable 则�
 现在反过来说就是，serialVersionUID 会影响到上述所提到的两种行为。那到底会造成什么影响呢？
 
 [java.io.Serializable](http://docs.oracle.com/javase/7/docs/api/java/io/Serializable.html) doc 文档，给出了一个相对详细解释:
+
 	serialVersionUID 是 Java 为每个序列化类产生的版本标识，可用来保证在反序列时，发送方发送的和接受方接收的是可兼容的对象。如果接收方接收的类的 serialVersionUID 与发送方发送的 serialVersionUID 不一致，进行反序列时会抛出 InvalidClassException。序列化的类可显式声明 serialVersionUID 的值，如下:
 	```
 	ANY-ACCESS-MODIFIER static final long serialVersionUID = 1L;
 	```
 
-文档上还建议 serialVersionUID 置为 private。
+文档上还建议将 serialVersionUID 置为 private。
 
 举例说明如下:
-现在尝试从将一个类 Person 序列化到磁盘和反序列化来说明  serialVersionUID 的作用: Person 两日如下:
+现在尝试通过将一个类 Person 序列化到磁盘和反序列化来说明  serialVersionUID 的作用: Person 类如下:
 ```
 public class Person implements Serializable {
 
@@ -131,7 +132,7 @@ java.io.InvalidClassException:Person local class incompatible: stream classdesc 
 
 谈到这里，我们大概可以清楚，serialVersionUID 就是控制版本是否兼容的，若我们认为修改的 Person 是向后兼容的，则不修改 serialVersionUID；反之，则提高 serialVersionUID的值。再回到一开始的问题，为什么 ide 会提示声明 serialVersionUID 的值呢？
 
-因为若不显式定义 serialVersionUID 的值，Java 会根据类的细节自动生成 serialVersionUID 的值，如果对类的源代码作了修改，再重新编译，新生成的类文件的serialVersionUID的取值有可能也会发生变化。类的serialVersionUID的默认值完全依赖于Java编译器的实现，对于同一个类，用不同的Java编译器编译，也有可能会导致不同的serialVersionUID。所以 ide 才会提示声明 serialVersionUID 的值。
+因为若不显式定义 serialVersionUID 的值，Java 会根据类细节自动生成 serialVersionUID 的值，如果对类的源代码作了修改，再重新编译，新生成的类文件的serialVersionUID的取值有可能也会发生变化。类的serialVersionUID的默认值完全依赖于Java编译器的实现，对于同一个类，用不同的Java编译器编译，也有可能会导致不同的serialVersionUID。所以 ide 才会提示声明 serialVersionUID 的值。
 
 附录拓展:
 
