@@ -137,6 +137,7 @@ public final class Foo implements Serializable {
         return FooLoader.INSTANCE;
     }
 }
+```
 
 好了，现在已经很完美实现了单例的创建，是不是很高兴。单例实线的基本原理，我们已经基本清楚里，最后提供一种更加简洁方法,如下:
 ```
@@ -149,8 +150,6 @@ public enum Foo {
 ```
 public static final xxx
 ````
-
-
 
 对于枚举的进一步理解，请参考[附录拓展](#appendix)。
 
