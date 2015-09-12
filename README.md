@@ -29,7 +29,7 @@ stackoverflow-Java-top-qa
 * [Java 产生指定范围的随机数](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/generating-random-integers-in-a-range-with-Java.md)
 * [JavaBean 到底是什么](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/what-is-a-javabean-exactly.md)
 * [wait()和sleep()的区别](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/difference-between-wait-and-sleep.md)
-
+* [能否在一个构造器中调用另一个构造器](http://stackoverflow.com/questions/285177/how-do-i-call-one-constructor-from-another-in-java)
 > 编程技巧
 
 * [去掉烦人的“!=null"(判空语句](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/avoiding-null-statements-in-java.md)
@@ -67,7 +67,6 @@ stackoverflow-Java-top-qa
 - [Does finally always execute in Java?](http://stackoverflow.com/questions/65035/does-finally-always-execute-in-java)
 - [Convert a String to an enum in Java](http://stackoverflow.com/questions/604424/convert-a-string-to-an-enum-in-java)
 - [Android SDK installation doesn't find JDK](http://stackoverflow.com/questions/4382178/android-sdk-installation-doesnt-find-jdk)
-- [How do I call one constructor from another in Java?](http://stackoverflow.com/questions/285177/how-do-i-call-one-constructor-from-another-in-java)
 - [Initialization of an ArrayList in one line](http://stackoverflow.com/questions/1005073/initialization-of-an-arraylist-in-one-line)
 - [Java inner class and static nested class](http://stackoverflow.com/questions/70324/java-inner-class-and-static-nested-class)
 - ['Must Override a Superclass Method' Errors after importing a project into Eclipse](http://stackoverflow.com/questions/1678122/must-override-a-superclass-method-errors-after-importing-a-project-into-eclips)
