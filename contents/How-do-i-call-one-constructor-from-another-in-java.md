@@ -26,4 +26,4 @@ public class Foo
   如果你想链接到一个特定的父类构造器而不是本类的话，这里应该使用super，而不是this.
 请注意，你只能链接到一个构造器，并且调用语句必须是这个构造器的第一个语句。
 stackoverflow原址：
-http://stackoverflow.com/questions/15182496/why-does-this-code-using-random-strings-print-hello-world
+http://stackoverflow.com/questions/285177/how-do-i-call-one-constructor-from-another-in-java
