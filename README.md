@@ -29,7 +29,7 @@ stackoverflow-Java-top-qa
 * [Java 产生指定范围的随机数](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/generating-random-integers-in-a-range-with-Java.md)
 * [JavaBean 到底是什么](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/what-is-a-javabean-exactly.md)
 * [wait()和sleep()的区别](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/difference-between-wait-and-sleep.md)
-* [能否在一个构造器中调用另一个构造器](http://stackoverflow.com/questions/285177/how-do-i-call-one-constructor-from-another-in-java)
+* [能否在一个构造器( `constructor` )中调用另一个构造器](http://stackoverflow.com/questions/285177/how-do-i-call-one-constructor-from-another-in-java)
 > 编程技巧
 
 * [去掉烦人的“!=null"(判空语句](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/avoiding-null-statements-in-java.md)
