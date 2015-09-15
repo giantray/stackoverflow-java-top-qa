@@ -30,6 +30,7 @@ stackoverflow-Java-top-qa
 * [JavaBean 到底是什么](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/what-is-a-javabean-exactly.md)
 * [wait()和sleep()的区别](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/difference-between-wait-and-sleep.md)
 * [能否在一个构造器( `constructor` )中调用另一个构造器](http://stackoverflow.com/questions/285177/how-do-i-call-one-constructor-from-another-in-java)
+* [如何声明一个数组](http://stackoverflow.com/questions/1200621/declare-array-in-java)
 
 > 编程技巧
 
