@@ -69,8 +69,6 @@ stackoverflow-Java-top-qa
 - [Fastest way to determine if an integer's square root is an integer](http://stackoverflow.com/questions/295579/fastest-way-to-determine-if-an-integers-square-root-is-an-integer)
 - [How to fix: Unsupported major.minor version 51.0 error?](http://stackoverflow.com/questions/10382929/how-to-fix-unsupported-major-minor-version-51-0-error)
 - [What is reflection and why is it useful?](http://stackoverflow.com/questions/37628/what-is-reflection-and-why-is-it-useful)
-- [How to generate a random alpha-numeric string?](http://stackoverflow.com/questions/41107/how-to-generate-a-random-alpha-numeric-string)
-- [Examples of GoF Design Patterns in Java's core libraries](http://stackoverflow.com/questions/1673841/examples-of-gof-design-patterns-in-javas-core-libraries)
 - [Comparing Java enum members: == or equals()?](http://stackoverflow.com/questions/1750435/comparing-java-enum-members-or-equals)
 - [Failed to load the JNI shared Library (JDK)](http://stackoverflow.com/questions/7352493/failed-to-load-the-jni-shared-library-jdk)
 - [Does Java support default parameter values?](http://stackoverflow.com/questions/997482/does-java-support-default-parameter-values)
