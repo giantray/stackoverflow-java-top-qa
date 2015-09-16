@@ -145,6 +145,24 @@ public enum Foo {
    INSTANCE;
 }
 ```
+08 年 google 开发者年会中，Joshua Bloch 
+Joshua Bloch 在 [高效 Java 话题中](http://sites.google.com/site/io/effective-java-reloaded) 解释了这种方法，视频请戳 [这里](http://www.youtube.com/watch?v=pi_I7oD_uGI#t=28m50s).在 他[演讲的ppt](https://14b1424d-a-62cb3a1a-s-sites.googlegroups.com/site/io/effective-java-reloaded/effective_java_reloaded.pdf?attachauth=ANoY7crKCOet2NEUGW7RV1XfM-Jn4z8YJhs0qJM11OhLRnFW_JbExkJtvJ3UJvTE40dhAciyWcRIeGJ-n3FLGnMOapHShHINh8IY05YViOJoZWzaohMtM-s4HCi5kjREagi8awWtcYD0_6G7GhKr2BndToeqLk5sBhZcQfcYIyAE5A4lGNosDCjODcBAkJn8EuO6572t2wU1LMSEUgjvqcf4I-Fp6VDhDvih_XUEmL9nuVJQynd2DRpxyuNH1SpJspEIdbLw-WWZ&attredirects=0) 30-32 页提到：
+    
+    实现单例正确的方式如下:
+    ```
+    public enum Elvis {
+        INSTANCE;
+        private final String[] favoriteSongs =
+            { "Hound Dog", "Heartbreak Hotel" };
+        public void printFavorites() {
+            System.out.println(Arrays.toString(favoriteSongs));
+        }
+    }
+    ```
+
+在 [高效 Java 线上部分](http://www.ddj.com/java/208403883?pgno=3) 有说到:
+    
+    上述实现单例的方式，其实等同于，将 INSTANCE 设置为 public static final 的方式，不同之处在于，使用枚举的方式显得更为简洁，且默认提供了序列化机制，也保证了多线程访问的安全。虽然这种单例的实现方式还未被广泛使用，可实现单例的最好方式就是使用一个单元素的枚举。
 
 为什么可以这么简洁？因为 Java 中每一个枚举类型都默认继承了 java.lang.Enum ，而 Enum 实现了 Serializable 接口，所以枚举类型对象都是默认可以被序列化的。通过反编译，也可以知道枚举常量本质上就是一个 
 ```
