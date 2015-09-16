@@ -1,7 +1,7 @@
 # 输出 Java 数组最简单的方式
 
 ## 问题
-因为 Java 数组中没有 toString() 方法，所以直接输出如下数组，输出显得并人性化:
+因为 Java 数组中没有 toString() 方法，所以直接输出如下数组，输出显得并不人性化:
 ```
 int[] intArray = new int[] {1, 2, 3, 4, 5};
 System.out.println(intArray);     // prints something like '[I@3343c8b3'
