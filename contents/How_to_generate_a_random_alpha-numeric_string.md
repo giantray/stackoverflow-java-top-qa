@@ -33,6 +33,17 @@ public class RandomString {
 }
 ```
 
-为了安全,可以考虑使用下面这段简洁且安全的代码,不过用其作为 session 的标识符,可能略显昂贵了一点:
+为了安全,可以考虑使用下面这段简洁且安全的代码,不过用其作为 session 的标识符,倒显得有点大材小用了:
 ```
+import java.security.SecureRandom;
+
+public final class SessionIdentifierGenerator {
+  private SecureRandom random = new SecureRandom();
+
+  public String nextSessionId() {
+    return new BigInteger(130, random).toString(32);
+  }
+}
 ```
+
+其工作原理就是，使用一个 130 位的安全的随机数生成器生成一个随机数，接着转化为 32 进制。我们知道，128 位安全随机数的生成已经是足够安全的，不过以 32 进制编码的每一个数字可编码 5 位，所以需要取大于 128 且是 5 的倍数，所以就选择了 130 位。相对于 随机 UUID 来说(在标准输出中，每个字符使用 3.4 bit，共 122 bit），每个字符使用 5 个随机的 bit 来编码的方式，显得更为简洁和高效。
