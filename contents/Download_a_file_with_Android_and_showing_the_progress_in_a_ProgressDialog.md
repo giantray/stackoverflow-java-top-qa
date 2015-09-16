@@ -144,3 +144,98 @@ private class DownloadTask extends AsyncTask<String, Integer, String> {
 ```
 
 ### 从服务器上下载文件
+
+这里有个最大的问题：*我怎么从service来更新我的activity？*。
+在下一个例子当中我们会使用两个你可能不熟悉的类：`ResultReceiver`和`IntentService`。`ResultReceiver`是一个可以允许我们用Service来更新线程的类；`IntentService`是一个可以生成用来处理后台任务的线程的`Service`子类（你需要知道，`Service`实际上是和你的应用运行在同一个线程的；当你继承了`Service`之后，你必须手动生成一个新的线程来处理费时操作）。  
+
+一个提供下载功能的`Service`看起来像这样：
+
+```java
+public class DownloadService extends IntentService {
+    public static final int UPDATE_PROGRESS = 8344;
+    public DownloadService() {
+        super("DownloadService");
+    }
+    @Override
+    protected void onHandleIntent(Intent intent) {
+        String urlToDownload = intent.getStringExtra("url");
+        ResultReceiver receiver = (ResultReceiver) intent.getParcelableExtra("receiver");
+        try {
+            URL url = new URL(urlToDownload);
+            URLConnection connection = url.openConnection();
+            connection.connect();
+            // 这对你在进度条上面显示百分比很有用
+            int fileLength = connection.getContentLength();
+
+            // download the file
+            InputStream input = new BufferedInputStream(connection.getInputStream());
+            OutputStream output = new FileOutputStream("/sdcard/BarcodeScanner-debug.apk");
+
+            byte data[] = new byte[1024];
+            long total = 0;
+            int count;
+            while ((count = input.read(data)) != -1) {
+                total += count;
+                // 更新进度条....
+                Bundle resultData = new Bundle();
+                resultData.putInt("progress" ,(int) (total * 100 / fileLength));
+                receiver.send(UPDATE_PROGRESS, resultData);
+                output.write(data, 0, count);
+            }
+
+            output.flush();
+            output.close();
+            input.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        Bundle resultData = new Bundle();
+        resultData.putInt("progress" ,100);
+        receiver.send(UPDATE_PROGRESS, resultData);
+    }
+}
+```  
+
+把这个`Service`添加到清单文件中：  
+```
+<service android:name=".DownloadService"/>
+```
+
+activity里面的代码：
+
+```java
+// 像第一个例子里面一样初始化ProgressBar
+
+// 在这里启动下载
+mProgressDialog.show();
+Intent intent = new Intent(this, DownloadService.class);
+intent.putExtra("url", "url of the file to download");
+intent.putExtra("receiver", new DownloadReceiver(new Handler()));
+startService(intent);
+```  
+
+然后像这样来使用`ResultReceiver`：
+
+```java
+private class DownloadReceiver extends ResultReceiver{
+    public DownloadReceiver(Handler handler) {
+        super(handler);
+    }
+
+    @Override
+    protected void onReceiveResult(int resultCode, Bundle resultData) {
+        super.onReceiveResult(resultCode, resultData);
+        if (resultCode == DownloadService.UPDATE_PROGRESS) {
+            int progress = resultData.getInt("progress");
+            mProgressDialog.setProgress(progress);
+            if (progress == 100) {
+                mProgressDialog.dismiss();
+            }
+        }
+    }
+}
+```
+
+#### 使用Groundy库
+[Groundy](http://casidiablo.github.com/groundy)
