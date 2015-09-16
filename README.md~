@@ -30,13 +30,11 @@ stackoverflow-Java-top-qa
 * [JavaBean 到底是什么](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/what-is-a-javabean-exactly.md)
 * [wait()和sleep()的区别](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/difference-between-wait-and-sleep.md)
 * [能否在一个构造器中调用另一个构造器](http://stackoverflow.com/questions/285177/how-do-i-call-one-constructor-from-another-in-java)
-
 > 编程技巧
 
 * [去掉烦人的“!=null"(判空语句](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/avoiding-null-statements-in-java.md)
 * [获取完整的堆栈信息](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/get-current-stack-trace-in-java.md)
 * [如何通过一行代码初始化ArrayList](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/initialization-of-an-arraylist-in-one-line.md)
-* [什么在java中存放密码更倾向于char[]相对于String](http://stackoverflow.com/questions/8881291/why-is-char-preferred-over-string-for-passwords)
 
 > 网络
 
@@ -56,6 +54,7 @@ stackoverflow-Java-top-qa
 - [Why is subtracting these two times (in 1927) giving a strange result?](http://stackoverflow.com/questions/6841333/why-is-subtracting-these-two-times-in-1927-giving-a-strange-result)
 - [Proper use cases for Android UserManager.isUserAGoat()?](http://stackoverflow.com/questions/13375357/proper-use-cases-for-android-usermanager-isuseragoat)
 - [Creating a memory leak with Java [closed]](http://stackoverflow.com/questions/6470651/creating-a-memory-leak-with-java)
+- [Why is char[] preferred over String for passwords?](http://stackoverflow.com/questions/8881291/why-is-char-preferred-over-string-for-passwords)
 - [Why is printing “B” dramatically slower than printing “#”?](http://stackoverflow.com/questions/21947452/why-is-printing-b-dramatically-slower-than-printing)
 - [What is a serialVersionUID and why should I use it?](http://stackoverflow.com/questions/285793/what-is-a-serialversionuid-and-why-should-i-use-it)
 - [Is there a unique Android device ID?](http://stackoverflow.com/questions/2785485/is-there-a-unique-android-device-id)
