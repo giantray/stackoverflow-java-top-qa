@@ -51,6 +51,10 @@ stackoverflow-Java-top-qa
 
 * [如何测试 private 方法，变量或者内部类](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/How_to_test_a_class_that_has_private_methods,_fields_or_inner_classes.md)
 
+> Android
+
+* [在Android里面下载文件，并在ProgressDialog显示进度](https://github.com/troyliu0105/stackoverflow-java-top-qa/blob/master/contents/Download_a_file_with_Android_and_showing_the_progress_in_a_ProgressDialog.md)
+
 ### 待翻译问题链接(还剩x问题)
 - [Why is subtracting these two times (in 1927) giving a strange result?](http://stackoverflow.com/questions/6841333/why-is-subtracting-these-two-times-in-1927-giving-a-strange-result)
 - [Proper use cases for Android UserManager.isUserAGoat()?](http://stackoverflow.com/questions/13375357/proper-use-cases-for-android-usermanager-isuseragoat)
