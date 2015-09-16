@@ -51,6 +51,10 @@ stackoverflow-Java-top-qa
 
 * [如何测试 private 方法，变量或者内部类](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/How_to_test_a_class_that_has_private_methods,_fields_or_inner_classes.md)
 
+> Android
+
+* [在Android里面下载文件，并在ProgressDialog显示进度](https://github.com/troyliu0105/stackoverflow-java-top-qa/blob/master/contents/Download_a_file_with_Android_and_showing_the_progress_in_a_ProgressDialog.md)
+
 ### 待翻译问题链接(还剩x问题)
 - [Why is subtracting these two times (in 1927) giving a strange result?](http://stackoverflow.com/questions/6841333/why-is-subtracting-these-two-times-in-1927-giving-a-strange-result)
 - [Proper use cases for Android UserManager.isUserAGoat()?](http://stackoverflow.com/questions/13375357/proper-use-cases-for-android-usermanager-isuseragoat)
@@ -90,7 +94,6 @@ stackoverflow-Java-top-qa
 - [How can I Initialize a static Map?](http://stackoverflow.com/questions/507602/how-can-i-initialize-a-static-map)
 - [How do I discover memory usage of my application in Android?](http://stackoverflow.com/questions/2298208/how-do-i-discover-memory-usage-of-my-application-in-android)
 - [How can I generate an MD5 hash?](http://stackoverflow.com/questions/415953/how-can-i-generate-an-md5-hash)
-- [Download a file with Android, and showing the progress in a ProgressDialog](http://stackoverflow.com/questions/3028306/download-a-file-with-android-and-showing-the-progress-in-a-progressdialog)
 - [Uncatchable ChuckNorrisException](http://stackoverflow.com/questions/13883166/uncatchable-chucknorrisexception)
 - [Can I add jars to maven 2 build classpath without installing them?](http://stackoverflow.com/questions/364114/can-i-add-jars-to-maven-2-build-classpath-without-installing-them)
 - [Update Eclipse with Android development tools v. 23](http://stackoverflow.com/questions/24437564/update-eclipse-with-android-development-tools-v-23)
