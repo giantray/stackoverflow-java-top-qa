@@ -29,14 +29,14 @@ stackoverflow-Java-top-qa
 * [Java 产生指定范围的随机数](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/generating-random-integers-in-a-range-with-Java.md)
 * [JavaBean 到底是什么](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/what-is-a-javabean-exactly.md)
 * [wait()和sleep()的区别](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/difference-between-wait-and-sleep.md)
-* [能否在一个构造器中调用另一个构造器](http://stackoverflow.com/questions/285177/how-do-i-call-one-constructor-from-another-in-java)
+* [能否在一个构造器中调用另一个构造器](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/How-do-i-call-one-constructor-from-another-in-java.md)
 
 > 编程技巧
 
 * [去掉烦人的“!=null"(判空语句](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/avoiding-null-statements-in-java.md)
 * [获取完整的堆栈信息](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/get-current-stack-trace-in-java.md)
 * [如何通过一行代码初始化ArrayList](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/initialization-of-an-arraylist-in-one-line.md)
-* [什么在java中存放密码更倾向于char[]相对于String](http://stackoverflow.com/questions/8881291/why-is-char-preferred-over-string-for-passwords)
+* [什么在java中存放密码更倾向于char[]相对于String](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/why-is-cha[]-preferred-over-String-for-passwords-in-java.md)
 
 > 网络
 
