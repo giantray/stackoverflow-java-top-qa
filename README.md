@@ -30,6 +30,8 @@ stackoverflow-Java-top-qa
 * [JavaBean 到底是什么](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/what-is-a-javabean-exactly.md)
 * [wait()和sleep()的区别](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/difference-between-wait-and-sleep.md)
 * [能否在一个构造器( `constructor` )中调用另一个构造器](http://stackoverflow.com/questions/285177/how-do-i-call-one-constructor-from-another-in-java)
+* [如何声明一个数组](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/Declare_array_in_Java.md)
+* [如何避免在JSP文件中使用Java代码](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/How_to_avoid_Java_code_in_JSP_files.md)
 
 > 编程技巧
 
@@ -60,7 +62,6 @@ stackoverflow-Java-top-qa
 - [Is there a unique Android device ID?](http://stackoverflow.com/questions/2785485/is-there-a-unique-android-device-id)
 - [Why does this code using random strings print “hello world”?](http://stackoverflow.com/questions/15182496/why-does-this-code-using-random-strings-print-hello-world)
 - [How can I create an executable jar with dependencies using Maven?](http://stackoverflow.com/questions/574594/how-can-i-create-an-executable-jar-with-dependencies-using-maven)
-- [How to avoid Java code in JSP files?](http://stackoverflow.com/questions/3177733/how-to-avoid-java-code-in-jsp-files)
 - [Why is executing Java code in comments with certain Unicode characters allowed?](http://stackoverflow.com/questions/30727515/why-is-executing-java-code-in-comments-with-certain-unicode-characters-allowed)
 - [Dealing with “java.lang.OutOfMemoryError: PermGen space” error](http://stackoverflow.com/questions/88235/dealing-with-java-lang-outofmemoryerror-permgen-space-error)
 - [“implements Runnable” vs. “extends Thread”](http://stackoverflow.com/questions/541487/implements-runnable-vs-extends-thread)
@@ -70,7 +71,6 @@ stackoverflow-Java-top-qa
 - [Initialization of an ArrayList in one line](http://stackoverflow.com/questions/1005073/initialization-of-an-arraylist-in-one-line)
 - [Java inner class and static nested class](http://stackoverflow.com/questions/70324/java-inner-class-and-static-nested-class)
 - ['Must Override a Superclass Method' Errors after importing a project into Eclipse](http://stackoverflow.com/questions/1678122/must-override-a-superclass-method-errors-after-importing-a-project-into-eclips)
-- [Declare array in Java?](http://stackoverflow.com/questions/1200621/declare-array-in-java)
 - [Fastest way to determine if an integer's square root is an integer](http://stackoverflow.com/questions/295579/fastest-way-to-determine-if-an-integers-square-root-is-an-integer)
 - [How to fix: Unsupported major.minor version 51.0 error?](http://stackoverflow.com/questions/10382929/how-to-fix-unsupported-major-minor-version-51-0-error)
 - [What is reflection and why is it useful?](http://stackoverflow.com/questions/37628/what-is-reflection-and-why-is-it-useful)
