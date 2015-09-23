@@ -24,7 +24,7 @@ finally {
 
  - 当你使用 ```System.exit()``` 后
  - 其他线程干扰了现在运行的线程（通过 ```interrupt``` 方法）
- - 如果 JVM 已经“撞毁”了
+ - JVM 崩溃( crash )了
 
  Answered by [Jodonnell](http://stackoverflow.com/users/4223/jodonnell), edited by [jpaugh](http://stackoverflow.com/users/712526/jpaugh).
 
