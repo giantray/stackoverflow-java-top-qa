@@ -1,17 +1,17 @@
-##¦p¦ó¨ú±oandroid°ß¤@?¡H
+##å¦‚ä½•å–å¾—androidå”¯ä¸€ç ï¼Ÿ
 
-###??
-¨C¤@ŸÄandroidÆ¸m³£¦³°ß¤@ID?¡H¦pªG¦³¡H«ç¤\¥Îjava³Ì??¨ú±o©O¡H
+###é—®é¢˜
+æ¯ä¸€ä¸ªandroidè£…ç½®éƒ½æœ‰å”¯ä¸€IDå—ï¼Ÿå¦‚æžœæœ‰ï¼Ÿæ€Žä¹ˆç”¨javaæœ€ç®€å•å–å¾—å‘¢ï¼Ÿ
 
-###¦^µª1¡]³Ì¨Î¡^
+###å›žç­”1ï¼ˆæœ€ä½³ï¼‰
 
-¦p¦ó¨ú±oandroid°ß¤@?¡H
-¦n‰]¡G
-1.¤£»Ý­n¯S©w?­­.
-2.¦b99.5% AndroidÆ¸m¡]¥]¬Aroot?ªº¡^¤W¡A§YAPI => 9¡A«O?°ß¤@©Ê.
-3.­«Æapp¤§¦Z¤´¯à¨ú±o¬Û¦P°ß¤@­È.
+å¦‚ä½•å–å¾—androidå”¯ä¸€ç ï¼Ÿ
+å¥½å¤„ï¼š
+1.ä¸éœ€è¦ç‰¹å®šæƒé™.
+2.åœ¨99.5% Androidè£…ç½®ï¼ˆåŒ…æ‹¬rootè¿‡çš„ï¼‰ä¸Šï¼Œå³API => 9ï¼Œä¿è¯å”¯ä¸€æ€§.
+3.é‡è£…appä¹‹åŽä»èƒ½å–å¾—ç›¸åŒå”¯ä¸€å€¼.
 
-?¥N?¡G
+ä¼ªä»£ç ï¼š
 
 ```
 if API => 9/10: (99.5% of devices)
@@ -23,7 +23,7 @@ else
 return unique ID of build information (may overlap data - API < 9)
 ```
 
-¥N?:
+ä»£ç :
 
 ```java
 
@@ -62,13 +62,13 @@ return unique ID of build information (may overlap data - API < 9)
     // Finally, combine the values we have found by using the UUID class to create a unique identifier
     return new UUID(m_szDevIDShort.hashCode(), serial.hashCode()).toString();}
 ```
-###¦^µª2
-¦n‰]¡G
-1.¤£»Ý­n¯S©w?­­.
-2.¦b100% AndroidÆ¸m¡]¥]¬Aroot?ªº¡^¤W¡A«O?°ß¤@©Ê.
+###å›žç­”2
+å¥½å¤„ï¼š
+1.ä¸éœ€è¦ç‰¹å®šæƒé™.
+2.åœ¨100% Androidè£…ç½®ï¼ˆåŒ…æ‹¬rootè¿‡çš„ï¼‰ä¸Šï¼Œä¿è¯å”¯ä¸€æ€§.
 
-§¥‰]
-1.­«Æapp¤§¦Z¤£¯à¨ú±o¬Û¦P°ß¤@­È.
+åå¤„
+1.é‡è£…appä¹‹åŽä¸èƒ½å–å¾—ç›¸åŒå”¯ä¸€å€¼.
 
 ```java
 private static String uniqueID = null;
@@ -90,12 +90,12 @@ public synchronized static String id(Context context) {
 }
 ```
 
-###¦^µª3¡]»Ý­n¦³‰m?¥d¡^
+###å›žç­”3ï¼ˆéœ€è¦æœ‰ç”µè¯å¡ï¼‰
 
-¦n‰]¡G
-1.­«Æapp¤§¦Z¤´¯à¨ú±o¬Û¦P°ß¤@­È.
+å¥½å¤„ï¼š
+1.é‡è£…appä¹‹åŽä»èƒ½å–å¾—ç›¸åŒå”¯ä¸€å€¼.
 
-¥N?¡G
+ä»£ç ï¼š
 
 ```java
     final TelephonyManager tm = (TelephonyManager) getBaseContext().getSystemService(Context.TELEPHONY_SERVICE);
@@ -107,9 +107,9 @@ public synchronized static String id(Context context) {
     String deviceId = deviceUuid.toString();
 ```
 
-??¡G­n¨ú±o¥H¤U?­­
+è°¨è®°ï¼šè¦å–å¾—ä»¥ä¸‹æƒé™
 ```
 <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 ```
-stackoverflow?±µ¡G
+stackoverflowé“¾æŽ¥ï¼š
 http://stackoverflow.com/questions/2785485/is-there-a-unique-android-device-id
