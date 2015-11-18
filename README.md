@@ -58,7 +58,7 @@ stackoverflow-Java-top-qa
 - [Creating a memory leak with Java [closed]](http://stackoverflow.com/questions/6470651/creating-a-memory-leak-with-java)
 - [Why is char[] preferred over String for passwords?](http://stackoverflow.com/questions/8881291/why-is-char-preferred-over-string-for-passwords)
 - [Why is printing “B” dramatically slower than printing “#”?](http://stackoverflow.com/questions/21947452/why-is-printing-b-dramatically-slower-than-printing)
-- [Is there a unique Android device ID?](http://stackoverflow.com/questions/2785485/is-there-a-unique-android-device-id)
+- [如何取得android唯一码?](http://stackoverflow.com/questions/2785485/is-there-a-unique-android-device-id)
 - [Why does this code using random strings print “hello world”?](http://stackoverflow.com/questions/15182496/why-does-this-code-using-random-strings-print-hello-world)
 - [How can I create an executable jar with dependencies using Maven?](http://stackoverflow.com/questions/574594/how-can-i-create-an-executable-jar-with-dependencies-using-maven)
 - [How to avoid Java code in JSP files?](http://stackoverflow.com/questions/3177733/how-to-avoid-java-code-in-jsp-files)
