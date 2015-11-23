@@ -1,24 +1,24 @@
-##¦bjava¤¤‰\©ú??
+##åœ¨javaä¸­å£°æ˜æ•°ç»„
 
-###??´y­z¡G
-§A¬O¦p¦ó¦bjava¤¤‰\©ú??ªº¡C
+###é—®é¢˜æè¿°ï¼š
+ä½ æ˜¯å¦‚ä½•åœ¨javaä¸­å£°æ˜æ•°ç»„çš„ã€‚
 
-§A¥i¥H?¦æ¥Î??‰\©ú©ÎªÌ??±`¶q¡]ª`·N¡G?§A‰\©ú©ÎªÌ¥ß§Y¼v’à¤F‰Z¶q¡A??±`¶q?¤£¯à¦A¥Î?¤À°t¤@ŸÄ??¡^
-?¤_­ì©l™W«¬¡G
+ä½ å¯ä»¥è¿›è¡Œç”¨æ•°ç»„å£°æ˜æˆ–è€…æ•°ç»„å¸¸é‡ï¼ˆæ³¨æ„ï¼šå½“ä½ å£°æ˜æˆ–è€…ç«‹å³å½±å“äº†å˜é‡ï¼Œæ•°ç»„å¸¸é‡å°†ä¸èƒ½å†ç”¨æ¥åˆ†é…ä¸€ä¸ªæ•°ç»„ï¼‰
+å¯¹äºåŸå§‹ç±»å‹ï¼š
 ```
 int[] myIntArray = new int[3];
 int[] myIntArray = {1, 2, 3};
 int[] myIntArray = new int[]{1, 2, 3};
 ```
-ª«¥ó™W¡A¤ñ¦pString™W¡A¤]¬O¬Û¦Pªº¡G
+ç‰©ä»¶ç±»ï¼Œæ¯”å¦‚Stringç±»ï¼Œä¹Ÿæ˜¯ç›¸åŒçš„ï¼š
 ```
 String[] myStringArray = new String[3];
 String[] myStringArray = {"a", "b","c"};
 String[] myStringArray = new String[]("a", "b", "c");
 ```
 
-ª`·N:
-1.??±`¶q
+æ³¨æ„:
+1.æ•°ç»„å¸¸é‡
 ```
 //for a function return type is int[],you cannot return
 {1,2,3}
@@ -26,7 +26,7 @@ String[] myStringArray = new String[]("a", "b", "c");
 new int[]{1, 2, 3};
 ```
 
-[stack overflow?±µ¡GDeclare array in Java?](http://stackoverflow.com/questions/1200621/declare-array-in-java#)
+[stack overflow?æ¥ï¼šDeclare array in Java?](http://stackoverflow.com/questions/1200621/declare-array-in-java#)
 
 
 
