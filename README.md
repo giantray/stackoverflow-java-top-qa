@@ -31,7 +31,7 @@ stackoverflow-Java-top-qa
 * [wait()和sleep()的区别](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/difference-between-wait-and-sleep.md)
 * [能否在一个构造器( `constructor` )中调用另一个构造器](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/How-do-i-call-one-constructor-from-another-in-java.md)
 * [ `finally` 代码块总会被执行么](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/Does-finally-always-execute-in-Java.md)
-
+* [在java中声明数组](http://stackoverflow.com/questions/1200621/declare-array-in-java)
 > 编程技巧
 
 * [去掉烦人的“!=null"(判空语句](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/avoiding-null-statements-in-java.md)
@@ -53,7 +53,7 @@ stackoverflow-Java-top-qa
 * [如何测试 private 方法，变量或者内部类](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/How_to_test_a_class_that_has_private_methods,_fields_or_inner_classes.md)
 
 > Android
-- [如何取得android唯一码?](https://github.com/chungchi300/stackoverflow-java-top-qa/blob/master/contents/is-there-a-unique-android-device-id.md)
+* [如何取得android唯一码?](https://github.com/chungchi300/stackoverflow-java-top-qa/blob/master/contents/is-there-a-unique-android-device-id.md)
 
 ### 待翻译问题链接(还剩x问题)
 - [Why is subtracting these two times (in 1927) giving a strange result?](http://stackoverflow.com/questions/6841333/why-is-subtracting-these-two-times-in-1927-giving-a-strange-result)
@@ -72,7 +72,6 @@ stackoverflow-Java-top-qa
 - [Initialization of an ArrayList in one line](http://stackoverflow.com/questions/1005073/initialization-of-an-arraylist-in-one-line)
 - [Java inner class and static nested class](http://stackoverflow.com/questions/70324/java-inner-class-and-static-nested-class)
 - ['Must Override a Superclass Method' Errors after importing a project into Eclipse](http://stackoverflow.com/questions/1678122/must-override-a-superclass-method-errors-after-importing-a-project-into-eclips)
-- [Declare array in Java?](http://stackoverflow.com/questions/1200621/declare-array-in-java)
 - [Fastest way to determine if an integer's square root is an integer](http://stackoverflow.com/questions/295579/fastest-way-to-determine-if-an-integers-square-root-is-an-integer)
 - [How to fix: Unsupported major.minor version 51.0 error?](http://stackoverflow.com/questions/10382929/how-to-fix-unsupported-major-minor-version-51-0-error)
 - [What is reflection and why is it useful?](http://stackoverflow.com/questions/37628/what-is-reflection-and-why-is-it-useful)
