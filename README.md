@@ -31,7 +31,7 @@ stackoverflow-Java-top-qa
 * [wait()和sleep()的区别](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/difference-between-wait-and-sleep.md)
 * [能否在一个构造器( `constructor` )中调用另一个构造器](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/How-do-i-call-one-constructor-from-another-in-java.md)
 * [ `finally` 代码块总会被执行么](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/Does-finally-always-execute-in-Java.md)
-* [在java中声明数组](http://stackoverflow.com/questions/1200621/declare-array-in-java)
+* [在java中声明数组](https://github.com/chungchi300/stackoverflow-java-top-qa/blob/master/contents/declare-array-in-java.md)
 > 编程技巧
 
 * [去掉烦人的“!=null"(判空语句](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/avoiding-null-statements-in-java.md)

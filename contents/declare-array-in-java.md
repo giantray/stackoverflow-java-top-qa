@@ -26,7 +26,7 @@ String[] myStringArray = new String[]("a", "b", "c");
 new int[]{1, 2, 3};
 ```
 
-[stack overflow链接：Declare array in Java?](http://stackoverflow.com/questions/1200621/declare-array-in-java#)
+[Stackoverflow链接：Declare array in Java?](http://stackoverflow.com/questions/1200621/declare-array-in-java#)
 
 
 
