@@ -32,6 +32,10 @@ stackoverflow-Java-top-qa
 * [能否在一个构造器( `constructor` )中调用另一个构造器](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/How-do-i-call-one-constructor-from-another-in-java.md)
 * [ `finally` 代码块总会被执行么](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/Does-finally-always-execute-in-Java.md)
 * [在java中声明数组](https://github.com/chungchi300/stackoverflow-java-top-qa/blob/master/contents/declare-array-in-java.md)
+
+> 随机
+[为什么以下用随机生成的文字会得出 “hello world”?](http://stackoverflow.com/questions/15182496/why-does-this-code-using-random-strings-print-hello-world)
+
 > 编程技巧
 
 * [去掉烦人的“!=null"(判空语句](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/avoiding-null-statements-in-java.md)
@@ -61,7 +65,6 @@ stackoverflow-Java-top-qa
 - [Creating a memory leak with Java [closed]](http://stackoverflow.com/questions/6470651/creating-a-memory-leak-with-java)
 - [Why is char[] preferred over String for passwords?](http://stackoverflow.com/questions/8881291/why-is-char-preferred-over-string-for-passwords)
 - [Why is printing “B” dramatically slower than printing “#”?](http://stackoverflow.com/questions/21947452/why-is-printing-b-dramatically-slower-than-printing)
-- [Why does this code using random strings print “hello world”?](http://stackoverflow.com/questions/15182496/why-does-this-code-using-random-strings-print-hello-world)
 - [How can I create an executable jar with dependencies using Maven?](http://stackoverflow.com/questions/574594/how-can-i-create-an-executable-jar-with-dependencies-using-maven)
 - [How to avoid Java code in JSP files?](http://stackoverflow.com/questions/3177733/how-to-avoid-java-code-in-jsp-files)
 - [Why is executing Java code in comments with certain Unicode characters allowed?](http://stackoverflow.com/questions/30727515/why-is-executing-java-code-in-comments-with-certain-unicode-characters-allowed)
