@@ -34,7 +34,8 @@ stackoverflow-Java-top-qa
 * [在java中声明数组](https://github.com/chungchi300/stackoverflow-java-top-qa/blob/master/contents/declare-array-in-java.md)
 
 > 随机
-[为什么以下用随机生成的文字会得出 “hello world”?](https://github.com/chungchi300/stackoverflow-java-top-qa/blob/master/contents/why-does-this-code-using-random-strings-print-hello-world.md)
+
+* [为什么以下用随机生成的文字会得出 “hello world”?](https://github.com/chungchi300/stackoverflow-java-top-qa/blob/master/contents/why-does-this-code-using-random-strings-print-hello-world.md)
 
 > 编程技巧
 
