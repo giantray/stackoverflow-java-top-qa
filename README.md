@@ -59,6 +59,7 @@ stackoverflow-Java-top-qa
 > Android
 * [如何取得android唯一码?](https://github.com/chungchi300/stackoverflow-java-top-qa/blob/master/contents/is-there-a-unique-android-device-id.md)
 
+１,２,３
 ### 待翻译问题链接(还剩x问题)
 - [Why is subtracting these two times (in 1927) giving a strange result?](http://stackoverflow.com/questions/6841333/why-is-subtracting-these-two-times-in-1927-giving-a-strange-result)
 - [Proper use cases for Android UserManager.isUserAGoat()?](http://stackoverflow.com/questions/13375357/proper-use-cases-for-android-usermanager-isuseragoat)
