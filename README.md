@@ -31,6 +31,7 @@ stackoverflow-Java-top-qa
 * [wait()和sleep()的区别](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/difference-between-wait-and-sleep.md)
 * [能否在一个构造器( `constructor` )中调用另一个构造器](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/How-do-i-call-one-constructor-from-another-in-java.md)
 * [ `finally` 代码块总会被执行么](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/Does-finally-always-execute-in-Java.md)
+* [如何将String转换为enum](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/convert-a-string-to-an-enum-in-java.md)
 
 > 编程技巧
 
@@ -65,7 +66,6 @@ stackoverflow-Java-top-qa
 - [Why is executing Java code in comments with certain Unicode characters allowed?](http://stackoverflow.com/questions/30727515/why-is-executing-java-code-in-comments-with-certain-unicode-characters-allowed)
 - [Dealing with “java.lang.OutOfMemoryError: PermGen space” error](http://stackoverflow.com/questions/88235/dealing-with-java-lang-outofmemoryerror-permgen-space-error)
 - [“implements Runnable” vs. “extends Thread”](http://stackoverflow.com/questions/541487/implements-runnable-vs-extends-thread)
-- [Convert a String to an enum in Java](http://stackoverflow.com/questions/604424/convert-a-string-to-an-enum-in-java)
 - [Android SDK installation doesn't find JDK](http://stackoverflow.com/questions/4382178/android-sdk-installation-doesnt-find-jdk)
 - [Initialization of an ArrayList in one line](http://stackoverflow.com/questions/1005073/initialization-of-an-arraylist-in-one-line)
 - [Java inner class and static nested class](http://stackoverflow.com/questions/70324/java-inner-class-and-static-nested-class)
