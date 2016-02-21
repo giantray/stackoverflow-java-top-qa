@@ -1,7 +1,7 @@
 ## 在Android里面下载文件，并在ProgressDialog显示进度
 
 ### 问题
-尝试写一个可以获得更新的应用程序。 为了达到这个效果，我写了一个可以下载文件并且在一个`ProgressDialog`里面显示进度的简单方法。我知道怎么使用`ProgressDialog`，但是我不太确定怎么显示当前进度和下载文件。
+尝试写一个可以进行“应用更新”的APP。为了达到这个效果，我写了一个可以下载文件并且在一个`ProgressDialog`里面显示进度的简单方法。我知道怎么使用`ProgressDialog`，但是我不太确定怎么显示当前进度和下载文件。
 
 ### 回答
 
@@ -371,3 +371,5 @@ manager.enqueue(request);
 + 如果可以有暂停或者取消下载的选项，用户会很感激你的！  
 
 除非你想对下载过程有绝对的控制权，否则我强烈推荐你使用`DownloadManager`。因为他已经处理好了上面的大部分建议。
+
+stackoverflow链接：http://stackoverflow.com/questions/3028306/download-a-file-with-android-and-showing-the-progress-in-a-progressdialog
