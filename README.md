@@ -43,6 +43,7 @@ stackoverflow-Java-top-qa
 * [如何用一行代码初始化一个ArrayList](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/initialization-of-an-arraylist-in-one-line.md)
 * [初始化静态map](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/How-can-I-Initialize-a-static-Map.md)
 * [给3个布尔变量，当其中有2个或者2个以上为true才返回true](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/Check-if-at-least-two-out-of-three-booleans-are-true.md)
+* [Java中打印一个数组最简单的方法是什么](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/What's-the-simplest-way-to-print-a-Java-array.md)
 
 
 > 网络

@@ -1,8 +1,8 @@
-java中打印一个数组最简单的方法是什么
+Java中打印一个数组最简单的方法是什么
 ===
 问题
 ---
-在java中,数组没有重写toString()方法，所以我如果直接调用数组toStrign()方法的话，我会知道得到它的内存地址。像这样:
+在java中,数组没有重写toString()方法，所以我如果直接调用数组toStrign()方法的话，只会得到它的内存地址。像这样:
 ```java
 int[] intArray = new int[] {1, 2, 3, 4, 5};
 System.out.println(intArray);     // 有时候会输出 '[I@3343c8b3'
