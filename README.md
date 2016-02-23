@@ -40,7 +40,7 @@ stackoverflow-Java-top-qa
 
 * [去掉烦人的“!=null"(判空语句](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/avoiding-null-statements-in-java.md)
 * [获取完整的堆栈信息](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/get-current-stack-trace-in-java.md)
-* [如何通过一行代码初始化ArrayList](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/initialization-of-an-arraylist-in-one-line.md)
+* [如何用一行代码初始化一个ArrayList](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/initialization-of-an-arraylist-in-one-line.md)
 
 > 网络
 
