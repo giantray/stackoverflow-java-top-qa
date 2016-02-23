@@ -34,7 +34,7 @@ stackoverflow-Java-top-qa
 * [如何将String转换为enum](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/convert-a-string-to-an-enum-in-java.md)
 * [在Java中声明数组](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/Declare-array-in-Java.md)
 * [反射是什么及其用途](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/What-is-reflection-and-why-is-it-useful.md.md)
-
+* [为什么不能用string类型进行switch判断](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/Why-can't-I-switch-on-a-String.md)
 
 > 编程技巧
 
