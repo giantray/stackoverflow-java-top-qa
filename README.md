@@ -32,6 +32,7 @@ stackoverflow-Java-top-qa
 * [能否在一个构造器( `constructor` )中调用另一个构造器](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/How-do-i-call-one-constructor-from-another-in-java.md)
 * [ `finally` 代码块总会被执行么](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/Does-finally-always-execute-in-Java.md)
 * [如何将String转换为enum](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/convert-a-string-to-an-enum-in-java.md)
+* [比较java枚举成员使用equal还是==](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/comparing-java-enum-members-or-equals.md)
 
 > 编程技巧
 
