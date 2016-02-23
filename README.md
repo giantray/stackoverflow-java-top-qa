@@ -41,6 +41,8 @@ stackoverflow-Java-top-qa
 * [去掉烦人的“!=null"(判空语句](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/avoiding-null-statements-in-java.md)
 * [获取完整的堆栈信息](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/get-current-stack-trace-in-java.md)
 * [如何用一行代码初始化一个ArrayList](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/initialization-of-an-arraylist-in-one-line.md)
+* [初始化静态map](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/How-can-I-Initialize-a-static-Map.md)
+
 
 > 网络
 
@@ -92,7 +94,6 @@ stackoverflow-Java-top-qa
 - [How can I permanently have line numbers in IntelliJ?](http://stackoverflow.com/questions/13751/how-can-i-permanently-have-line-numbers-in-intellij)
 - [How do servlets work? Instantiation, shared variables and multithreading](http://stackoverflow.com/questions/3106452/how-do-servlets-work-instantiation-shared-variables-and-multithreading)
 - [Access restriction on class due to restriction on required library rt.jar?](http://stackoverflow.com/questions/860187/access-restriction-on-class-due-to-restriction-on-required-library-rt-jar)
-- [How can I Initialize a static Map?](http://stackoverflow.com/questions/507602/how-can-i-initialize-a-static-map)
 - [How do I discover memory usage of my application in Android?](http://stackoverflow.com/questions/2298208/how-do-i-discover-memory-usage-of-my-application-in-android)
 - [How can I generate an MD5 hash?](http://stackoverflow.com/questions/415953/how-can-i-generate-an-md5-hash)
 - [Uncatchable ChuckNorrisException](http://stackoverflow.com/questions/13883166/uncatchable-chucknorrisexception)
