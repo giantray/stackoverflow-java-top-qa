@@ -67,7 +67,6 @@ stackoverflow-Java-top-qa
 - [Dealing with “java.lang.OutOfMemoryError: PermGen space” error](http://stackoverflow.com/questions/88235/dealing-with-java-lang-outofmemoryerror-permgen-space-error)
 - [“implements Runnable” vs. “extends Thread”](http://stackoverflow.com/questions/541487/implements-runnable-vs-extends-thread)
 - [Android SDK installation doesn't find JDK](http://stackoverflow.com/questions/4382178/android-sdk-installation-doesnt-find-jdk)
-- [Initialization of an ArrayList in one line](http://stackoverflow.com/questions/1005073/initialization-of-an-arraylist-in-one-line)
 - [Java inner class and static nested class](http://stackoverflow.com/questions/70324/java-inner-class-and-static-nested-class)
 - ['Must Override a Superclass Method' Errors after importing a project into Eclipse](http://stackoverflow.com/questions/1678122/must-override-a-superclass-method-errors-after-importing-a-project-into-eclips)
 - [Declare array in Java?](http://stackoverflow.com/questions/1200621/declare-array-in-java)
