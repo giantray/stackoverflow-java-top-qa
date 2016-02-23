@@ -33,6 +33,8 @@ stackoverflow-Java-top-qa
 * [ `finally` 代码块总会被执行么](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/Does-finally-always-execute-in-Java.md)
 * [如何将String转换为enum](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/convert-a-string-to-an-enum-in-java.md)
 * [在Java中声明数组](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/Declare-array-in-Java.md)
+* [反射是什么及其用途](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/What-is-reflection-and-why-is-it-useful.md.md)
+
 
 > 编程技巧
 
@@ -77,7 +79,6 @@ stackoverflow-Java-top-qa
 - ['Must Override a Superclass Method' Errors after importing a project into Eclipse](http://stackoverflow.com/questions/1678122/must-override-a-superclass-method-errors-after-importing-a-project-into-eclips)
 - [Fastest way to determine if an integer's square root is an integer](http://stackoverflow.com/questions/295579/fastest-way-to-determine-if-an-integers-square-root-is-an-integer)
 - [How to fix: Unsupported major.minor version 51.0 error?](http://stackoverflow.com/questions/10382929/how-to-fix-unsupported-major-minor-version-51-0-error)
-- [What is reflection and why is it useful?](http://stackoverflow.com/questions/37628/what-is-reflection-and-why-is-it-useful)
 - [How to generate a random alpha-numeric string?](http://stackoverflow.com/questions/41107/how-to-generate-a-random-alpha-numeric-string)
 - [Examples of GoF Design Patterns in Java's core libraries](http://stackoverflow.com/questions/1673841/examples-of-gof-design-patterns-in-javas-core-libraries)
 - [Comparing Java enum members: == or equals()?](http://stackoverflow.com/questions/1750435/comparing-java-enum-members-or-equals)
