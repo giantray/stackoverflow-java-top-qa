@@ -1,6 +1,6 @@
 # HashMap遍历 #
 
-在Java中有多种遍历HashMAp的方法。让我们回顾一下最常见的方法和它们各自的优缺点。由于所有的Map都实现了Map接口，所以接下来方法适用于所有Map接口的图的实现（如：HaspMap，TreeMap,LinkedMap,HashTable,etc）
+在Java中有多种遍历HashMAp的方法。让我们回顾一下最常见的方法和它们各自的优缺点。由于所有的Map都实现了Map接口，所以接下来方法适用于所有Map（如：HaspMap，TreeMap,LinkedMap,HashTable,etc）
 
 ## 方法#1 使用For-Each迭代entries ##
 
@@ -42,7 +42,7 @@
     	System.out.println("Key = " + entry.getKey() + ", Value = " + entry.getValue());
 	}
 
-不适用泛型
+不使用泛型
 
 	Map map = new HashMap();
 	Iterator entries = map.entrySet().iterator();
@@ -71,4 +71,7 @@
 
 ## 总结 ##
 
-如果你只需要使用key或者value使用方法#2，如果你坚持使用java的老版本（java 5 以前的版本）或者打算在迭代的时候移除entries使用方法#3，另外的话使用方法#1，尽量避免出现方法#1的情况
+如果你只需要使用key或者value使用方法#2，如果你坚持使用java的老版本（java 5 以前的版本）或者打算在迭代的时候移除entries，使用方法#3。其他情况请使用#1方法。避免使用#4方法。
+
+stackoverflow链接：
+http://stackoverflow.com/questions/1066589/iterate-through-a-hashmap
