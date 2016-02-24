@@ -53,8 +53,7 @@ stackoverflow-Java-top-qa
 
 > 性能
 
-* [LinkedList、ArrayList各自的使用场景，如何确认应该用哪一个呢？](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/w
-* hen-to-use-linkedlist-over-arraylist.md)
+* [LinkedList、ArrayList各自的使用场景，如何确认应该用哪一个呢？](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/when-to-use-linkedlist-over-arraylist.md)
 * [StringBuilder和StringBuffer有哪些区别呢](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/stringbuilder-and-stringbuffer.md)
 * [为什么处理排序的数组要比非排序的快](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/Why-is-processing-a-sorted-array-faster-than-an-unsorted-array.md)
 
