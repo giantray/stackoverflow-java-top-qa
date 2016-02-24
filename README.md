@@ -36,6 +36,7 @@ stackoverflow-Java-top-qa
 * [反射是什么及其用途](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/What-is-reflection-and-why-is-it-useful.md.md)
 * [为什么不能用string类型进行switch判断](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/Why-can't-I-switch-on-a-String.md)
 
+
 > 编程技巧
 
 * [去掉烦人的“!=null"(判空语句](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/avoiding-null-statements-in-java.md)
@@ -44,7 +45,7 @@ stackoverflow-Java-top-qa
 * [初始化静态map](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/How-can-I-Initialize-a-static-Map.md)
 * [给3个布尔变量，当其中有2个或者2个以上为true才返回true](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/Check-if-at-least-two-out-of-three-booleans-are-true.md)
 * [Java中打印一个数组最简单的方法是什么](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/What's-the-simplest-way-to-print-a-Java-array.md)
-
+* [为什么以下用随机生成的文字会得出 “hello world”?](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/why-does-this-code-using-random-strings-print-hello-world.md)
 
 > 网络
 
@@ -52,7 +53,8 @@ stackoverflow-Java-top-qa
 
 > 性能
 
-* [LinkedList、ArrayList各自的使用场景，如何确认应该用哪一个呢？](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/when-to-use-linkedlist-over-arraylist.md)
+* [LinkedList、ArrayList各自的使用场景，如何确认应该用哪一个呢？](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/w
+* hen-to-use-linkedlist-over-arraylist.md)
 * [StringBuilder和StringBuffer有哪些区别呢](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/stringbuilder-and-stringbuffer.md)
 * [为什么处理排序的数组要比非排序的快](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/Why-is-processing-a-sorted-array-faster-than-an-unsorted-array.md)
 
@@ -61,8 +63,8 @@ stackoverflow-Java-top-qa
 * [如何测试 private 方法，变量或者内部类](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/How_to_test_a_class_that_has_private_methods,_fields_or_inner_classes.md)
 
 > Android
-
-* [在Android里面下载文件，并在ProgressDialog显示进度](https://github.com/troyliu0105/stackoverflow-java-top-qa/blob/master/contents/Download_a_file_with_Android_and_showing_the_progress_in_a_ProgressDialog.md)
+* [在Android里面下载文件，并在ProgressDialog显示进度](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/Download_a_file_with_Android_and_showing_the_progress_in_a_ProgressDialog.md)
+* [如何取得android唯一码?](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/is-there-a-unique-android-device-id.md)
 
 ### 待翻译问题链接(还剩x问题)
 - [Why is subtracting these two times (in 1927) giving a strange result?](http://stackoverflow.com/questions/6841333/why-is-subtracting-these-two-times-in-1927-giving-a-strange-result)
@@ -70,15 +72,12 @@ stackoverflow-Java-top-qa
 - [Creating a memory leak with Java [closed]](http://stackoverflow.com/questions/6470651/creating-a-memory-leak-with-java)
 - [Why is char[] preferred over String for passwords?](http://stackoverflow.com/questions/8881291/why-is-char-preferred-over-string-for-passwords)
 - [Why is printing “B” dramatically slower than printing “#”?](http://stackoverflow.com/questions/21947452/why-is-printing-b-dramatically-slower-than-printing)
-- [Is there a unique Android device ID?](http://stackoverflow.com/questions/2785485/is-there-a-unique-android-device-id)
-- [Why does this code using random strings print “hello world”?](http://stackoverflow.com/questions/15182496/why-does-this-code-using-random-strings-print-hello-world)
 - [How can I create an executable jar with dependencies using Maven?](http://stackoverflow.com/questions/574594/how-can-i-create-an-executable-jar-with-dependencies-using-maven)
 - [How to avoid Java code in JSP files?](http://stackoverflow.com/questions/3177733/how-to-avoid-java-code-in-jsp-files)
 - [Why is executing Java code in comments with certain Unicode characters allowed?](http://stackoverflow.com/questions/30727515/why-is-executing-java-code-in-comments-with-certain-unicode-characters-allowed)
 - [Dealing with “java.lang.OutOfMemoryError: PermGen space” error](http://stackoverflow.com/questions/88235/dealing-with-java-lang-outofmemoryerror-permgen-space-error)
 - [“implements Runnable” vs. “extends Thread”](http://stackoverflow.com/questions/541487/implements-runnable-vs-extends-thread)
 - [Android SDK installation doesn't find JDK](http://stackoverflow.com/questions/4382178/android-sdk-installation-doesnt-find-jdk)
-- [Initialization of an ArrayList in one line](http://stackoverflow.com/questions/1005073/initialization-of-an-arraylist-in-one-line)
 - [Java inner class and static nested class](http://stackoverflow.com/questions/70324/java-inner-class-and-static-nested-class)
 - ['Must Override a Superclass Method' Errors after importing a project into Eclipse](http://stackoverflow.com/questions/1678122/must-override-a-superclass-method-errors-after-importing-a-project-into-eclips)
 - [Fastest way to determine if an integer's square root is an integer](http://stackoverflow.com/questions/295579/fastest-way-to-determine-if-an-integers-square-root-is-an-integer)
