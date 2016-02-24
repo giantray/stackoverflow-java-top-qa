@@ -8,6 +8,13 @@ stackoverflow-Java-top-qa
     对于参与翻译的人，这也是很好的一个学习、理解过程，欢迎大家一起来翻译
 
 -------------
+### 如何参与翻译
+请从下文“待翻译问题链接”中寻找你感兴趣的问答进行翻译。翻译好的问答，放到contents目录下，无需更新readme.md文档。之后提一个PR，我会对你的翻译做一个审校，并更新到readme中。
+
+一些基本的约定：
+- 文档的文件名，和stackoverflow上的url保持一致。例如，http://stackoverflow.com/questions/8710619/java-operator 的文件名， 就是java-operator.md
+- 在每篇翻译文档内容的最后，要附上stackoverflow的原文链接
+
 ### 目录
 > 基础语法
 
