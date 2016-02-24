@@ -36,7 +36,6 @@ stackoverflow-Java-top-qa
 * [反射是什么及其用途](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/What-is-reflection-and-why-is-it-useful.md.md)
 * [为什么不能用string类型进行switch判断](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/Why-can't-I-switch-on-a-String.md)
 
-
 > 编程技巧
 
 * [去掉烦人的“!=null"(判空语句](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/avoiding-null-statements-in-java.md)
@@ -46,6 +45,7 @@ stackoverflow-Java-top-qa
 * [给3个布尔变量，当其中有2个或者2个以上为true才返回true](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/Check-if-at-least-two-out-of-three-booleans-are-true.md)
 * [Java中打印一个数组最简单的方法是什么](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/What's-the-simplest-way-to-print-a-Java-array.md)
 * [为什么以下用随机生成的文字会得出 “hello world”?](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/why-does-this-code-using-random-strings-print-hello-world.md)
+* [什么在java中存放密码更倾向于char[]而不是String](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/why-is-cha[]-preferred-over-String-for-passwords-in-java.md)
 
 > 网络
 
@@ -62,6 +62,7 @@ stackoverflow-Java-top-qa
 * [如何测试 private 方法，变量或者内部类](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/How_to_test_a_class_that_has_private_methods,_fields_or_inner_classes.md)
 
 > Android
+
 * [在Android里面下载文件，并在ProgressDialog显示进度](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/Download_a_file_with_Android_and_showing_the_progress_in_a_ProgressDialog.md)
 * [如何获取Android设备唯一ID](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/is-there-a-unique-android-device-id.md)
 
@@ -69,7 +70,6 @@ stackoverflow-Java-top-qa
 - [Why is subtracting these two times (in 1927) giving a strange result?](http://stackoverflow.com/questions/6841333/why-is-subtracting-these-two-times-in-1927-giving-a-strange-result)
 - [Proper use cases for Android UserManager.isUserAGoat()?](http://stackoverflow.com/questions/13375357/proper-use-cases-for-android-usermanager-isuseragoat)
 - [Creating a memory leak with Java [closed]](http://stackoverflow.com/questions/6470651/creating-a-memory-leak-with-java)
-- [Why is char[] preferred over String for passwords?](http://stackoverflow.com/questions/8881291/why-is-char-preferred-over-string-for-passwords)
 - [Why is printing “B” dramatically slower than printing “#”?](http://stackoverflow.com/questions/21947452/why-is-printing-b-dramatically-slower-than-printing)
 - [How can I create an executable jar with dependencies using Maven?](http://stackoverflow.com/questions/574594/how-can-i-create-an-executable-jar-with-dependencies-using-maven)
 - [How to avoid Java code in JSP files?](http://stackoverflow.com/questions/3177733/how-to-avoid-java-code-in-jsp-files)
