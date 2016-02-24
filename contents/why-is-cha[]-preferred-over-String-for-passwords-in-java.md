@@ -15,5 +15,6 @@ String是不可变的。虽然String加载密码之后可以把这个变量扔�
 
 **stackoverflow链接**：
 http://stackoverflow.com/questions/8881291/why-is-char-preferred-over-string-for-passwords-in-java
+
 **知乎上也有相关讨论**：
 https://www.zhihu.com/question/36734157

@@ -46,6 +46,7 @@ stackoverflow-Java-top-qa
 * [Java中打印一个数组最简单的方法是什么](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/What's-the-simplest-way-to-print-a-Java-array.md)
 * [为什么以下用随机生成的文字会得出 “hello world”?](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/why-does-this-code-using-random-strings-print-hello-world.md)
 * [什么在java中存放密码更倾向于char[]而不是String](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/why-is-cha[]-preferred-over-String-for-passwords-in-java.md)
+* [如何避免在JSP文件中使用Java代码](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/how-to-avoid-java-code-in-jsp-files.md)
 
 > 网络
 
@@ -72,7 +73,6 @@ stackoverflow-Java-top-qa
 - [Creating a memory leak with Java [closed]](http://stackoverflow.com/questions/6470651/creating-a-memory-leak-with-java)
 - [Why is printing “B” dramatically slower than printing “#”?](http://stackoverflow.com/questions/21947452/why-is-printing-b-dramatically-slower-than-printing)
 - [How can I create an executable jar with dependencies using Maven?](http://stackoverflow.com/questions/574594/how-can-i-create-an-executable-jar-with-dependencies-using-maven)
-- [How to avoid Java code in JSP files?](http://stackoverflow.com/questions/3177733/how-to-avoid-java-code-in-jsp-files)
 - [Why is executing Java code in comments with certain Unicode characters allowed?](http://stackoverflow.com/questions/30727515/why-is-executing-java-code-in-comments-with-certain-unicode-characters-allowed)
 - [Dealing with “java.lang.OutOfMemoryError: PermGen space” error](http://stackoverflow.com/questions/88235/dealing-with-java-lang-outofmemoryerror-permgen-space-error)
 - [“implements Runnable” vs. “extends Thread”](http://stackoverflow.com/questions/541487/implements-runnable-vs-extends-thread)
