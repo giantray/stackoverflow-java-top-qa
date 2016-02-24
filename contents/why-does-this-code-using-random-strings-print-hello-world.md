@@ -62,3 +62,5 @@ public static String randomString(int i)
     18 + 96 = 114 --> r
     12 + 96 = 108 --> l
     4  + 96 = 100 --> d
+
+stackoverflow链接：http://stackoverflow.com/questions/15182496/why-does-this-code-using-random-strings-print-hello-world
