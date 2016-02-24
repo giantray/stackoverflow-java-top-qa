@@ -63,7 +63,7 @@ stackoverflow-Java-top-qa
 
 > Android
 * [在Android里面下载文件，并在ProgressDialog显示进度](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/Download_a_file_with_Android_and_showing_the_progress_in_a_ProgressDialog.md)
-* [如何取得android唯一码?](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/is-there-a-unique-android-device-id.md)
+* [如何获取Android设备唯一ID](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/is-there-a-unique-android-device-id.md)
 
 ### 待翻译问题链接(还剩x问题)
 - [Why is subtracting these two times (in 1927) giving a strange result?](http://stackoverflow.com/questions/6841333/why-is-subtracting-these-two-times-in-1927-giving-a-strange-result)
