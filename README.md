@@ -56,6 +56,7 @@ stackoverflow-Java-top-qa
 * [什么在java中存放密码更倾向于char[]而不是String](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/why-is-cha[]-preferred-over-String-for-passwords-in-java.md)
 * [如何避免在JSP文件中使用Java代码](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/how-to-avoid-java-code-in-jsp-files.md)
 * [Java 源码里的设计模式](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/Examples_of_GoF_Design_Patterns_in_Java's_core_libraries.md)
+* [如何产生一个随机的字母数字串作为 session 的唯一标识符](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/How_to_generate_a_random_alpha-numeric_string.md)
 
 > 网络
 
