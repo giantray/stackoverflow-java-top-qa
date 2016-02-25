@@ -96,8 +96,6 @@ stackoverflow-Java-top-qa
 - [How to generate a random alpha-numeric string?](http://stackoverflow.com/questions/41107/how-to-generate-a-random-alpha-numeric-string)
 - [Comparing Java enum members: == or equals()?](http://stackoverflow.com/questions/1750435/comparing-java-enum-members-or-equals)
 - [Failed to load the JNI shared Library (JDK)](http://stackoverflow.com/questions/7352493/failed-to-load-the-jni-shared-library-jdk)
-- [What's the simplest way to print a Java array?](http://stackoverflow.com/questions/409784/whats-the-simplest-way-to-print-a-java-array)
-- [Why can't I switch on a String?](http://stackoverflow.com/questions/338206/why-cant-i-switch-on-a-string)
 - [How to create a Java String from the contents of a file?](http://stackoverflow.com/questions/326390/how-to-create-a-java-string-from-the-contents-of-a-file)
 - [How can I convert a stack trace to a string?](http://stackoverflow.com/questions/1149703/how-can-i-convert-a-stack-trace-to-a-string)
 - [How do you assert that a certain exception is thrown in JUnit 4 tests?](http://stackoverflow.com/questions/156503/how-do-you-assert-that-a-certain-exception-is-thrown-in-junit-4-tests)
