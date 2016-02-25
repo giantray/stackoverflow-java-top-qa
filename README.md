@@ -115,7 +115,6 @@ stackoverflow-Java-top-qa
 - [How does the Java for each loop work?](http://stackoverflow.com/questions/85190/how-does-the-java-for-each-loop-work)
 - [What is the Java equivalent for LINQ?](http://stackoverflow.com/questions/1217228/what-is-the-java-equivalent-for-linq)
 - [Hibernate hbm2ddl.auto possible values and what they do?](http://stackoverflow.com/questions/438146/hibernate-hbm2ddl-auto-possible-values-and-what-they-do)
-- [Check if at least two out of three booleans are true](http://stackoverflow.com/questions/3076078/check-if-at-least-two-out-of-three-booleans-are-true)
 - [How to round a number to n decimal places in Java](http://stackoverflow.com/questions/153724/how-to-round-a-number-to-n-decimal-places-in-java)
 - [How can I pad an integers with zeros on the left?](http://stackoverflow.com/questions/473282/how-can-i-pad-an-integers-with-zeros-on-the-left)
 - [Sort ArrayList of custom Objects by property](http://stackoverflow.com/questions/2784514/sort-arraylist-of-custom-objects-by-property)
