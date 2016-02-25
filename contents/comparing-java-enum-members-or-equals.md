@@ -1,7 +1,7 @@
 ## 比较java枚举成员使用equal还是==
 
 ### 问题
-我知道Java枚举会被编译成私有构造参数和一堆静态方法的一个类，当去比较两个枚举的时候，总是使用equals()方法，例如：
+我知道Java枚举会被编译成一个包含私有构造参数和一堆静态方法的类，当去比较两个枚举的时候，总是使用equals()方法，例如：
 ```java
 public useEnums(SomeEnum a)
 {
@@ -23,12 +23,12 @@ public useEnums2(SomeEnum a)
     ...
 }
 ```
-我已经Java编程5年以上了，并且我想我也懂得 == 和 equals() 之间的区别，但是我仍然觉得困扰在这个问题上，哪一个操作符才是我该使用的。
+我有5年以上的java编程经验，并且我想我也懂得 == 和 equals() 之间的区别，但是我仍然觉得很困惑，哪一个操作符才是我该使用的。
 
 ### 答案
 
 二者皆对，如果你看过枚举的源码，你会发现在源码中，equals也仅仅非常简单的 == 。
-我使用 == ，无论如何，这个左值是可以为 null的
+我使用 == ，因为无论如何，这个左值是可以为 null的
 
 
 译者补充 java.lang.Enum 中Equals 代码：
@@ -40,8 +40,8 @@ public final boolean equals(Object other) {
 
 
 ### 额外答案
-#### 能使用 == 在枚举判断中？
-答案是肯定的，因为枚举有着严格的实例化控制，所以你可以用 == 去比较实力，这在语言标准内也是有保证的。
+#### 能在枚举中使用 == 进行判断？
+答案是肯定的，因为枚举有着严格的实例化控制，所以你可以用 == 去做比较符，这个用法，在官方文档中也有明确的说明。
 
 >JLS 8.9 Enums
 >An enum type has no instances other than those defined by its enum constants.
@@ -81,3 +81,5 @@ Bloch specifically mentions that immutable classes that have proper control over
 2. 更快
 3. 运行时是安全的
 4. 编译期也是安全的
+
+stackoverlfow链接：http://stackoverflow.com/questions/1750435/comparing-java-enum-members-or-equals
