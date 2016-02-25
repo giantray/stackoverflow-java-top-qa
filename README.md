@@ -58,6 +58,7 @@ stackoverflow-Java-top-qa
 * [Java 源码里的设计模式](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/Examples_of_GoF_Design_Patterns_in_Java's_core_libraries.md)
 * [如何产生一个随机的字母数字串作为 session 的唯一标识符](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/How_to_generate_a_random_alpha-numeric_string.md)
 * [如何创建单例](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/What_is_an_efficient_way_to_implement_a_singleton_in_Java.md)
+* [实现Runnable接口  VS. 继承Thread类](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/implements-runnable-vs-extends-thread.md)
 
 > 网络
 
@@ -86,7 +87,7 @@ stackoverflow-Java-top-qa
 - [How can I create an executable jar with dependencies using Maven?](http://stackoverflow.com/questions/574594/how-can-i-create-an-executable-jar-with-dependencies-using-maven)
 - [Why is executing Java code in comments with certain Unicode characters allowed?](http://stackoverflow.com/questions/30727515/why-is-executing-java-code-in-comments-with-certain-unicode-characters-allowed)
 - [Dealing with “java.lang.OutOfMemoryError: PermGen space” error](http://stackoverflow.com/questions/88235/dealing-with-java-lang-outofmemoryerror-permgen-space-error)
-- [“implements Runnable” vs. “extends Thread”](http://stackoverflow.com/questions/541487/implements-runnable-vs-extends-thread)
+- [Convert a String to an enum in Java](http://stackoverflow.com/questions/604424/convert-a-string-to-an-enum-in-java)
 - [Android SDK installation doesn't find JDK](http://stackoverflow.com/questions/4382178/android-sdk-installation-doesnt-find-jdk)
 - [Java inner class and static nested class](http://stackoverflow.com/questions/70324/java-inner-class-and-static-nested-class)
 - ['Must Override a Superclass Method' Errors after importing a project into Eclipse](http://stackoverflow.com/questions/1678122/must-override-a-superclass-method-errors-after-importing-a-project-into-eclips)
