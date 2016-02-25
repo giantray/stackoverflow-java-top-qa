@@ -55,6 +55,7 @@ stackoverflow-Java-top-qa
 * [为什么以下用随机生成的文字会得出 “hello world”?](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/why-does-this-code-using-random-strings-print-hello-world.md)
 * [什么在java中存放密码更倾向于char[]而不是String](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/why-is-cha[]-preferred-over-String-for-passwords-in-java.md)
 * [如何避免在JSP文件中使用Java代码](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/how-to-avoid-java-code-in-jsp-files.md)
+* [Java 源码里的设计模式](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/Examples_of_GoF_Design_Patterns_in_Java's_core_libraries.md)
 
 > 网络
 
@@ -90,7 +91,6 @@ stackoverflow-Java-top-qa
 - [Fastest way to determine if an integer's square root is an integer](http://stackoverflow.com/questions/295579/fastest-way-to-determine-if-an-integers-square-root-is-an-integer)
 - [How to fix: Unsupported major.minor version 51.0 error?](http://stackoverflow.com/questions/10382929/how-to-fix-unsupported-major-minor-version-51-0-error)
 - [How to generate a random alpha-numeric string?](http://stackoverflow.com/questions/41107/how-to-generate-a-random-alpha-numeric-string)
-- [Examples of GoF Design Patterns in Java's core libraries](http://stackoverflow.com/questions/1673841/examples-of-gof-design-patterns-in-javas-core-libraries)
 - [Comparing Java enum members: == or equals()?](http://stackoverflow.com/questions/1750435/comparing-java-enum-members-or-equals)
 - [Failed to load the JNI shared Library (JDK)](http://stackoverflow.com/questions/7352493/failed-to-load-the-jni-shared-library-jdk)
 - [What's the simplest way to print a Java array?](http://stackoverflow.com/questions/409784/whats-the-simplest-way-to-print-a-java-array)
