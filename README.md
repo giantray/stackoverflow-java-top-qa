@@ -57,6 +57,7 @@ stackoverflow-Java-top-qa
 * [如何避免在JSP文件中使用Java代码](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/how-to-avoid-java-code-in-jsp-files.md)
 * [Java 源码里的设计模式](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/Examples_of_GoF_Design_Patterns_in_Java's_core_libraries.md)
 * [如何产生一个随机的字母数字串作为 session 的唯一标识符](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/How_to_generate_a_random_alpha-numeric_string.md)
+* [如何创建单例](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/What_is_an_efficient_way_to_implement_a_singleton_in_Java.md)
 
 > 网络
 
