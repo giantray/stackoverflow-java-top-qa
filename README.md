@@ -42,6 +42,7 @@ stackoverflow-Java-top-qa
 * [在Java中声明数组](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/Declare-array-in-Java.md)
 * [反射是什么及其用途](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/What-is-reflection-and-why-is-it-useful.md.md)
 * [为什么不能用string类型进行switch判断](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/Why-can't-I-switch-on-a-String.md)
+* [比较java枚举成员使用equal还是==](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/comparing-java-enum-members-or-equals.md)
 
 > 编程技巧
 
