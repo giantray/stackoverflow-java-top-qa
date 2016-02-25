@@ -1,17 +1,14 @@
-Java中打印一个数组最简单的方法是什么
+输出 Java 数组最简单的方式
 ===
 问题
 ---
-在java中,数组没有重写toString()方法，所以我如果直接调用数组toStrign()方法的话，只会得到它的内存地址。像这样:
+因为 Java 数组中没有 toString() 方法，所以我如果直接调用数组toStrign()方法的话，只会得到它的内存地址。像这样，显得并不人性化:
 ```java
 int[] intArray = new int[] {1, 2, 3, 4, 5};
 System.out.println(intArray);     // 有时候会输出 '[I@3343c8b3'
 ```
-但是实际上我想要的输出效果是
-```java
-[1, 2, 3, 4, 5]
-```
-所以打印一个数组最简单的方法是什么？我想要的效果是
+
+所以输出一个数组最简单的方法是什么？我想要的效果是
 ```java
 // 数字数组:
 int[] intArray = new int[] {1, 2, 3, 4, 5};
@@ -24,7 +21,7 @@ String[] strArray = new String[] {"John", "Mary", "Bob"};
 
 回答
 ---
-在JAVA5中使用 Arrays.toString(arr) 或 Arrays.deepToString(arr)来打印数组。
+在 Java 5+ 以上中使用 Arrays.toString(arr) 或 Arrays.deepToString(arr)来打印（输出）数组。
 
 不要忘了引入import java.util.Arrays; 
 ```java
