@@ -15,8 +15,8 @@ serialVersionUID 是实现 Serializable 接口而来的，而 Serializable 则�
 	```
 	ANY-ACCESS-MODIFIER static final long serialVersionUID = 1L;
 	```
+    当显式定义 serialVersionUID 的值时，Java 根据类的多个方面(具体可参考 Java 序列化规范)动态生成一个默认的 serialVersionUID 。尽管这样，还是建议你在每一个序列化的类中显式指定 serialVersionUID 的值，因为不同的 jdk 编译很可能会生成不同的 serialVersionUID 默认值，进而导致在反序列化时抛出 InvalidClassExceptions 异常。所以，为了保证在不同的 jdk 编译实现中，其 serialVersionUID 的值也一致，可序列化的类必须显式指定 serialVersionUID 的值。另外，serialVersionUID 的修饰符最好是 private，因为 serialVersionUID 不能被继承，所以建议使用 private 修饰 serialVersionUID。
 
-文档上还建议将 serialVersionUID 置为 private。
 
 举例说明如下:
 现在尝试通过将一个类 Person 序列化到磁盘和反序列化来说明  serialVersionUID 的作用: Person 类如下:
