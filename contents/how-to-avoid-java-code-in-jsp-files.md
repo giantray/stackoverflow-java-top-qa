@@ -32,13 +32,13 @@ Oracle自己也在 [JSP coding conventions](http://www.oracle.com/technetwork/ar
 
 >...
 
->本着适应 模型-显示层-控制器（MVC） 设计模式中关于减少业务逻辑层与显示层之间的耦合的精神，**JSP scriptlets语法不应该**被用来编写业务逻辑。相应的，JSP scriptlets语法在传送一些服务端返回的处理客户端请求的数据（也叫做 声明对象？。这里翻译得不清楚）的时候会被使用。尽管如此，使用一个controller servlet来处理或者用自定义标签来处理会更好。
+>本着适应 模型-显示层-控制器（MVC） 设计模式中关于减少业务逻辑层与显示层之间的耦合的精神，**JSP scriptlets语法不应该**被用来编写业务逻辑。相应的，JSP scriptlets语法在传送一些服务端返回的处理客户端请求的数据（也称为value objects）的时候会被使用。尽管如此，使用一个controller servlet来处理或者用自定义标签来处理会更好。
 
 -----------
 
 **如何替换scriptlets语句，取决于代码/逻辑的目的。更常见的是，被替换的语句会被放在另外的一些更值得放的Java类里**（这里翻译得不一定清楚）
 
-* 如果你想在每个请求运行**相同的**Java代码，less-or-more regardless of the requested page（不会翻译），比如说 检查一个用户是否在登录状态，就要实现一个 过滤器，在doFilter()方法中编写正确的代码，例如
+* 如果你想在每个请求、每个页面请求都运行**相同的**Java代码，，比如说 检查一个用户是否在登录状态，就要实现一个 过滤器，在doFilter()方法中编写正确的代码，例如
 
 ```java
 public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws ServletException, IOException {
@@ -66,7 +66,7 @@ protected void doGet(HttpServletRequest request, HttpServletResponse response) t
     }
 }
 ```
-这个方法能够更方便地处理异常。The DB is not accessed in the midst of JSP rendering, but far before the JSP is been displayed.(不会翻译)在数据库抛出异常的时候，你还是有改变response的可能。在上面的例子，默认的500页会显示，你还可以改变`web.xml`的`<error-page>`来自定义异常处理错误页。
+这个方法能够更方便地处理异常。这样会在渲染、展示JSP页面时访问数据库。在数据库抛出异常的时候，你可以根据情况返回不同的响应或页面。在上面的例子，出错时默认会展示500页面，你也可以改变`web.xml`的`<error-page>`来自定义异常处理错误页。
 
 ----------
 
@@ -91,7 +91,7 @@ protected void doPost(HttpServletRequest request, HttpServletResponse response) 
 
 ---------
 
-* 如果你想执行一些Java代码来**控制**执行计划（control the execution plan） 和/或 request和response的目标，用[MVC模式](http://stackoverflow.com/questions/3541077/design-patterns-web-based-applications/3542297#3542297)实现一个Servlet，例如：
+* 如果你想执行一些Java代码来**控制**执行计划（control the execution plan） 和/或 request和response的跳转目标，用[MVC模式](http://stackoverflow.com/questions/3541077/design-patterns-web-based-applications/3542297#3542297)实现一个Servlet，例如：
 ```java
 protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
     try {
@@ -108,11 +108,11 @@ protected void service(HttpServletRequest request, HttpServletResponse response)
     }
 }
 ```
-或者使用一些MVC框架例如[JSF](http://stackoverflow.com/tags/jsf/info), [Spring MVC](http://stackoverflow.com/tags/spring-mvc/info), [Wicket](http://stackoverflow.com/tags/wicket/info) end up with just a JSP/Facelets page and a Javabean class without the need for a custom servlet.（不知道如何翻译准确）
+或者使用一些MVC框架例如[JSF](http://stackoverflow.com/tags/jsf/info), [Spring MVC](http://stackoverflow.com/tags/spring-mvc/info), [Wicket](http://stackoverflow.com/tags/wicket/info) 这样你就不用自定义servlet，只要写一些页面和javabean class就可以了。
 
 ---------
 
-* 如果你想执行一些Java代码来**控制JSP页面的执行流程（control the flow inside a JSP page）**，那么你需要使用一些（已经存在的）流程控制标签库，比如[JSTL core](http://docs.oracle.com/javaee/5/jstl/1.1/docs/tlddocs/c/tld-summary.html)，例如，在一个表格显示`List<Product>`
+* 如果你想执行一些Java代码来**控制JSP页面的数据渲染流程（control the flow inside a JSP page）**，那么你需要使用一些（已经存在的）流程控制标签库，比如[JSTL core](http://docs.oracle.com/javaee/5/jstl/1.1/docs/tlddocs/c/tld-summary.html)，例如，在一个表格显示`List<Product>`
 
 ```java
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
