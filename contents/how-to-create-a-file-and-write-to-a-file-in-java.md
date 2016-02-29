@@ -1,16 +1,16 @@
-## ÓÃjavaÔõÃ´Ñù´´½¨Ò»¸öÎÄ¼ş²¢Ïò¸ÃÎÄ¼şĞ´ÎÄ±¾ÄÚÈİ
+## ç”¨javaæ€ä¹ˆæ ·åˆ›å»ºä¸€ä¸ªæ–‡ä»¶å¹¶å‘è¯¥æ–‡ä»¶å†™æ–‡æœ¬å†…å®¹
 
-### ÎÊ£ºÔÚjavaÀï×î¼òµ¥µÄ´´½¨ÎÄ¼şĞ´ÎÄ¼şµÄ·½·¨ÊÇÊ²Ã´
+### é—®ï¼šåœ¨javaé‡Œæœ€ç®€å•çš„åˆ›å»ºæ–‡ä»¶å†™æ–‡ä»¶çš„æ–¹æ³•æ˜¯ä»€ä¹ˆ
 
-### ×î¼Ñ´ğ°¸:
-´´½¨Ò»¸öÎÄ±¾ÎÄ¼ş£¨×¢Òâ£ºÈç¹û¸ÃÎÄ¼ş´æÔÚ£¬Ôò»á¸²¸Ç¸ÃÎÄ¼ş£©
+### æœ€ä½³ç­”æ¡ˆ:
+åˆ›å»ºä¸€ä¸ªæ–‡æœ¬æ–‡ä»¶ï¼ˆæ³¨æ„ï¼šå¦‚æœè¯¥æ–‡ä»¶å­˜åœ¨ï¼Œåˆ™ä¼šè¦†ç›–è¯¥æ–‡ä»¶ï¼‰
 ````java
 PrintWriter writer = new PrintWriter("the-file-name.txt", "UTF-8");
 writer.println("The first line");
 writer.println("The second line");
 writer.close();
 ````
-´´½¨Ò»¸öÎ»¶ş½øÖÆÎÄ¼ş£¨Í¬Ñù»á¸²¸ÇÕâÎÄ¼ş£©
+åˆ›å»ºä¸€ä¸ªä½äºŒè¿›åˆ¶æ–‡ä»¶ï¼ˆåŒæ ·ä¼šè¦†ç›–è¿™æ–‡ä»¶ï¼‰
 ````java
 byte data[] = ...
 FileOutputStream out = new FileOutputStream("the-file-name");
@@ -18,15 +18,15 @@ out.write(data);
 out.close();
 ````
 
-Java 7+ ÓÃ»§¿ÉÒÔÓÃ[`File`](http://docs.oracle.com/javase/7/docs/api/index.html?java/nio/file/Files.html)ÀàÀ´Ğ´ÎÄ¼ş
-´´½¨Ò»¸öÎÄ±¾ÎÄ¼ş
+Java 7+ ç”¨æˆ·å¯ä»¥ç”¨[`File`](http://docs.oracle.com/javase/7/docs/api/index.html?java/nio/file/Files.html)ç±»æ¥å†™æ–‡ä»¶
+åˆ›å»ºä¸€ä¸ªæ–‡æœ¬æ–‡ä»¶
 ````java
 List<String> lines = Arrays.asList("The first line", "The second line");
 Path file = Paths.get("the-file-name.txt");
 Files.write(file, lines, Charset.forName("UTF-8"));
 //Files.write(file, lines, Charset.forName("UTF-8"), StandardOpenOption.APPEND);
 ````
-´´½¨Ò»¸ö¶ş½øÖÆÎÄ¼ş
+åˆ›å»ºä¸€ä¸ªäºŒè¿›åˆ¶æ–‡ä»¶
 ````java
 byte data[] = ...
 Path file = Paths.get("the-file-name");
@@ -34,23 +34,23 @@ Files.write(file, data);
 //Files.write(file, data, StandardOpenOption.APPEND);
 ````
 
-### ÆäËûµÄ´ğ°¸£¨1£©:
-ÔÚJava 7+ÖĞ
+### å…¶ä»–çš„ç­”æ¡ˆï¼ˆ1ï¼‰:
+åœ¨Java 7+ä¸­
 ````java
 try (Writer writer = new BufferedWriter(new OutputStreamWriter(
               new FileOutputStream("filename.txt"), "utf-8"))) {
    writer.write("something");
 }
 ````
-»¹ÓĞÒ»Ğ©ÊµÓÃµÄ·½·¨ÈçÏÂ£º
-* [`FileUtils.writeStringtoFile(..)`](https://commons.apache.org/proper/commons-io/apidocs/org/apache/commons/io/FileUtils.html#writeStringToFile%28java.io.File,%20java.lang.String,%20java.nio.charset.Charset%29) À´×ÔÓÚ commons-io °ü
-* [`Files.write(..)`](http://docs.guava-libraries.googlecode.com/git/javadoc/com/google/common/io/Files.html#write%28java.lang.CharSequence,%20java.io.File,%20java.nio.charset.Charset%29) À´×ÔÓÚ guava
+è¿˜æœ‰ä¸€äº›å®ç”¨çš„æ–¹æ³•å¦‚ä¸‹ï¼š
+* [`FileUtils.writeStringtoFile(..)`](https://commons.apache.org/proper/commons-io/apidocs/org/apache/commons/io/FileUtils.html#writeStringToFile%28java.io.File,%20java.lang.String,%20java.nio.charset.Charset%29) æ¥è‡ªäº commons-io åŒ…
+* [`Files.write(..)`](http://docs.guava-libraries.googlecode.com/git/javadoc/com/google/common/io/Files.html#write%28java.lang.CharSequence,%20java.io.File,%20java.nio.charset.Charset%29) æ¥è‡ªäº guava
 Note also that you can use a FileWriter, but it uses the default encoding, 
 which is often a bad idea - it's best to specify the encoding explicitly.
-»¹Òª×¢Òâ¿ÉÒÔÊ¹ÓÃ `FileWriter`£¬µ«ÊÇËüÊ¹ÓÃµÄÊÇÄ¬ÈÏ±àÂë£¬Õâ²»ÊÇºÜºÃµÄ·½·¨£¬×îºÃÊÇÃ÷È·Ö¸¶¨±àÂë
+è¿˜è¦æ³¨æ„å¯ä»¥ä½¿ç”¨ `FileWriter`ï¼Œä½†æ˜¯å®ƒä½¿ç”¨çš„æ˜¯é»˜è®¤ç¼–ç ï¼Œè¿™ä¸æ˜¯å¾ˆå¥½çš„æ–¹æ³•ï¼Œæœ€å¥½æ˜¯æ˜ç¡®æŒ‡å®šç¼–ç 
 
 
-ÏÂÃæÊÇÀ´×ÔÓÚprior-to-java-7µÄÔ­Ê¼·½·¨
+ä¸‹é¢æ˜¯æ¥è‡ªäºprior-to-java-7çš„åŸå§‹æ–¹æ³•
 ````java
 Writer writer = null;
 
@@ -64,9 +64,9 @@ try {
    try {writer.close();} catch (Exception ex) {/*ignore*/}
 }
 ````
-¿ÉÒÔ¿´[`Reading, Writing, and Creating Files`](http://docs.oracle.com/javase/tutorial/essential/io/file.html)(°üº¬NIO2)
+å¯ä»¥çœ‹[`Reading, Writing, and Creating Files`](http://docs.oracle.com/javase/tutorial/essential/io/file.html)(åŒ…å«NIO2)
 
-### ÆäËû´ğ°¸£¨2£©£º
+### å…¶ä»–ç­”æ¡ˆï¼ˆ2ï¼‰ï¼š
 ````java
 public class Program {
     public static void main(String[] args) {
@@ -85,11 +85,11 @@ public class Program {
 }
 ````
 
-### ÆäËû´ğ°¸£¨3£©£º
-Èç¹ûÒÑ¾­ÓĞÏëÒªĞ´µ½ÎÄ¼şÖĞµÄÄÚÈİ£¬[`java.nio.file.Files`](https://docs.oracle.com/javase/7/docs/api/java/nio/file/Files.html) ×÷Îª Java 7 ¸½¼Ó²¿·ÖµÄnative I/O£¬Ìá¹©ÁË¼òµ¥¸ßĞ§µÄ·½·¨À´ÊµÏÖÄãµÄÄ¿±ê
+### å…¶ä»–ç­”æ¡ˆï¼ˆ3ï¼‰ï¼š
+å¦‚æœå·²ç»æœ‰æƒ³è¦å†™åˆ°æ–‡ä»¶ä¸­çš„å†…å®¹ï¼Œ[`java.nio.file.Files`](https://docs.oracle.com/javase/7/docs/api/java/nio/file/Files.html) ä½œä¸º Java 7 é™„åŠ éƒ¨åˆ†çš„native I/Oï¼Œæä¾›äº†ç®€å•é«˜æ•ˆçš„æ–¹æ³•æ¥å®ç°ä½ çš„ç›®æ ‡
 
-»ù±¾ÉÏ´´½¨ÎÄ¼ş£¬Ğ´ÎÄ¼şÖ»ĞèÒªÒ»ĞĞ£¬¶øÇÒÊÇÖ»ĞèÒ»¸ö·½·¨µ÷ÓÃ£¡
-ÏÂÃæµÄÀı×Ó´´½¨²¢ÇÒĞ´ÁË6¸ö²»Í¬µÄÎÄ¼şÀ´Õ¹Ê¾ÊÇÔõÃ´Ê¹ÓÃµÄ
+åŸºæœ¬ä¸Šåˆ›å»ºæ–‡ä»¶ï¼Œå†™æ–‡ä»¶åªéœ€è¦ä¸€è¡Œï¼Œè€Œä¸”æ˜¯åªéœ€ä¸€ä¸ªæ–¹æ³•è°ƒç”¨ï¼
+ä¸‹é¢çš„ä¾‹å­åˆ›å»ºå¹¶ä¸”å†™äº†6ä¸ªä¸åŒçš„æ–‡ä»¶æ¥å±•ç¤ºæ˜¯æ€ä¹ˆä½¿ç”¨çš„
 
 ````java
 Charset utf8 = StandardCharsets.UTF_8;
@@ -110,8 +110,8 @@ try {
 }
 ````
 
-### ÆäËû´ğ°¸£¨4£©£º
-ÏÂÃæÊÇÒ»¸öĞ¡³ÌĞòÀ´´´½¨ºÍĞ´ÎÄ¼ş¡£¸Ã°æ±¾µÄ´úÂë±È½Ï³¤£¬µ«ÊÇ¿ÉÒÔÈİÒ×Àí½â
+### å…¶ä»–ç­”æ¡ˆï¼ˆ4ï¼‰ï¼š
+ä¸‹é¢æ˜¯ä¸€ä¸ªå°ç¨‹åºæ¥åˆ›å»ºå’Œå†™æ–‡ä»¶ã€‚è¯¥ç‰ˆæœ¬çš„ä»£ç æ¯”è¾ƒé•¿ï¼Œä½†æ˜¯å¯ä»¥å®¹æ˜“ç†è§£
 ````java
 import java.io.BufferedWriter;
 import java.io.File;
@@ -145,5 +145,5 @@ public class writer {
 
 
 
-stackoverflowÁ´½Ó£º
+stackoverflowé“¾æ¥ï¼š
 http://stackoverflow.com/questions/2885173/how-to-create-a-file-and-write-to-a-file-in-java
