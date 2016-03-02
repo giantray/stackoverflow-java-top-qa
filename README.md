@@ -14,7 +14,7 @@ stackoverflow-Java-top-qa
 - 另外，为了避免多人重复新翻译一个问题，你可以提issue，说明你计划翻译的问题及时间点，我可以先更新到下面的”未翻译问题“中，说明已有人领了这个问题。当然，也不一定要提issue，一般情况下，只要及时提pr，我及时审核，出现”撞车“的概率并不高。
 
 一些基本的约定：
-- 文档的文件名，和stackoverflow上的url保持一致。例如，http://stackoverflow.com/questions/8710619/java-operator 的文件名， 就是java-operator.md
+- 文档的文件名，和stackoverflowhich-notnull-java-annotation-should-i-usew上的url保持一致。例如，http://stackoverflow.com/questions/8710619/java-operator 的文件名， 就是java-operator.md
 - 在每篇翻译文档内容的最后，要附上stackoverflow的原文链接
 
 每个人可以做（但不限于）：
@@ -67,6 +67,8 @@ stackoverflow-Java-top-qa
 * [如何产生一个随机的字母数字串作为 session 的唯一标识符](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/How_to_generate_a_random_alpha-numeric_string.md)
 * [如何创建单例](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/What_is_an_efficient_way_to_implement_a_singleton_in_Java.md)
 * [实现Runnable接口  VS. 继承Thread类](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/implements-runnable-vs-extends-thread.md)
+* [我应该用哪一个@NotNull注解](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/which-notnull-java-annotation-should-i-use.md)
+
 
 > 网络
 
@@ -140,7 +142,6 @@ stackoverflow-Java-top-qa
 - [What is the difference between JSF, Servlet and JSP?](http://stackoverflow.com/questions/2095397/what-is-the-difference-between-jsf-servlet-and-jsp)
 - [How do I “decompile” Java class files?](http://stackoverflow.com/questions/272535/how-do-i-decompile-java-class-files)
 - [Useful Eclipse Java Code Templates [closed]](http://stackoverflow.com/questions/1028858/useful-eclipse-java-code-templates)
-- [Which @NotNull Java annotation should I use?](http://stackoverflow.com/questions/4963300/which-notnull-java-annotation-should-i-use)
 - [How to call SOAP web service in Android](http://stackoverflow.com/questions/297586/how-to-call-soap-web-service-in-android)
 
 ### contributors
