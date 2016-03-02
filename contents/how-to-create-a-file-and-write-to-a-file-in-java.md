@@ -1,4 +1,4 @@
-## 用java怎么样创建一个文件并向该文件写文本内容
+## 用java怎么创建一个文件并向该文件写文本内容
 
 ### 问：在java里最简单的创建文件写文件的方法是什么
 
@@ -10,7 +10,7 @@ writer.println("The first line");
 writer.println("The second line");
 writer.close();
 ````
-创建一个位二进制文件（同样会覆盖这文件）
+创建一个二进制文件（同样会覆盖这文件）
 ````java
 byte data[] = ...
 FileOutputStream out = new FileOutputStream("the-file-name");
@@ -45,6 +45,7 @@ try (Writer writer = new BufferedWriter(new OutputStreamWriter(
 还有一些实用的方法如下：
 * [`FileUtils.writeStringtoFile(..)`](https://commons.apache.org/proper/commons-io/apidocs/org/apache/commons/io/FileUtils.html#writeStringToFile%28java.io.File,%20java.lang.String,%20java.nio.charset.Charset%29) 来自于 commons-io 包
 * [`Files.write(..)`](http://docs.guava-libraries.googlecode.com/git/javadoc/com/google/common/io/Files.html#write%28java.lang.CharSequence,%20java.io.File,%20java.nio.charset.Charset%29) 来自于 guava
+
 Note also that you can use a FileWriter, but it uses the default encoding, 
 which is often a bad idea - it's best to specify the encoding explicitly.
 还要注意可以使用 `FileWriter`，但是它使用的是默认编码，这不是很好的方法，最好是明确指定编码

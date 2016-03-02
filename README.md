@@ -51,6 +51,7 @@ stackoverflow-Java-top-qa
 * [反射是什么及其用途](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/What-is-reflection-and-why-is-it-useful.md)
 * [为什么不能用string类型进行switch判断](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/Why-can't-I-switch-on-a-String.md)
 * [比较java枚举成员使用equal还是==](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/comparing-java-enum-members-or-equals.md)
+* [用java怎么创建一个文件并向该文件写文本内容](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/how-to-create-a-file-and-write-to-a-file-in-java.md)
 
 > 编程技巧
 
@@ -137,7 +138,6 @@ stackoverflow-Java-top-qa
 - [Why does Math.round(0.49999999999999994) return 1](http://stackoverflow.com/questions/9902968/why-does-math-round0-49999999999999994-return-1)
 - [Eclipse: Set maximum line length for auto formatting?](http://stackoverflow.com/questions/3697287/eclipse-set-maximum-line-length-for-auto-formatting)
 - [What is the difference between a soft reference and a weak reference in Java?](http://stackoverflow.com/questions/299659/what-is-the-difference-between-a-soft-reference-and-a-weak-reference-in-java)
-- [How to create a file and write to a file in Java?](http://stackoverflow.com/questions/2885173/how-to-create-a-file-and-write-to-a-file-in-java)
 - [What is the equivalent of the C++ Pair<L,R> in Java?](http://stackoverflow.com/questions/156275/what-is-the-equivalent-of-the-c-pairl-r-in-java)
 - [What is the difference between JSF, Servlet and JSP?](http://stackoverflow.com/questions/2095397/what-is-the-difference-between-jsf-servlet-and-jsp)
 - [How do I “decompile” Java class files?](http://stackoverflow.com/questions/272535/how-do-i-decompile-java-class-files)
