@@ -10,7 +10,7 @@ int num =(int)(Math.random() * 11);
 
 ``` 
 
-那如何产生 “5《= 随机数 <= 10” 的随机数呢?
+那如何产生 “5 <= 随机数 <= 10” 的随机数呢?
 
 ```
 int num = 5 + (int)(Math.random() * 6);
@@ -29,7 +29,7 @@ int num = min + (int)(Math.random() * (max-min+1));
 
 Random 是 java 提供的一个伪随机数生成器。
 
-生成 “min <= 随机数 <= max ” 的随机数：
+生成 “ min <= 随机数 <= max ” 的随机数：
 
 ```
 import java.util.Random;
