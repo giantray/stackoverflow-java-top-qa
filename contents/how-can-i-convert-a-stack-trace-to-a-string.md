@@ -34,3 +34,6 @@ public String stackTraceToString(Throwable e) {
     return sb.toString();
 }
 ````
+
+stackoverflow链接：
+http://stackoverflow.com/questions/1149703/how-can-i-convert-a-stack-trace-to-a-string
