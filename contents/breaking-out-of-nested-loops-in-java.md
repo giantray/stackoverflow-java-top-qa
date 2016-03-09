@@ -14,7 +14,7 @@ for (Type type : types) {
 
 ###回答
 
-可以用brea+label的语法，例子如下
+可以用break+label的语法，例子如下
 ```java
 public class Test {  
   public static void main(String[] args) {  
