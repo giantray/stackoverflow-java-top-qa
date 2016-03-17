@@ -70,6 +70,7 @@ stackoverflow-Java-top-qa
 * [实现Runnable接口  VS. 继承Thread类](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/implements-runnable-vs-extends-thread.md)
 * [我应该用哪一个@NotNull注解](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/which-notnull-java-annotation-should-i-use.md)
 * [怎样将堆栈追踪信息转换为字符串](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/how-can-i-convert-a-stack-trace-to-a-string.md)
+* [如何处理 java.lang.outOfMemoryError PermGen space error](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/dealing-with-java-lang-outofmemoryerror-permgen-space-error.md)
 
 
 > 网络
@@ -98,7 +99,6 @@ stackoverflow-Java-top-qa
 - [Why is printing “B” dramatically slower than printing “#”?](http://stackoverflow.com/questions/21947452/why-is-printing-b-dramatically-slower-than-printing)
 - [How can I create an executable jar with dependencies using Maven?](http://stackoverflow.com/questions/574594/how-can-i-create-an-executable-jar-with-dependencies-using-maven)
 - [Why is executing Java code in comments with certain Unicode characters allowed?](http://stackoverflow.com/questions/30727515/why-is-executing-java-code-in-comments-with-certain-unicode-characters-allowed)
-- [Dealing with “java.lang.OutOfMemoryError: PermGen space” error](http://stackoverflow.com/questions/88235/dealing-with-java-lang-outofmemoryerror-permgen-space-error)
 - [Convert a String to an enum in Java](http://stackoverflow.com/questions/604424/convert-a-string-to-an-enum-in-java)
 - [Android SDK installation doesn't find JDK](http://stackoverflow.com/questions/4382178/android-sdk-installation-doesnt-find-jdk)
 - [Java inner class and static nested class](http://stackoverflow.com/questions/70324/java-inner-class-and-static-nested-class)
