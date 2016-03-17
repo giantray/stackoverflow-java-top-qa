@@ -1,4 +1,4 @@
-#怎么样将堆栈追踪信息转换为字符串类型
+#怎样将堆栈追踪信息转换为字符串
 ##问题
 将`Throwable.getStackTrace()`的结果转换为一个字符串来来描述堆栈信息的最简单的方法是什么
 
@@ -8,7 +8,7 @@
 [`org.apache.commons.lang.exception.ExceptionUtils.getStackTrace(Throwable)`](org.apache.commons.lang.exception.ExceptionUtils.getStackTrace\(Throwable\))
 
 ###答案二
-用 [`Throwable.printStackTrace(PrintWriter pw)`](https://docs.oracle.com/javase/8/docs/api/java/lang/Throwable.html#printStackTrace-java.io.PrintWriter-)将对堆栈信息发送到一个输出中：
+用 [`Throwable.printStackTrace(PrintWriter pw)`](https://docs.oracle.com/javase/8/docs/api/java/lang/Throwable.html#printStackTrace-java.io.PrintWriter-)可以输出堆栈信息：
 ````java
 StringWriter sw = new StringWriter();
 PrintWriter pw = new PrintWriter(sw);

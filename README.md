@@ -69,6 +69,7 @@ stackoverflow-Java-top-qa
 * [如何创建单例](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/What_is_an_efficient_way_to_implement_a_singleton_in_Java.md)
 * [实现Runnable接口  VS. 继承Thread类](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/implements-runnable-vs-extends-thread.md)
 * [我应该用哪一个@NotNull注解](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/which-notnull-java-annotation-should-i-use.md)
+* [怎样将堆栈追踪信息转换为字符串](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/how-can-i-convert-a-stack-trace-to-a-string.md)
 
 
 > 网络
@@ -108,7 +109,6 @@ stackoverflow-Java-top-qa
 - [Comparing Java enum members: == or equals()?](http://stackoverflow.com/questions/1750435/comparing-java-enum-members-or-equals)
 - [Failed to load the JNI shared Library (JDK)](http://stackoverflow.com/questions/7352493/failed-to-load-the-jni-shared-library-jdk)
 - [How to create a Java String from the contents of a file?](http://stackoverflow.com/questions/326390/how-to-create-a-java-string-from-the-contents-of-a-file)
-- [How can I convert a stack trace to a string?](http://stackoverflow.com/questions/1149703/how-can-i-convert-a-stack-trace-to-a-string)
 - [How do you assert that a certain exception is thrown in JUnit 4 tests?](http://stackoverflow.com/questions/156503/how-do-you-assert-that-a-certain-exception-is-thrown-in-junit-4-tests)
 - [What exactly is Apache Camel?](http://stackoverflow.com/questions/8845186/what-exactly-is-apache-camel)
 - [How can I permanently have line numbers in IntelliJ?](http://stackoverflow.com/questions/13751/how-can-i-permanently-have-line-numbers-in-intellij)
