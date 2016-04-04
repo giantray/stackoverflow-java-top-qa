@@ -5,7 +5,7 @@
 第一个矩阵：O和#  
 第二个矩阵：O和B  
 使用一下代码，第一个矩阵仅用时8.25s就完成了：  
-`
+```java
 Random r = new Random();
 for (int i = 0; i < 1000; i++) {
     for (int j = 0; j < 1000; j++) {
@@ -18,9 +18,9 @@ for (int i = 0; i < 1000; i++) {
 
    System.out.println("");
  }
-`
+````
 而使用相同的代码时，第二个矩阵却执行了259.152s  
-`
+````java
 Random r = new Random();
 for (int i = 0; i < 1000; i++) {
     for (int j = 0; j < 1000; j++) {
@@ -33,7 +33,7 @@ for (int i = 0; i < 1000; i++) {
 
    System.out.println("");
  }
-` 
+````
 为什么两者的执行时间会有如此巨大的差距？   
 ---
 评论中一些人建议仅执行`System.out.print("#");`以及`System.out.print("B");`，前者用时7.8871s，而后者仍然在打印（即花费时间过多--译者注）   
