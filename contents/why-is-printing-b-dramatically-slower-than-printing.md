@@ -50,7 +50,7 @@ for (int i = 0; i < 1000; i++) {
 
 
 **译者注：**
-对于"word-wrapping"和"character-wrapping"，我的理解是，换行时不在一个单词内部分割，例如需要在 charac-ter 中的-处换行，"word-wrapping"会将 character 全部移到下一行，而"character-wrapping"则将ter移到下一行，而charac依旧在原来的位置   
+对于"word-wrapping"和"character-wrapping"，我的理解是，它们的区别在于换行时是否在一个单词内部分割，例如在 charac-ter 中的-处换行，"word-wrapping"会将character全部移到下一行，而"character-wrapping"则将ter移到下一行，而charac依旧在原来的位置   
 "word-wrapping"
 ```
 *******
