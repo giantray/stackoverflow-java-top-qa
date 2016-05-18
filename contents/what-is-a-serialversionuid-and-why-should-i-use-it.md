@@ -127,7 +127,7 @@ public void testversion1LWithExtraEmail() throws Exception {
 private static final long serialVersionUID = 2L;
 ```
 
-再次进行序列化，则会报错，如下:
+再次进行反序列化，则会报错，如下:
 ```
 java.io.InvalidClassException:Person local class incompatible: stream classdesc serialVersionUID = 1, local class serialVersionUID = 2
 ```
