@@ -1,10 +1,11 @@
+
 stackoverflow-Java-top-qa
 =======================
     对stackoverflow上Java相关、投票数TOP100的问答进行翻译，欢迎点star，我们会持续更新!!!
 
     为了让“翻译”更有意义，给阅读者带来更多、更有效的收获，我们会有一些加工：
     例如，对问题进行分类，整合多个答案、删除冗余内容、加上自己的验证结果、心得等等
-
+    
     对于参与翻译的人，这也是很好的一个学习、理解过程，欢迎大家一起来翻译
 
 -------------
@@ -72,6 +73,7 @@ stackoverflow-Java-top-qa
 * [我应该用哪一个@NotNull注解](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/which-notnull-java-annotation-should-i-use.md)
 * [怎样将堆栈追踪信息转换为字符串](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/how-can-i-convert-a-stack-trace-to-a-string.md)
 * [如何处理 java.lang.outOfMemoryError PermGen space error](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/dealing-with-java-lang-outofmemoryerror-permgen-space-error.md)
+* [如何用0向左补齐一个整数](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/how-can-i-pad-an-integers-with-zeros-on-the-left.md)
 
 
 > 网络
@@ -83,6 +85,8 @@ stackoverflow-Java-top-qa
 * [LinkedList、ArrayList各自的使用场景，如何确认应该用哪一个呢？](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/when-to-use-linkedlist-over-arraylist.md)
 * [StringBuilder和StringBuffer有哪些区别呢](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/stringbuilder-and-stringbuffer.md)
 * [为什么处理排序的数组要比非排序的快](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/why-is-processing-a-sorted-array-faster-than-an-unsorted-array.md)
+* [如何使用Java创建一个内存泄漏的程序](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/creating-a-memory-leak-with-java.md)
+* [为什么打印“B”会明显的比打印“#”慢](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/why-is-printing-b-dramatically-slower-than-printing.md)
 
 > 测试
 
@@ -96,8 +100,6 @@ stackoverflow-Java-top-qa
 ### 待翻译问题链接(还剩x问题)
 - [Why is subtracting these two times (in 1927) giving a strange result?](http://stackoverflow.com/questions/6841333/why-is-subtracting-these-two-times-in-1927-giving-a-strange-result)
 - [Proper use cases for Android UserManager.isUserAGoat()?](http://stackoverflow.com/questions/13375357/proper-use-cases-for-android-usermanager-isuseragoat)
-- [Creating a memory leak with Java [closed]](http://stackoverflow.com/questions/6470651/creating-a-memory-leak-with-java) 用户AutumnLight正在翻译该问题
-- [Why is printing “B” dramatically slower than printing “#”?](http://stackoverflow.com/questions/21947452/why-is-printing-b-dramatically-slower-than-printing)
 - [How can I create an executable jar with dependencies using Maven?](http://stackoverflow.com/questions/574594/how-can-i-create-an-executable-jar-with-dependencies-using-maven)
 - [Why is executing Java code in comments with certain Unicode characters allowed?](http://stackoverflow.com/questions/30727515/why-is-executing-java-code-in-comments-with-certain-unicode-characters-allowed)
 - [Convert a String to an enum in Java](http://stackoverflow.com/questions/604424/convert-a-string-to-an-enum-in-java)
