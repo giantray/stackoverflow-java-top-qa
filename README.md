@@ -54,6 +54,7 @@ stackoverflow-Java-top-qa
 * [比较java枚举成员使用equal还是==](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/comparing-java-enum-members-or-equals.md)
 * [用java怎么创建一个文件并向该文件写文本内容](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/how-to-create-a-file-and-write-to-a-file-in-java.md)
 * [serialVersionUID 有什么作用？该如何使用？](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/what-is-a-serialversionuid-and-why-should-i-use-it.md)
+* [为什么Java的```Vector```类被认为是过时的或者废弃的](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/why-is-java-vector-class-considered-obsolete-or-deprecated.md)
 
 > 编程技巧
 
@@ -132,7 +133,6 @@ stackoverflow-Java-top-qa
 - [How can I pad an integers with zeros on the left?](http://stackoverflow.com/questions/473282/how-can-i-pad-an-integers-with-zeros-on-the-left)
 - [Sort ArrayList of custom Objects by property](http://stackoverflow.com/questions/2784514/sort-arraylist-of-custom-objects-by-property)
 - [What's the difference between @Component, @Repository & @Service annotations in Spring?](http://stackoverflow.com/questions/6827752/whats-the-difference-between-component-repository-service-annotations-in)
-- [Why is Java Vector class considered obsolete or deprecated?](http://stackoverflow.com/questions/1386275/why-is-java-vector-class-considered-obsolete-or-deprecated)
 - [Efficiency of Java “Double Brace Initialization”?](http://stackoverflow.com/questions/924285/efficiency-of-java-double-brace-initialization)
 - [Why does this go into an infinite loop?](http://stackoverflow.com/questions/3831341/why-does-this-go-into-an-infinite-loop)
 - [When and how should I use a ThreadLocal variable?](http://stackoverflow.com/questions/817856/when-and-how-should-i-use-a-threadlocal-variable)
