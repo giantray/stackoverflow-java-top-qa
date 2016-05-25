@@ -75,7 +75,8 @@ stackoverflow-Java-top-qa
 * [我应该用哪一个@NotNull注解](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/which-notnull-java-annotation-should-i-use.md)
 * [怎样将堆栈追踪信息转换为字符串](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/how-can-i-convert-a-stack-trace-to-a-string.md)
 * [如何处理 java.lang.outOfMemoryError PermGen space error](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/dealing-with-java-lang-outofmemoryerror-permgen-space-error.md)
-* [如何用0向左补齐一个整数](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/how-can-i-pad-an-integers-with-zeros-on-the-left.md)
+* [如何在整数左填充0](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/how-can-i-pad-an-integers-with-zeros-on-the-left.md)
+* [在调用 instanceof 前需要进行null检查吗](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/is-null-check-needed-before-calling-instanceof.md)
 
 
 > 网络
@@ -126,7 +127,6 @@ stackoverflow-Java-top-qa
 - [Update Eclipse with Android development tools v. 23](http://stackoverflow.com/questions/24437564/update-eclipse-with-android-development-tools-v-23)
 - [Setting multiple jars in java classpath](http://stackoverflow.com/questions/219585/setting-multiple-jars-in-java-classpath)
 - [Iterating through a list, avoiding ConcurrentModificationException when removing in loop](http://stackoverflow.com/questions/223918/iterating-through-a-list-avoiding-concurrentmodificationexception-when-removing)
-- [Is null check needed before calling instanceof](http://stackoverflow.com/questions/2950319/is-null-check-needed-before-calling-instanceof)
 - [What is the Java equivalent for LINQ?](http://stackoverflow.com/questions/1217228/what-is-the-java-equivalent-for-linq)
 - [Hibernate hbm2ddl.auto possible values and what they do?](http://stackoverflow.com/questions/438146/hibernate-hbm2ddl-auto-possible-values-and-what-they-do)
 - [How to round a number to n decimal places in Java](http://stackoverflow.com/questions/153724/how-to-round-a-number-to-n-decimal-places-in-java)
