@@ -55,6 +55,7 @@ stackoverflow-Java-top-qa
 * [用java怎么创建一个文件并向该文件写文本内容](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/how-to-create-a-file-and-write-to-a-file-in-java.md)
 * [serialVersionUID 有什么作用？该如何使用？](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/what-is-a-serialversionuid-and-why-should-i-use-it.md)
 * [为什么Java的```Vector```类被认为是过时的或者废弃的](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/why-is-java-vector-class-considered-obsolete-or-deprecated.md)
+* [Java的foreach循环是如何工作的](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/how-does-the-java-for-each-loop-work.md)
 
 > 编程技巧
 
@@ -126,7 +127,6 @@ stackoverflow-Java-top-qa
 - [Setting multiple jars in java classpath](http://stackoverflow.com/questions/219585/setting-multiple-jars-in-java-classpath)
 - [Iterating through a list, avoiding ConcurrentModificationException when removing in loop](http://stackoverflow.com/questions/223918/iterating-through-a-list-avoiding-concurrentmodificationexception-when-removing)
 - [Is null check needed before calling instanceof](http://stackoverflow.com/questions/2950319/is-null-check-needed-before-calling-instanceof)
-- [How does the Java for each loop work?](http://stackoverflow.com/questions/85190/how-does-the-java-for-each-loop-work)
 - [What is the Java equivalent for LINQ?](http://stackoverflow.com/questions/1217228/what-is-the-java-equivalent-for-linq)
 - [Hibernate hbm2ddl.auto possible values and what they do?](http://stackoverflow.com/questions/438146/hibernate-hbm2ddl-auto-possible-values-and-what-they-do)
 - [How to round a number to n decimal places in Java](http://stackoverflow.com/questions/153724/how-to-round-a-number-to-n-decimal-places-in-java)
