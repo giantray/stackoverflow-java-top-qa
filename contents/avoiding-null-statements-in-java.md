@@ -75,7 +75,8 @@ if (parser == null) {
 }
 Action action = parser.findAction(someInput);
 if (action == null) {
-  // do nothing} else {
+  // do nothing} 
+else {
   action.doSomething();}
 ```
 
@@ -95,7 +96,7 @@ ParserFactory.getParser().findAction(someInput).doSomething();
 而不是
 `foo.equals("bar") `
 - Java8或者guava lib中，提供了Optional类，这是一个元素容器，通过它来封装对象，可以减少判空。不过代码量还是不少。不爽。
-- 如果你想返回null，请挺下来想一想，这个地方是否更应该抛出一个异常
+- 如果你想返回null，请停下来想一想，这个地方是否更应该抛出一个异常
 
 stackoverflow链接：
 http://stackoverflow.com/questions/271526/avoiding-null-statements-in-java?page=2&tab=votes#tab-top
