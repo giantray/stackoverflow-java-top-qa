@@ -1,7 +1,9 @@
-# serialVersionUID 有什么作用？该如何使用？
+﻿# serialVersionUID 有什么作用？该如何使用？
+##问题
 
 当一个对象实现 Serializable 接口时，多数 ide 会提示声明一个静态常量 serialVersionUID(版本标识），那 serialVersionUID 到底有什么作用呢？应该如何使用 serialVersionUID ？
 
+##回答
 serialVersionUID 是实现 Serializable 接口而来的，而 Serializable 则是应用于Java 对象序列化/反序列化。对象的序列化主要有两种用途:
 
 - 把对象序列化成字节码，保存到指定介质上(如磁盘等)
@@ -125,7 +127,7 @@ public void testversion1LWithExtraEmail() throws Exception {
 private static final long serialVersionUID = 2L;
 ```
 
-再次进行序列化，则会报错，如下:
+再次进行反序列化，则会报错，如下:
 ```
 java.io.InvalidClassException:Person local class incompatible: stream classdesc serialVersionUID = 1, local class serialVersionUID = 2
 ```

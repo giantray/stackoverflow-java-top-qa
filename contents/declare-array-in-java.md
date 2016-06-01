@@ -17,7 +17,7 @@ int[] myIntArray = new int[]{1, 2, 3};
 ```
 String[] myStringArray = new String[3];
 String[] myStringArray = {"a", "b","c"};
-String[] myStringArray = new String[]("a", "b", "c");
+String[] myStringArray = new String[]{"a", "b", "c"};
 ```
 [stackoverflow链接：Declare array in Java?](http://stackoverflow.com/questions/1200621/declare-array-in-java)
 
