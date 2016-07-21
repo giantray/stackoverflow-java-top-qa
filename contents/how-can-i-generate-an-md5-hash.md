@@ -9,7 +9,7 @@ Java中有没有方法可以计算一个String的MD5值？
 
 使用 ```MessageDigest``` 和 String 时，一定要显式声明你的数据编码类型。如果你使用无参的 ```String.getBytes()``` , 它会以当前平台的默认编码来转换数据。不同平台的默认编码可能是不同的。
 
-```
+``` java
 import java.security.*;
 
 ..
