@@ -57,3 +57,4 @@ Locale(Locale.getDefault()): zh_CN
 
 这只是美好但奇怪的世界时区中的一个插曲。
 
+stackoverflow链接：[Why is subtracting these two times (in 1927) giving a strange result?](http://stackoverflow.com/questions/6841333/why-is-subtracting-these-two-times-in-1927-giving-a-strange-result)
