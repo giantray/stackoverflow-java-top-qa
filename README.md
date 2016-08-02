@@ -56,7 +56,10 @@ stackoverflow-Java-top-qa
 * [serialVersionUID 有什么作用？该如何使用？](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/what-is-a-serialversionuid-and-why-should-i-use-it.md)
 * [为什么Java的```Vector```类被认为是过时的或者废弃的](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/why-is-java-vector-class-considered-obsolete-or-deprecated.md)
 * [Java的foreach循环是如何工作的](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/how-does-the-java-for-each-loop-work.md)
-* [为什么相减这两个时间（1927年）会得到奇怪的结果](/contens/why-is-subtracting-these-two-times-(in-1927)-giving-a-strange-result.md)
+* [为什么相减这两个时间（1927年）会得到奇怪的结果](/contents/why-is-subtracting-these-two-times-(in-1927)-giving-a-strange-result.md)
+* [Java 中如何将 String 转换为 enum](/contents/lookup-enum-by-string-value.md)
+* [该什么时候使用 ThreadLocal变量，它是如何工作的](/contents/when-and-how-should-i-use-a-threadlocal-variable.md)
+* [servlets的运行原理](/contents/how-do-servlets-work-instantiation-shared-variables-and-multithreading.md)
 
 > 编程技巧
 
@@ -118,7 +121,6 @@ stackoverflow-Java-top-qa
 - [How do you assert that a certain exception is thrown in JUnit 4 tests?](http://stackoverflow.com/questions/156503/how-do-you-assert-that-a-certain-exception-is-thrown-in-junit-4-tests)
 - [What exactly is Apache Camel?](http://stackoverflow.com/questions/8845186/what-exactly-is-apache-camel)
 - [How can I permanently have line numbers in IntelliJ?](http://stackoverflow.com/questions/13751/how-can-i-permanently-have-line-numbers-in-intellij)
-- [How do servlets work? Instantiation, shared variables and multithreading](http://stackoverflow.com/questions/3106452/how-do-servlets-work-instantiation-shared-variables-and-multithreading)
 - [Access restriction on class due to restriction on required library rt.jar?](http://stackoverflow.com/questions/860187/access-restriction-on-class-due-to-restriction-on-required-library-rt-jar)
 - [How do I discover memory usage of my application in Android?](http://stackoverflow.com/questions/2298208/how-do-i-discover-memory-usage-of-my-application-in-android)
 - [How can I generate an MD5 hash?](http://stackoverflow.com/questions/415953/how-can-i-generate-an-md5-hash)
@@ -129,13 +131,11 @@ stackoverflow-Java-top-qa
 - [Iterating through a list, avoiding ConcurrentModificationException when removing in loop](http://stackoverflow.com/questions/223918/iterating-through-a-list-avoiding-concurrentmodificationexception-when-removing)
 - [What is the Java equivalent for LINQ?](http://stackoverflow.com/questions/1217228/what-is-the-java-equivalent-for-linq)
 - [Hibernate hbm2ddl.auto possible values and what they do?](http://stackoverflow.com/questions/438146/hibernate-hbm2ddl-auto-possible-values-and-what-they-do)
-- [How to round a number to n decimal places in Java](http://stackoverflow.com/questions/153724/how-to-round-a-number-to-n-decimal-places-in-java)
 - [How can I pad an integers with zeros on the left?](http://stackoverflow.com/questions/473282/how-can-i-pad-an-integers-with-zeros-on-the-left)
 - [Sort ArrayList of custom Objects by property](http://stackoverflow.com/questions/2784514/sort-arraylist-of-custom-objects-by-property)
 - [What's the difference between @Component, @Repository & @Service annotations in Spring?](http://stackoverflow.com/questions/6827752/whats-the-difference-between-component-repository-service-annotations-in)
 - [Efficiency of Java “Double Brace Initialization”?](http://stackoverflow.com/questions/924285/efficiency-of-java-double-brace-initialization)
 - [Why does this go into an infinite loop?](http://stackoverflow.com/questions/3831341/why-does-this-go-into-an-infinite-loop)
-- [When and how should I use a ThreadLocal variable?](http://stackoverflow.com/questions/817856/when-and-how-should-i-use-a-threadlocal-variable)
 - [decompiling DEX into Java sourcecode](http://stackoverflow.com/questions/1249973/decompiling-dex-into-java-sourcecode)
 - [How to create a generic array in Java?](http://stackoverflow.com/questions/529085/how-to-create-a-generic-array-in-java)
 - [Why does Math.round(0.49999999999999994) return 1](http://stackoverflow.com/questions/9902968/why-does-math-round0-49999999999999994-return-1)
