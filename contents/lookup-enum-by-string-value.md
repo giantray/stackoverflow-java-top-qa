@@ -83,7 +83,7 @@ public static <T extends Enum<T>> T getEnumFromString(Class<T> c, String string)
 public static MyEnum fromString(String name) {
     return getEnumFromString(MyEnum.class, name);
 }
-``` 
+```
 如果的enums不是全部大写,只需要修改 `Enum.valueOf` 这一行。
 很遗憾，我不能使用 `T.class` 传给 `Enum.valueOf`,因为 `T`会被擦出。 
 
@@ -100,7 +100,7 @@ _完整方法签名 `Optional<T> getIfPresent(Class<T> enumClass, String value)`
 
 ---
 _其他的答案都大同小异,感兴趣的可以看原帖_
-_原帖:[Convert a String to an enum in Java](http://stackoverflow.com/questions/604424/lookup-enum-by-string-value)_
+stackoverflow链接
+http://stackoverflow.com/questions/604424/lookup-enum-by-string-value
 _译者:[MagicWolf](https://github.com/DaiDongLiang)_
-
 
