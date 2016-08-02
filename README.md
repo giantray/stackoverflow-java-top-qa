@@ -56,6 +56,7 @@ stackoverflow-Java-top-qa
 * [serialVersionUID 有什么作用？该如何使用？](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/what-is-a-serialversionuid-and-why-should-i-use-it.md)
 * [为什么Java的```Vector```类被认为是过时的或者废弃的](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/why-is-java-vector-class-considered-obsolete-or-deprecated.md)
 * [Java的foreach循环是如何工作的](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/how-does-the-java-for-each-loop-work.md)
+* [为什么相减这两个时间（1927年）会得到奇怪的结果](/contens/why-is-subtracting-these-two-times-(in-1927)-giving-a-strange-result.md)
 
 > 编程技巧
 
@@ -101,7 +102,6 @@ stackoverflow-Java-top-qa
 * [如何获取Android设备唯一ID](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/is-there-a-unique-android-device-id.md)
 
 ### 待翻译问题链接(还剩x问题)
-- [Why is subtracting these two times (in 1927) giving a strange result?](http://stackoverflow.com/questions/6841333/why-is-subtracting-these-two-times-in-1927-giving-a-strange-result)
 - [Proper use cases for Android UserManager.isUserAGoat()?](http://stackoverflow.com/questions/13375357/proper-use-cases-for-android-usermanager-isuseragoat)
 - [How can I create an executable jar with dependencies using Maven?](http://stackoverflow.com/questions/574594/how-can-i-create-an-executable-jar-with-dependencies-using-maven)
 - [Why is executing Java code in comments with certain Unicode characters allowed?](http://stackoverflow.com/questions/30727515/why-is-executing-java-code-in-comments-with-certain-unicode-characters-allowed)
