@@ -56,7 +56,7 @@ stackoverflow-Java-top-qa
 * [serialVersionUID 有什么作用？该如何使用？](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/what-is-a-serialversionuid-and-why-should-i-use-it.md)
 * [为什么Java的```Vector```类被认为是过时的或者废弃的](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/why-is-java-vector-class-considered-obsolete-or-deprecated.md)
 * [Java的foreach循环是如何工作的](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/how-does-the-java-for-each-loop-work.md)
-* [为什么相减这两个时间（1927年）会得到奇怪的结果](/contents/why-is-subtracting-these-two-times-(in-1927)-giving-a-strange-result.md)
+* [为什么相减这两个时间（1927年）会得到奇怪的结果](/contents/why-is-subtracting-these-two-times-in-1927-giving-a-strange-result.md)
 * [Java 中如何将 String 转换为 enum](/contents/lookup-enum-by-string-value.md)
 * [该什么时候使用 ThreadLocal变量，它是如何工作的](/contents/when-and-how-should-i-use-a-threadlocal-variable.md)
 * [servlets的运行原理](/contents/how-do-servlets-work-instantiation-shared-variables-and-multithreading.md)
