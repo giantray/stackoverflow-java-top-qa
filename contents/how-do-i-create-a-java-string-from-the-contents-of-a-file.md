@@ -48,6 +48,8 @@ String content = readFile("test.txt", Charset.defaultCharset());
 
 注： 这个答案与之前Java6版本时的答案完全不同。Java 7 新增的工具类极大的优化了字符处理，文件读取等功能。Java 6 常用的内存映射方法已不适合在Java 7 以后的版本使用。
 
-
+### 原文链接
+http://stackoverflow.com/questions/326390/how-do-i-create-a-java-string-from-the-contents-of-a-file
+   
 
 
