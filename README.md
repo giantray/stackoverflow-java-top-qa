@@ -61,6 +61,7 @@ stackoverflow-Java-top-qa
 * [该什么时候使用 ThreadLocal变量，它是如何工作的](/contents/when-and-how-should-i-use-a-threadlocal-variable.md)
 * [servlets的运行原理](/contents/how-do-servlets-work-instantiation-shared-variables-and-multithreading.md)
 * [如何计算MD5值](/contents/how-can-i-generate-an-md5-hash.md)
+* [Java中软引用和弱引用的区别](/what-is-the-difference-between-a-soft-reference-and-a-weak-reference-in-java.md)
 
 > 编程技巧
 
@@ -140,7 +141,6 @@ stackoverflow-Java-top-qa
 - [How to create a generic array in Java?](http://stackoverflow.com/questions/529085/how-to-create-a-generic-array-in-java)
 - [Why does Math.round(0.49999999999999994) return 1](http://stackoverflow.com/questions/9902968/why-does-math-round0-49999999999999994-return-1)
 - [Eclipse: Set maximum line length for auto formatting?](http://stackoverflow.com/questions/3697287/eclipse-set-maximum-line-length-for-auto-formatting)
-- [What is the difference between a soft reference and a weak reference in Java?](http://stackoverflow.com/questions/299659/what-is-the-difference-between-a-soft-reference-and-a-weak-reference-in-java)
 - [What is the equivalent of the C++ Pair<L,R> in Java?](http://stackoverflow.com/questions/156275/what-is-the-equivalent-of-the-c-pairl-r-in-java)
 - [What is the difference between JSF, Servlet and JSP?](http://stackoverflow.com/questions/2095397/what-is-the-difference-between-jsf-servlet-and-jsp)
 - [How do I “decompile” Java class files?](http://stackoverflow.com/questions/272535/how-do-i-decompile-java-class-files)
