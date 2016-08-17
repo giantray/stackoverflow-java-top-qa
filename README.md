@@ -68,6 +68,7 @@ stackoverflow-Java-top-qa
 * [Java中软引用和弱引用的区别](/contents/what-is-the-difference-between-a-soft-reference-and-a-weak-reference-in-java.md)
 * [JSF, Servlet 和 JSP (三种技术)有什么区别](/contents/what-is-the-difference-between-jsf-servlet-and-jsp.md)
 * [Java内部类和嵌套静态类](/contents/java-inner-class-and-static-nested-class.md)
+* [@Component, @Repository, @Service的区别](/contents/whats-the-difference-between-component-repository-service-annotations-in.md)
 
 > 编程技巧
 
@@ -139,7 +140,6 @@ stackoverflow-Java-top-qa
 - [Hibernate hbm2ddl.auto possible values and what they do?](http://stackoverflow.com/questions/438146/hibernate-hbm2ddl-auto-possible-values-and-what-they-do)
 - [How can I pad an integers with zeros on the left?](http://stackoverflow.com/questions/473282/how-can-i-pad-an-integers-with-zeros-on-the-left)
 - [Sort ArrayList of custom Objects by property](http://stackoverflow.com/questions/2784514/sort-arraylist-of-custom-objects-by-property)
-- [What's the difference between @Component, @Repository & @Service annotations in Spring?](http://stackoverflow.com/questions/6827752/whats-the-difference-between-component-repository-service-annotations-in)
 - [Efficiency of Java “Double Brace Initialization”?](http://stackoverflow.com/questions/924285/efficiency-of-java-double-brace-initialization)
 - [Why does this go into an infinite loop?](http://stackoverflow.com/questions/3831341/why-does-this-go-into-an-infinite-loop)
 - [decompiling DEX into Java sourcecode](http://stackoverflow.com/questions/1249973/decompiling-dex-into-java-sourcecode)
