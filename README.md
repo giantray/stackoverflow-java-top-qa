@@ -62,6 +62,7 @@ stackoverflow-Java-top-qa
 * [servlets的运行原理](/contents/how-do-servlets-work-instantiation-shared-variables-and-multithreading.md)
 * [如何计算MD5值](/contents/how-can-i-generate-an-md5-hash.md)
 * [Java中软引用和弱引用的区别](/contents/what-is-the-difference-between-a-soft-reference-and-a-weak-reference-in-java.md)
+* [JSF, Servlet 和 JSP (三种技术)有什么区别](/contents/what-is-the-difference-between-jsf-servlet-and-jsp.md)
 
 > 编程技巧
 
@@ -142,7 +143,6 @@ stackoverflow-Java-top-qa
 - [Why does Math.round(0.49999999999999994) return 1](http://stackoverflow.com/questions/9902968/why-does-math-round0-49999999999999994-return-1)
 - [Eclipse: Set maximum line length for auto formatting?](http://stackoverflow.com/questions/3697287/eclipse-set-maximum-line-length-for-auto-formatting)
 - [What is the equivalent of the C++ Pair<L,R> in Java?](http://stackoverflow.com/questions/156275/what-is-the-equivalent-of-the-c-pairl-r-in-java)
-- [What is the difference between JSF, Servlet and JSP?](http://stackoverflow.com/questions/2095397/what-is-the-difference-between-jsf-servlet-and-jsp)
 - [How do I “decompile” Java class files?](http://stackoverflow.com/questions/272535/how-do-i-decompile-java-class-files)
 - [Useful Eclipse Java Code Templates [closed]](http://stackoverflow.com/questions/1028858/useful-eclipse-java-code-templates)
 - [How to call SOAP web service in Android](http://stackoverflow.com/questions/297586/how-to-call-soap-web-service-in-android)
