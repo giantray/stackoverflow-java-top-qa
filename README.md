@@ -61,7 +61,7 @@ stackoverflow-Java-top-qa
 * [该什么时候使用 ThreadLocal变量，它是如何工作的](/contents/when-and-how-should-i-use-a-threadlocal-variable.md)
 * [servlets的运行原理](/contents/how-do-servlets-work-instantiation-shared-variables-and-multithreading.md)
 * [如何计算MD5值](/contents/how-can-i-generate-an-md5-hash.md)
-* [Java中软引用和弱引用的区别](/what-is-the-difference-between-a-soft-reference-and-a-weak-reference-in-java.md)
+* [Java中软引用和弱引用的区别](/contents/what-is-the-difference-between-a-soft-reference-and-a-weak-reference-in-java.md)
 
 > 编程技巧
 
@@ -83,6 +83,7 @@ stackoverflow-Java-top-qa
 * [如何处理 java.lang.outOfMemoryError PermGen space error](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/dealing-with-java-lang-outofmemoryerror-permgen-space-error.md)
 * [如何在整数左填充0](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/how-can-i-pad-an-integers-with-zeros-on-the-left.md)
 * [在调用 instanceof 前需要进行null检查吗](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/is-null-check-needed-before-calling-instanceof.md)
+* [如何从文件里读取字符串](/contents/how-do-i-create-a-java-string-from-the-contents-of-a-file.md)
 
 
 > 网络
@@ -119,7 +120,6 @@ stackoverflow-Java-top-qa
 - [How to generate a random alpha-numeric string?](http://stackoverflow.com/questions/41107/how-to-generate-a-random-alpha-numeric-string)
 - [Comparing Java enum members: == or equals()?](http://stackoverflow.com/questions/1750435/comparing-java-enum-members-or-equals)
 - [Failed to load the JNI shared Library (JDK)](http://stackoverflow.com/questions/7352493/failed-to-load-the-jni-shared-library-jdk)
-- [How to create a Java String from the contents of a file?](http://stackoverflow.com/questions/326390/how-to-create-a-java-string-from-the-contents-of-a-file)
 - [How do you assert that a certain exception is thrown in JUnit 4 tests?](http://stackoverflow.com/questions/156503/how-do-you-assert-that-a-certain-exception-is-thrown-in-junit-4-tests)
 - [What exactly is Apache Camel?](http://stackoverflow.com/questions/8845186/what-exactly-is-apache-camel)
 - [How can I permanently have line numbers in IntelliJ?](http://stackoverflow.com/questions/13751/how-can-i-permanently-have-line-numbers-in-intellij)
