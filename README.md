@@ -67,6 +67,7 @@ stackoverflow-Java-top-qa
 * [如何计算MD5值](/contents/how-can-i-generate-an-md5-hash.md)
 * [Java中软引用和弱引用的区别](/contents/what-is-the-difference-between-a-soft-reference-and-a-weak-reference-in-java.md)
 * [JSF, Servlet 和 JSP (三种技术)有什么区别](/contents/what-is-the-difference-between-jsf-servlet-and-jsp.md)
+* [Java内部类和嵌套静态类](/contents/java-inner-class-and-static-nested-class.md)
 
 > 编程技巧
 
@@ -118,7 +119,6 @@ stackoverflow-Java-top-qa
 - [Why is executing Java code in comments with certain Unicode characters allowed?](http://stackoverflow.com/questions/30727515/why-is-executing-java-code-in-comments-with-certain-unicode-characters-allowed)
 - [Convert a String to an enum in Java](http://stackoverflow.com/questions/604424/convert-a-string-to-an-enum-in-java)
 - [Android SDK installation doesn't find JDK](http://stackoverflow.com/questions/4382178/android-sdk-installation-doesnt-find-jdk)
-- [Java inner class and static nested class](http://stackoverflow.com/questions/70324/java-inner-class-and-static-nested-class)
 - ['Must Override a Superclass Method' Errors after importing a project into Eclipse](http://stackoverflow.com/questions/1678122/must-override-a-superclass-method-errors-after-importing-a-project-into-eclips)
 - [Fastest way to determine if an integer's square root is an integer](http://stackoverflow.com/questions/295579/fastest-way-to-determine-if-an-integers-square-root-is-an-integer)
 - [How to fix: Unsupported major.minor version 51.0 error?](http://stackoverflow.com/questions/10382929/how-to-fix-unsupported-major-minor-version-51-0-error)
