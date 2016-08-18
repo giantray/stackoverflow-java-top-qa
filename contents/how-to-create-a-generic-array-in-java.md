@@ -74,3 +74,7 @@ public class GenSet<E extends Foo> { // E has an upper bound of Foo
     //...
 }
 ```
+
+#### StackOverflow地址：
+
+[http://stackoverflow.com/questions/529085/how-to-create-a-generic-array-in-java](http://stackoverflow.com/questions/529085/how-to-create-a-generic-array-in-java)
