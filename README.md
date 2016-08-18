@@ -91,6 +91,7 @@ stackoverflow-Java-top-qa
 * [如何在整数左填充0](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/how-can-i-pad-an-integers-with-zeros-on-the-left.md)
 * [在调用 instanceof 前需要进行null检查吗](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/is-null-check-needed-before-calling-instanceof.md)
 * [如何从文件里读取字符串](/contents/how-do-i-create-a-java-string-from-the-contents-of-a-file.md)
+* [遍历集合时移除元素，怎样避免ConcurrentModificationException异常抛出](/contents/iterating-through-a-collection-avoiding-concurrentmodificationexception-when-reiterating-through-a-collection-avoiding-concurrentmodificationexception-when-re.md)
 
 
 > 网络
@@ -135,7 +136,6 @@ stackoverflow-Java-top-qa
 - [Can I add jars to maven 2 build classpath without installing them?](http://stackoverflow.com/questions/364114/can-i-add-jars-to-maven-2-build-classpath-without-installing-them)
 - [Update Eclipse with Android development tools v. 23](http://stackoverflow.com/questions/24437564/update-eclipse-with-android-development-tools-v-23)
 - [Setting multiple jars in java classpath](http://stackoverflow.com/questions/219585/setting-multiple-jars-in-java-classpath)
-- [Iterating through a list, avoiding ConcurrentModificationException when removing in loop](http://stackoverflow.com/questions/223918/iterating-through-a-list-avoiding-concurrentmodificationexception-when-removing)
 - [What is the Java equivalent for LINQ?](http://stackoverflow.com/questions/1217228/what-is-the-java-equivalent-for-linq)
 - [Hibernate hbm2ddl.auto possible values and what they do?](http://stackoverflow.com/questions/438146/hibernate-hbm2ddl-auto-possible-values-and-what-they-do)
 - [How can I pad an integers with zeros on the left?](http://stackoverflow.com/questions/473282/how-can-i-pad-an-integers-with-zeros-on-the-left)
