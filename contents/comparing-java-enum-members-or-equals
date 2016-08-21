@@ -1,0 +1,56 @@
+Java 枚举（enum）类型的成员比较：使用 == 还是equal方法?
+问题：Java 的枚举类具有private构造方法和一系列的public static成员变量。当比较枚举类的成员时，我习惯用.equals()方法:
+public useEnums(SomeEnum a)
+{
+    if(a.equals(SomeEnum.SOME_ENUM_VALUE))
+    {
+        ...
+    }
+    ...
+}
+然而，我刚遇到一些代码是使用”==”操作符比较：
+public useEnums2(SomeEnum a)
+{
+    if(a == SomeEnum.SOME_ENUM_VALUE)
+    {
+        ...
+    }
+    ...
+}
+我应该使用哪种操作呢？
+
+<polygenelubricants >回答：
+“==”是否可以用在枚举中？
+可以: enum有严格的实例控制方法，允许你使用==比较实例。在java语言规范中提供了一些规则保障措施：
+
+JLS 8.9 Enums
+enum类不能被实例化(Enum是抽象类，无法实例化)。
+尝试实例化一个enum类时会出现编译错误。enum 类型中的clone方法是final类型，这可以保证enum常量不会被克隆。序列化的特别处理机制确保在反序列化时不会出现创建重复实例的这种情况发生。enum无法通过反射机制实例化。以上四点确保了，在定义enum常量之后， enum类型不能被实例化。
+由于每一个enum常量仅有一个引用。在知道其中至少一个对象是enum常量时，允许使用”==”代替equals方法来比较两个对象的引用。（在Enum的equal方法是final修饰的 ，这可以进行同一性判断）。
+
+“==”和equals两者有何区别？
+这里需要注意一下，通常来说“==”并不可以替代equals方法。对于enum,这里有两个重要的差别需要考虑：
+1.使用 == 不会抛出 NullPointerException异常
+enum Color { BLACK, WHITE };
+
+Color nothing = null;
+if (nothing == Color.BLACK);      // 正常运行
+if (nothing.equals(Color.BLACK)); // 抛出NullPointerException异常
+2.使用 == 在编译时会检查类型是否匹配
+enum Color { BLACK, WHITE };
+enum Chiral { LEFT, RIGHT };
+
+if (Color.BLACK.equals(Chiral.LEFT)); // 编译通过
+if (Color.BLACK == Chiral.LEFT);      // 编译失败，提示类型不匹配
+
+“==”一般用在哪种场合下？
+Bloch 指出对于不可变类（immutable classes），在合理的控制他们的实例的情况下可以使用”==”。enum就是这种特例。
+
+总之，关于== 用在enum中有以下几点：
+1.==是可以正常使用的。
+2.==更高效。
+3.==在运行期间是安全的。
+4.==在编译期间是安全的。
+
+stackoverflow链接：：
+http://stackoverflow.com/questions/1750435/comparing-java-enum-members-or-equals
