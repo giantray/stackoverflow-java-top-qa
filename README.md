@@ -69,6 +69,7 @@ stackoverflow-Java-top-qa
 * [JSF, Servlet 和 JSP (三种技术)有什么区别](/contents/what-is-the-difference-between-jsf-servlet-and-jsp.md)
 * [Java内部类和嵌套静态类](/contents/java-inner-class-and-static-nested-class.md)
 * [@Component, @Repository, @Service的区别](/contents/whats-the-difference-between-component-repository-service-annotations-in.md)
+* [如何创建泛型java数组](/contents/how-to-create-a-generic-array-in-java.md)
 
 > 编程技巧
 
@@ -92,7 +93,8 @@ stackoverflow-Java-top-qa
 * [在调用 instanceof 前需要进行null检查吗](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/is-null-check-needed-before-calling-instanceof.md)
 * [如何从文件里读取字符串](/contents/how-do-i-create-a-java-string-from-the-contents-of-a-file.md)
 * [遍历集合时移除元素，怎样避免ConcurrentModificationException异常抛出](/contents/iterating-through-a-collection-avoiding-concurrentmodificationexception-when-reiterating-through-a-collection-avoiding-concurrentmodificationexception-when-re.md)
-
+* [如何让IntelliJ编辑器永久性显示代码行数](/contents/how-can-i-permanently-have-line-numbers-in-intellij.md)
+* [如何使用maven把项目及其依赖打包为可运行jar包](/contents/how-can-i-create-an-executable-jar-with-dependencies-using-maven.md)
 
 > 网络
 
@@ -109,6 +111,7 @@ stackoverflow-Java-top-qa
 > 测试
 
 * [如何测试 private 方法，变量或者内部类](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/how-to-test-a-class-that-has-private-methods-fields-or-inner-classes.md)
+* [JUnit4如何断言确定异常的抛出](/contents/how-do-you-assert-that-a-certain-exception-is-thrown-in-junit-4-tests.md)
 
 > Android
 
@@ -117,7 +120,6 @@ stackoverflow-Java-top-qa
 
 ### 待翻译问题链接(还剩x问题)
 - [Proper use cases for Android UserManager.isUserAGoat()?](http://stackoverflow.com/questions/13375357/proper-use-cases-for-android-usermanager-isuseragoat)
-- [How can I create an executable jar with dependencies using Maven?](http://stackoverflow.com/questions/574594/how-can-i-create-an-executable-jar-with-dependencies-using-maven)
 - [Why is executing Java code in comments with certain Unicode characters allowed?](http://stackoverflow.com/questions/30727515/why-is-executing-java-code-in-comments-with-certain-unicode-characters-allowed)
 - [Convert a String to an enum in Java](http://stackoverflow.com/questions/604424/convert-a-string-to-an-enum-in-java)
 - [Android SDK installation doesn't find JDK](http://stackoverflow.com/questions/4382178/android-sdk-installation-doesnt-find-jdk)
@@ -127,9 +129,7 @@ stackoverflow-Java-top-qa
 - [How to generate a random alpha-numeric string?](http://stackoverflow.com/questions/41107/how-to-generate-a-random-alpha-numeric-string)
 - [Comparing Java enum members: == or equals()?](http://stackoverflow.com/questions/1750435/comparing-java-enum-members-or-equals)
 - [Failed to load the JNI shared Library (JDK)](http://stackoverflow.com/questions/7352493/failed-to-load-the-jni-shared-library-jdk)
-- [How do you assert that a certain exception is thrown in JUnit 4 tests?](http://stackoverflow.com/questions/156503/how-do-you-assert-that-a-certain-exception-is-thrown-in-junit-4-tests)
 - [What exactly is Apache Camel?](http://stackoverflow.com/questions/8845186/what-exactly-is-apache-camel)
-- [How can I permanently have line numbers in IntelliJ?](http://stackoverflow.com/questions/13751/how-can-i-permanently-have-line-numbers-in-intellij)
 - [Access restriction on class due to restriction on required library rt.jar?](http://stackoverflow.com/questions/860187/access-restriction-on-class-due-to-restriction-on-required-library-rt-jar)
 - [How do I discover memory usage of my application in Android?](http://stackoverflow.com/questions/2298208/how-do-i-discover-memory-usage-of-my-application-in-android)
 - [Uncatchable ChuckNorrisException](http://stackoverflow.com/questions/13883166/uncatchable-chucknorrisexception)
@@ -143,7 +143,6 @@ stackoverflow-Java-top-qa
 - [Efficiency of Java “Double Brace Initialization”?](http://stackoverflow.com/questions/924285/efficiency-of-java-double-brace-initialization)
 - [Why does this go into an infinite loop?](http://stackoverflow.com/questions/3831341/why-does-this-go-into-an-infinite-loop)
 - [decompiling DEX into Java sourcecode](http://stackoverflow.com/questions/1249973/decompiling-dex-into-java-sourcecode)
-- [How to create a generic array in Java?](http://stackoverflow.com/questions/529085/how-to-create-a-generic-array-in-java)
 - [Why does Math.round(0.49999999999999994) return 1](http://stackoverflow.com/questions/9902968/why-does-math-round0-49999999999999994-return-1)
 - [Eclipse: Set maximum line length for auto formatting?](http://stackoverflow.com/questions/3697287/eclipse-set-maximum-line-length-for-auto-formatting)
 - [What is the equivalent of the C++ Pair<L,R> in Java?](http://stackoverflow.com/questions/156275/what-is-the-equivalent-of-the-c-pairl-r-in-java)
