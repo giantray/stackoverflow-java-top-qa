@@ -127,7 +127,6 @@ stackoverflow-Java-top-qa
 - [Fastest way to determine if an integer's square root is an integer](http://stackoverflow.com/questions/295579/fastest-way-to-determine-if-an-integers-square-root-is-an-integer)
 - [How to fix: Unsupported major.minor version 51.0 error?](http://stackoverflow.com/questions/10382929/how-to-fix-unsupported-major-minor-version-51-0-error)
 - [How to generate a random alpha-numeric string?](http://stackoverflow.com/questions/41107/how-to-generate-a-random-alpha-numeric-string)
-- [Comparing Java enum members: == or equals()?](http://stackoverflow.com/questions/1750435/comparing-java-enum-members-or-equals)
 - [Failed to load the JNI shared Library (JDK)](http://stackoverflow.com/questions/7352493/failed-to-load-the-jni-shared-library-jdk)
 - [What exactly is Apache Camel?](http://stackoverflow.com/questions/8845186/what-exactly-is-apache-camel)
 - [Access restriction on class due to restriction on required library rt.jar?](http://stackoverflow.com/questions/860187/access-restriction-on-class-due-to-restriction-on-required-library-rt-jar)
