@@ -44,10 +44,10 @@ public final boolean equals(Object other) {
 答案是肯定的，因为枚举有着严格的实例化控制，所以你可以用 == 去做比较符，这个用法，在官方文档中也有明确的说明。
 
 >JLS 8.9 Enums
->An enum type has no instances other than those defined by its enum constants.
->It is a compile-time error to attempt to explicitly instantiate an enum type. The final clone method in Enum >ensures that enum constants can never be cloned, and the special treatment by the serialization mechanism ensures >that duplicate instances are never created as a result of deserialization. Reflective instantiation of enum types >is prohibited. Together, these four things ensure that no instances of an enum type exist beyond those defined by >the enum constants.
->Because there is only one instance of each enum constant, it is permissible to use the == operator in place of the >equals method when comparing two object references if it is known that at least one of them refers to an enum ?>constant. (The equals method in Enum is a final method that merely invokes super.equals on its argument and ?>returns the result, thus performing an identity comparison.)
+一个枚举类型除了定义的那些枚举常量外没有其他实例了。
+试图明确地说明一种枚举类型是会导致编译期异常。在枚举中final clone方法确保枚举常量从不会被克隆，而且序列化机制会确保从不会因为反序列化而创造复制的实例。枚举类型的反射实例化也是被禁止的。总之，以上内容确保了除了定义的枚举常量之外，没有枚举类型实例。
 
+因为每个枚举常量只有一个实例，所以如果在比较两个参考值，至少有一个涉及到枚举常量时，允许使用“==”代替equals()。（equals()方法在枚举类中是一个final方法，在参数和返回结果时，很少调用父类的equals()方法，因此是一种恒等的比较。）
 #### 什么时候 == 和 equals 不一样？
 As a reminder, it needs to be said that generally, == is NOT a viable alternative to equals. When it is, however (such as with enum), there are two important differences to consider:
 通常来说 == 不是一个 equals的一个备选方案，无论如何有2个重要的不同处需要考虑：
@@ -73,8 +73,8 @@ if (Color.BLACK == Chiral.LEFT);      // DOESN'T COMPILE!!! Incompatible types!
 Bloch specifically mentions that immutable classes that have proper control over their instances can guarantee to their clients that == is usable. enum is specifically mentioned to exemplify.
 具体来说，那些提供恰当实例控制的不可变类能够保证 == 是可用的，枚举刚好符合这个条件。
 
-> Item 1: Consider static factory methods instead of constructors
-[...] it allows an immutable class to make the guarantee that no two equal instances exist: a.equals(b) if and only if a==b. If a class makes this guarantee, then its clients can use the == operator instead of the equals(Object) method, which may result in improved performance. Enum types provide this guarantee.
+考虑静态工厂方法代替构造器
+它使得不可变的类可以确保不会存在两个相等的实例，即当且仅当a==b的时候才有a.equals(b)为true。如果类保证了这一点，它的客户端可以使用“==”操作符来代替equals（Object）方法，这样可以提升性能。枚举类型保证了这一点
 
 总而言之，在枚举比较上使用 == ， 因为：
 1. 能正常工作

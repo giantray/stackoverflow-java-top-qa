@@ -1,4 +1,4 @@
-##重写（Override）equlas和hashCode方法时应考虑的问题
+##重写（Override）equals和hashCode方法时应考虑的问题
 
 ###理论上讲（编程语言、数学层面）
 equals() 定义了对象的相等关系（自反性、对称性、传递性）（有点抽象，更详细说明，请参考[javadoc](http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html#equals(java.lang.Object))) 。
