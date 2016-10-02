@@ -10,9 +10,11 @@
 * 使用 `*` 而不是 `*.jar`
 
 **Windows平台**
+
 `java -cp "Test.jar;lib/*" my.package.MainClass`
 
 **Unix平台**
+
 `java -cp "Test.jar:lib/*" my.package.MainClass`
 
 Unix平台与Windows平台基本一样，除了使用冒号 `:` 替代分号 `;` 之外。如果你不能使用通配符，也可以使用`bash`完成上述功能，命令如下（其中lib是一个包含所有jar包的目录）：
