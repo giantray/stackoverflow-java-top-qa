@@ -1,18 +1,13 @@
-Java 中如何将 String 转换为 enum
-=======
+# Java 中如何将 String 转换为 enum
 
-###问题
-
-###我有一个 enum 类
-
-``` java 
+### 问题
+ enum 类
+```java 
 public enum Blah {
     A, B, C, D
 }
 ```
-我想要找到一个 `String` 对应的 enum 值。例如, `"A"` 将是 `Blah.A`.如何做到?
-
-我需要使用 `Enum.valueOf()` 方法吗? 如果是该如何使用?
+如何根据枚举类型的值(比如 "A" ) 得到 `Blah.A`?
 
 ---
 
@@ -20,7 +15,8 @@ public enum Blah {
 
 是的, `Blah.valueOf("A")` 将会给你 `Blah.A`.
 
-静态方法 `valueof()` 和 `values()` 在编译时期被插入,并不存在于源码中。但是在Javadoc中;例如,[`Dialog.ModalityType`](http://docs.oracle.com/javase/7/docs/api/java/awt/Dialog.ModalityType.html "Dialog.ModalityType")中显示了这两个方法。
+静态方法 `valueof()` 和 `values()` 在编译时期被插入,并不存在于源码中。
+但是在Javadoc中会显示;例如,[`Dialog.ModalityType`](http://docs.oracle.com/javase/7/docs/api/java/awt/Dialog.ModalityType.html "Dialog.ModalityType")中显示了这两个方法。
 
 
 ### A2
@@ -80,7 +76,7 @@ public static <T extends Enum<T>> T getEnumFromString(Class<T> c, String string)
     return null;
 }
 ```
-之后,在我的enum类中通常如此使用来减少打字:
+之后,在我的enum类中通常如此使用来减少代码量:
 ``` java 
 public static MyEnum fromString(String name) {
     return getEnumFromString(MyEnum.class, name);
@@ -91,8 +87,8 @@ public static MyEnum fromString(String name) {
 
 _评论区对于答主的异常处理一片指责 -译者注_
 
-###A4
-如果你不想编写自己的工具类,可以使用 Google的 `guava` 库:
+### A4
+如果你不想编写自己的工具类,可以使用 Google的 [Google guava](https://github.com/google/guava) 库:
 ``` java
 Enums.getIfPresent(Blah.class, "A")
 ```
@@ -100,8 +96,11 @@ Enums.getIfPresent(Blah.class, "A")
 
 _完整方法签名 `Optional<T> getIfPresent(Class<T> enumClass, String value)` , `Optional` 对象可以优雅的解决null值问题 -译者注_
 
+> 注意: 返回的是 `Google Optional` 而不是 `Java Optional`
+
 ---
 _其他的答案都大同小异,感兴趣的可以看原帖_
 stackoverflow链接
-http://stackoverflow.com/questions/604424/lookup-enum-by-string-value
+[Lookup enum by string value
+](https://stackoverflow.com/questions/604424/lookup-enum-by-string-value)
 _译者:[MagicWolf](https://github.com/DaiDongLiang)_
