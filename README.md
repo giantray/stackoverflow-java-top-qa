@@ -10,21 +10,22 @@ stackoverflow-Java-top-qa
 
 -------------
 ### 如何参与翻译（欢迎加入翻译组QQ群485011036）
-####如何参与：
+#### 如何参与：
 - 请从下文“待翻译问题链接”中寻找你感兴趣的问答进行翻译。翻译好的问答，放到contents目录下，无需更新readme.md文档。之后提一个PR，我负责合并PR并更新到readme中。
 - 另外，为了避免多人重复新翻译一个问题，你可以提issue，说明你计划翻译的问题及时间点，我可以先更新到下面的”未翻译问题“中，说明已有人领了这个问题。当然，也不一定要提issue，一般情况下，只要及时提pr，我及时审核，出现”撞车“的概率并不高。
 
-####一些基本的约定：
+#### 一些基本的约定：
 - 文档的文件名，和stackoverflowhich-notnull-java-annotation-should-i-usew上的url保持一致。例如，http://stackoverflow.com/questions/8710619/java-operator 的文件名， 就是java-operator.md
 - 在每篇翻译文档内容的最后，要附上stackoverflow的原文链接
 
-####每个人可以做（但不限于）：
+#### 每个人可以做（但不限于）：
 - 找未翻译的问题进行翻译
 - 优化已翻译的问题
 - 输出问答精简汇总版（把所有的问答集中到一个md文件，然后尽量精简，让别人可以在一天内把这100个问题的精髓都看完）
 - 输出gitbook版本（现在直接在github上查看，体验不好）
 
-####文档优化反馈：
+#### 文档优化反馈：
+
 请大家多多反馈，优化已翻译好的文章：可以到[吐槽区](https://github.com/giantray/stackoverflow-java-top-qa/issues/66)吐槽，也可以在已翻译文章基础上进行优化，提新的PR。文章质量的提升，需要大家一起努力！
 
 
@@ -61,7 +62,6 @@ stackoverflow-Java-top-qa
 * [为什么Java的```Vector```类被认为是过时的或者废弃的](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/why-is-java-vector-class-considered-obsolete-or-deprecated.md)
 * [Java的foreach循环是如何工作的](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/how-does-the-java-for-each-loop-work.md)
 * [为什么相减这两个时间（1927年）会得到奇怪的结果](/contents/why-is-subtracting-these-two-times-in-1927-giving-a-strange-result.md)
-* [Java 中如何将 String 转换为 enum](/contents/lookup-enum-by-string-value.md)
 * [该什么时候使用 ThreadLocal变量，它是如何工作的](/contents/when-and-how-should-i-use-a-threadlocal-variable.md)
 * [servlets的运行原理](/contents/how-do-servlets-work-instantiation-shared-variables-and-multithreading.md)
 * [如何计算MD5值](/contents/how-can-i-generate-an-md5-hash.md)
@@ -122,7 +122,6 @@ stackoverflow-Java-top-qa
 ### 待翻译问题链接(还剩x问题)
 - [Proper use cases for Android UserManager.isUserAGoat()?](http://stackoverflow.com/questions/13375357/proper-use-cases-for-android-usermanager-isuseragoat)
 - [Why is executing Java code in comments with certain Unicode characters allowed?](http://stackoverflow.com/questions/30727515/why-is-executing-java-code-in-comments-with-certain-unicode-characters-allowed)
-- [Convert a String to an enum in Java](http://stackoverflow.com/questions/604424/convert-a-string-to-an-enum-in-java)
 - ['Must Override a Superclass Method' Errors after importing a project into Eclipse](http://stackoverflow.com/questions/1678122/must-override-a-superclass-method-errors-after-importing-a-project-into-eclips)
 - [Fastest way to determine if an integer's square root is an integer](http://stackoverflow.com/questions/295579/fastest-way-to-determine-if-an-integers-square-root-is-an-integer)
 - [How to fix: Unsupported major.minor version 51.0 error?](http://stackoverflow.com/questions/10382929/how-to-fix-unsupported-major-minor-version-51-0-error)
