@@ -54,7 +54,7 @@
 
 ### [装饰模式](http://en.wikipedia.org/wiki/Decorator_pattern)
 
-- [java.io.InputStream](http://docs.oracle.com/javase/6/docs/api/java/io/InputStream.html),[OutputStream](http://docs.oracle.com/javase/6/docs/api/java/io/OutputStream.html),[Reader](http://docs.oracle.com/javase/6/docs/api/java/io/Reader.html) 和 [Writer](http://docs.oracle.com/javase/6/docs/api/java/io/Writer.html) 的所有资料都有一个使用 InputStream,OutputStream,Reader,Writer 的构造器
+- [java.io.InputStream](http://docs.oracle.com/javase/6/docs/api/java/io/InputStream.html), [OutputStream](http://docs.oracle.com/javase/6/docs/api/java/io/OutputStream.html), [Reader](http://docs.oracle.com/javase/6/docs/api/java/io/Reader.html) 和 [Writer](http://docs.oracle.com/javase/6/docs/api/java/io/Writer.html) 的所有子类都有一个使用 InputStream, OutputStream, Reader, Writer 的构造器
 - [java.util.Collections](http://docs.oracle.com/javase/6/docs/api/java/util/Collections.html) 中的 [checkedXXX()](http://docs.oracle.com/javase/6/docs/api/java/util/Collections.html#checkedCollection%28java.util.Collection,%20java.lang.Class%29), [synchronizedXXX()](http://docs.oracle.com/javase/6/docs/api/java/util/Collections.html#synchronizedCollection%28java.util.Collection%29) 和 [unmodifiableXXX()](http://docs.oracle.com/javase/6/docs/api/java/util/Collections.html#unmodifiableCollection%28java.util.Collection%29) 方法
 - [javax.servlet.http.HttpServletRequestWrapper](http://docs.oracle.com/javaee/6/api/javax/servlet/http/HttpServletRequestWrapper.html) 和 [HttpServletResponseWrapper](http://docs.oracle.com/javaee/6/api/javax/servlet/http/HttpServletResponseWrapper.html)
 
