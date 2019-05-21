@@ -1,6 +1,6 @@
-##`Map<Key,Value>`基于Value值排序
+## `Map<Key,Value>`基于Value值排序
 
-###方法1：
+### 方法1：
 使用TreeMap，可以参考下面的代码
 ```java
 public class Testing {  
@@ -43,7 +43,7 @@ class ValueComparator implements Comparator<String> {
 ```
 译注：如果不自己写Comparator,treemap默认是用key来排序
 
-###方法2：
+### 方法2：
 
 先通过linkedlist排好序，再放到LinkedHashMap中
 ```java
