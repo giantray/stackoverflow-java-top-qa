@@ -1,4 +1,4 @@
-##如何通过一行代码初始化ArrayList
+如何用一行代码初始化一个ArrayList
 
 ###问题
 为了测试，我需要临时快速创建一个list。一开始我这样做：
@@ -54,3 +54,4 @@ ArrayList<String> places = new ArrayList<>(Arrays.asList("Buenos Aires", "Córdo
 
 stackoverflow链接：
 http://stackoverflow.com/questions/1005073/initialization-of-an-arraylist-in-one-line
+

@@ -9,8 +9,9 @@ IOUtils.copy(inputStream, writer, encoding);
 String theString = writer.toString();
 ```
 或者
+```java
 String theString = IOUtils.toString(inputStream, encoding)//这个方法其实封装了上面的方法，减少了一个参数
-
+```
 ###使用原生库
 如果不想引入Apache库，也可以这样做
 ```java

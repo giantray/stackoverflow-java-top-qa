@@ -8,5 +8,9 @@
 String fullStackTrace = org.apache.commons.lang.exception.ExceptionUtils.getFullStackTrace(e)
 ```
 
+````java
+Thread.currentThread().getStackTrace();
+````
+
 stackoverflow原址：
 http://stackoverflow.com/questions/1069066/how-can-i-get-the-current-stack-trace

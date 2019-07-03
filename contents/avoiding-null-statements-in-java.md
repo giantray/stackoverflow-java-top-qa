@@ -50,7 +50,8 @@ public interface Parser {
 
 我们来改造一下
 
-类定义如下，这样定义findAction方法后，确保无论用户输入什么，都不会返回null对象
+类定义如下，这样定义findAction方法后，确保无论用户输入什么，都不会返回null对象：
+```java
 public class MyParser implements Parser {
   private static Action DO_NOTHING = new Action() {
     public void doSomething() { /* do nothing */ }
@@ -62,7 +63,7 @@ public class MyParser implements Parser {
       return DO_NOTHING;
     }
   }}
-
+```
 
 对比下面两份调用实例
 1. 冗余:  每获取一个对象，就判一次空
@@ -74,7 +75,8 @@ if (parser == null) {
 }
 Action action = parser.findAction(someInput);
 if (action == null) {
-  // do nothing} else {
+  // do nothing} 
+else {
   action.doSomething();}
 ```
 
@@ -90,11 +92,11 @@ ParserFactory.getParser().findAction(someInput).doSomething();
 - 如果要用equal方法，请用object<不可能为空>.equal(object<可能为空>))
 例如：
 使用
-"bar".equals(foo) 
+`"bar".equals(foo) `
 而不是
-foo.equals("bar") 
+`foo.equals("bar") `
 - Java8或者guava lib中，提供了Optional类，这是一个元素容器，通过它来封装对象，可以减少判空。不过代码量还是不少。不爽。
-- 如果你想返回null，请挺下来想一想，这个地方是否更应该抛出一个异常
+- 如果你想返回null，请停下来想一想，这个地方是否更应该抛出一个异常
 
 stackoverflow链接：
 http://stackoverflow.com/questions/271526/avoiding-null-statements-in-java?page=2&tab=votes#tab-top
