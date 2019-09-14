@@ -91,7 +91,7 @@ stackoverflow-Java-top-qa
 * [如何在整数左填充0](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/how-can-i-pad-an-integers-with-zeros-on-the-left.md)
 * [在调用 instanceof 前需要进行null检查吗](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/is-null-check-needed-before-calling-instanceof.md)
 * [如何从文件里读取字符串](/contents/how-do-i-create-a-java-string-from-the-contents-of-a-file.md)
-* [遍历集合时移除元素，怎样避免ConcurrentModificationException异常抛出](/contents/iterating-through-a-collection-avoiding-concurrentmodificationexception-when-reiterating-through-a-collection-avoiding-concurrentmodificationexception-when-re.md)
+* [遍历集合时移除元素，怎样避免ConcurrentModificationException异常抛出](/contents/iterating-through-a-collection-avoiding-concurrentmodificationexception-when-re.md)
 * [如何让IntelliJ编辑器永久性显示代码行数](/contents/how-can-i-permanently-have-line-numbers-in-intellij.md)
 * [如何使用maven把项目及其依赖打包为可运行jar包](/contents/how-can-i-create-an-executable-jar-with-dependencies-using-maven.md)
 
