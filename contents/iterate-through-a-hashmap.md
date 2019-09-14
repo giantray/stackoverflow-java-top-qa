@@ -1,6 +1,6 @@
 # HashMap遍历 #
 
-在Java中有多种遍历HashMAp的方法。让我们回顾一下最常见的方法和它们各自的优缺点。由于所有的Map都实现了Map接口，所以接下来方法适用于所有Map（如：HaspMap，TreeMap,LinkedMap,HashTable,etc）
+在Java中有多种遍历HashMap的方法。让我们回顾一下最常见的方法和它们各自的优缺点。由于所有的Map都实现了Map接口，所以接下来方法适用于所有Map（如：HaspMap，TreeMap,LinkedMap,HashTable,etc）
 
 ## 方法#1 使用For-Each迭代entries ##
 
