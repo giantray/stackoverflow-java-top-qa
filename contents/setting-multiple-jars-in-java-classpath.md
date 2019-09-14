@@ -36,3 +36,5 @@ Unix平台与Windows平台基本一样，除了使用冒号 `:` 替代分号 `;`
 在类加载进程中，通配符的扩展在早期完成，优先于程序main函数的调用，而不是在其后。每个包含通配符的类路径都被替换为所在目录下所有jar包的序列。例如，如果目录`foo`包含`a.jar`，`b.jar`以及`c.jar`，因此类路径`foo/*`被扩展为`foo/a.jar;foo/b.jar;foo/c.jar`，并且以上字符串被作为系统属性`java.class.path`的值。
 
 环境变量`CLASSPATH`与命令行选项-classpath或者-cp并没有什么不同。也就是说，通配符既可以应用于命令行`-classpath/-cp`选项中，也可以应用于环境变量`CLASSPATH`中。
+
+stackoverflow原地址：http://stackoverflow.com/questions/219585/setting-multiple-jars-in-java-classpath

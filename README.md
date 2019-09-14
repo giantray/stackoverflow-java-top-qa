@@ -102,7 +102,10 @@ stackoverflow-Java-top-qa
 * [如何产生一个随机的字母数字串作为 session 的唯一标识符](/contents/how-to-generate-a-random-alpha-numeric-string.md)  
 * [Apache Camel是什么](/contents/what-exactly-is-apache-camel.md)  
 * [通过对象属性对常规对象的ArrayList进行排序](/contents/sort-arraylist-of-custom-objects-by-property.md)  
-
+* [为Eclipse自动代码格式化设置行的最大长度？](/contents/Eclipse-set-maximun-line-length-for-auto-formatting.md)  
+* [加载JNI共享库失败（JDK）](/contents/failed-to-load-the-JNI-shared-library(JDK).md)  
+* [如何对Java class文件进行反编译](/contents/how-do-i-decompile-java-class-files.md)  
+* [如何在classpath中设置多个jar包](/contents/setting-multiple-jars-in-java-classpath.md)  
 
 > 网络
 
@@ -134,18 +137,14 @@ stackoverflow-Java-top-qa
 - [Why is executing Java code in comments with certain Unicode characters allowed?](http://stackoverflow.com/questions/30727515/why-is-executing-java-code-in-comments-with-certain-unicode-characters-allowed)
 - [Fastest way to determine if an integer's square root is an integer](http://stackoverflow.com/questions/295579/fastest-way-to-determine-if-an-integers-square-root-is-an-integer)
 - [How to fix: Unsupported major.minor version 51.0 error?](http://stackoverflow.com/questions/10382929/how-to-fix-unsupported-major-minor-version-51-0-error)
-- [Failed to load the JNI shared Library (JDK)](http://stackoverflow.com/questions/7352493/failed-to-load-the-jni-shared-library-jdk)
 - [Access restriction on class due to restriction on required library rt.jar?](http://stackoverflow.com/questions/860187/access-restriction-on-class-due-to-restriction-on-required-library-rt-jar)
 - [How do I discover memory usage of my application in Android?](http://stackoverflow.com/questions/2298208/how-do-i-discover-memory-usage-of-my-application-in-android)
 - [Uncatchable ChuckNorrisException](http://stackoverflow.com/questions/13883166/uncatchable-chucknorrisexception)
 - [Can I add jars to maven 2 build classpath without installing them?](http://stackoverflow.com/questions/364114/can-i-add-jars-to-maven-2-build-classpath-without-installing-them)
 - [Update Eclipse with Android development tools v. 23](http://stackoverflow.com/questions/24437564/update-eclipse-with-android-development-tools-v-23)
-- [Setting multiple jars in java classpath](http://stackoverflow.com/questions/219585/setting-multiple-jars-in-java-classpath)
 - [What is the Java equivalent for LINQ?](http://stackoverflow.com/questions/1217228/what-is-the-java-equivalent-for-linq)
 - [Hibernate hbm2ddl.auto possible values and what they do?](http://stackoverflow.com/questions/438146/hibernate-hbm2ddl-auto-possible-values-and-what-they-do)
 - [decompiling DEX into Java sourcecode](http://stackoverflow.com/questions/1249973/decompiling-dex-into-java-sourcecode)
-- [Eclipse: Set maximum line length for auto formatting?](http://stackoverflow.com/questions/3697287/eclipse-set-maximum-line-length-for-auto-formatting)
-- [How do I “decompile” Java class files?](http://stackoverflow.com/questions/272535/how-do-i-decompile-java-class-files)
 - [Useful Eclipse Java Code Templates [closed]](http://stackoverflow.com/questions/1028858/useful-eclipse-java-code-templates)
 - [How to call SOAP web service in Android](http://stackoverflow.com/questions/297586/how-to-call-soap-web-service-in-android)
 

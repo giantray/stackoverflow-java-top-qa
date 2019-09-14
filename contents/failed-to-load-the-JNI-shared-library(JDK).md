@@ -14,4 +14,6 @@ Failed to load the JNI shared library "C:/JDK/bin/client/jvm.dll"`.
 ·64位的Java
 ·64位的Eclipse
 
+- stackoverflow原址:
+http://stackoverflow.com/questions/7352493/failed-to-load-the-jni-shared-library-jdk
 
