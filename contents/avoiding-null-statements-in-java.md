@@ -99,4 +99,4 @@ ParserFactory.getParser().findAction(someInput).doSomething();
 - 如果你想返回null，请停下来想一想，这个地方是否更应该抛出一个异常
 
 stackoverflow链接：
-http://stackoverflow.com/questions/271526/avoiding-null-statements-in-java?page=2&tab=votes#tab-top
+http://stackoverflow.com/questions/271526/avoiding-null-statements?page=1&tab=votes#tab-top
