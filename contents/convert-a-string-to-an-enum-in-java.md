@@ -19,6 +19,38 @@ Enum.valueOf()是否能实现以上目的，如果是，那我如何使用？
 
 ### 其他答案
 
+当文本和枚举值不同时，可以采用这种方式：
+```java
+public enum Blah {
+  A("text1"),
+  B("text2"),
+  C("text3"),
+  D("text4");
+
+  private String text;
+
+  Blah(String text) {
+    this.text = text;
+  }
+
+  public String getText() {
+    return this.text;
+  }
+
+  public static Blah fromString(String text) {
+    for (Blah b : Blah.values()) {
+      if (b.text.equalsIgnoreCase(text)) {
+        return b;
+      }
+    }
+    return null;
+  }
+}
+```
+fromString方法中，throw new IllegalArgumentException("No constant with text " + text + " found") 会比直接返回null更优秀.
+
+### 其他答案
+
 我有一个挺赞的工具方法：
 ```java
 /**

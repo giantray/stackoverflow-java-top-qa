@@ -25,7 +25,6 @@ stackoverflow-Java-top-qa
 - 输出gitbook版本（现在直接在github上查看，体验不好）
 
 #### 文档优化反馈：
-
 请大家多多反馈，优化已翻译好的文章：可以到[吐槽区](https://github.com/giantray/stackoverflow-java-top-qa/issues/66)吐槽，也可以在已翻译文章基础上进行优化，提新的PR。文章质量的提升，需要大家一起努力！
 
 
