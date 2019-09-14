@@ -61,7 +61,6 @@ stackoverflow-Java-top-qa
 * [为什么Java的```Vector```类被认为是过时的或者废弃的](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/why-is-java-vector-class-considered-obsolete-or-deprecated.md)
 * [Java的foreach循环是如何工作的](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/how-does-the-java-for-each-loop-work.md)
 * [为什么相减这两个时间（1927年）会得到奇怪的结果](/contents/why-is-subtracting-these-two-times-in-1927-giving-a-strange-result.md)
-* [Java 中如何将 String 转换为 enum](/contents/lookup-enum-by-string-value.md)
 * [该什么时候使用 ThreadLocal变量，它是如何工作的](/contents/when-and-how-should-i-use-a-threadlocal-variable.md)
 * [servlets的运行原理](/contents/how-do-servlets-work-instantiation-shared-variables-and-multithreading.md)
 * [如何计算MD5值](/contents/how-can-i-generate-an-md5-hash.md)
