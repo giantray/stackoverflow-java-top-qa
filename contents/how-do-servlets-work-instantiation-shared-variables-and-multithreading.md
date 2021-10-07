@@ -14,7 +14,7 @@ servletcontainer 是附属于webserver的，而这个webserver会持续监听一
 在有filter的情况下，```doFilter()```方法会被触发。当代码调用```chain.doFilter(request, response)```时候，请求会经过下一个过滤器filter，如果没有了过滤器，会到达servlet。在servlets的情况下，```service()```触发，然后根据```request.getMethod()```确定执行doGet()还是```doPost()```，如果当前servlet找不到请求的方法，返回405error。
 
 request对象提供了HTTP请求所有的信息，比如request headers和request body，response对象提供了控制和发送HTTP响应的的能力，并且以你想要的方式，比如设置headers和body。当HTTP响应结束，请求和响应对象会被销毁（实际上，大多数container将会清洗到这些对象的状态然后回收这些事例以重新利用）
-####httpSession
+#### httpSession
 当客户端第一次访问webapp或者通过```request.getSession()```方法第一次获取httpSession
 ，servletcontainer 将会创建一个新的HttpSession 对象，产生一个长的唯一的ID标记session（可以通过session.getId()）,并且将这个session存储在server内存中。servletcontainer 同时会在HTTP response的Header中设置```Set-Cookie```cookie值，其中cookie name为JSESSIONID，cookie value为唯一的长ID值。
 

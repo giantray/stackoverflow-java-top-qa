@@ -1,9 +1,9 @@
-##如何获取Android设备唯一ID？
+## 如何获取Android设备唯一ID？
 
-###问题
+### 问题
 每一个android设备都有唯一ID吗？如果有？怎么用java最简单取得呢？
 
-###回答1（最佳）
+### 回答1（最佳）
 
 如何取得android唯一码？
 
@@ -63,7 +63,7 @@ return unique ID of build information (may overlap data - API < 9)
     // Finally, combine the values we have found by using the UUID class to create a unique identifier
     return new UUID(m_szDevIDShort.hashCode(), serial.hashCode()).toString();}
 ```
-###回答2
+### 回答2
 好处：
 - 1.不需要特定权限.
 - 2.在100% Android装置（包括root过的）上，保证唯一性.
@@ -91,7 +91,7 @@ public synchronized static String id(Context context) {
 }
 ```
 
-###回答3（需要有电话卡）
+### 回答3（需要有电话卡）
 
 好处：
 1.重装app之后仍能取得相同唯一值.

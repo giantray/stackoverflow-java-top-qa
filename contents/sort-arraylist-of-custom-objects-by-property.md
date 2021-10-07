@@ -1,8 +1,8 @@
 ﻿
 
-##通过对象属性对常规对象的ArrayList进行排序
+## 通过对象属性对常规对象的ArrayList进行排序
 
-###问题
+### 问题
 我读过使用Comparator对常规类的ArrayList进行排序的示例，但是它们大多数使用comparedTo(),据我了解这是一个对字符串进行操作的方法。
 我想要对一个由常规对象构成的ArrayList，通过它的属性(一个Date对象,getStartDate())对ArrayList进行排序。通常情况下我这样比较它们：
 ```java
@@ -23,7 +23,7 @@ public class RandomName {
 }
 ```
 
-###回答
+### 回答
  以前Date声明了Comparable,它有一个像处理字符串操作那样的compareTo方法。因此你可以这样：
 ```java
 public class CustomComparator implements Comparator<MyObject> {

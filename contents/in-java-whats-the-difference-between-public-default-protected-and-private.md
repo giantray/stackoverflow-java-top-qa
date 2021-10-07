@@ -1,4 +1,4 @@
-##Java修饰符：public，protected，private，不加修饰符。有什么区别呢？
+## Java修饰符：public，protected，private，不加修饰符。有什么区别呢？
 
 
 如下表所示,Y表示能访问(可见性），N表示不能访问，例如第一行的第3个Y，表示类的变量/方法如果是用public修饰，它的子类能访问这个变量/方法

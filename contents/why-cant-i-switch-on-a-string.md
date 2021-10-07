@@ -1,11 +1,11 @@
 # 为什么不能用string类型进行switch判断
 
-##问题描述
+## 问题描述
 为什么不能用string类型进行switch判断？
 在java的后续版本中，是否会增加这个新特性？
 有人能给我一篇文章，解释一下为什么不能这样做，或者进一步说明java中switch语句的运行方式？
 
-##回答
+## 回答
 在switch语句中用string作为case，这个特性已经在java SE7 中被实现了，距离 [这个'bug'](http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=1223179) 被提出至少也有16年了。为何迟迟不提供这个特性，原因不明。但可以推测，可能跟性能有关。
 
 **Implementtation in JDK 7**

@@ -1,6 +1,6 @@
-##重写（Override）equals和hashCode方法时应考虑的问题
+## 重写（Override）equals和hashCode方法时应考虑的问题
 
-###理论上讲（编程语言、数学层面）
+### 理论上讲（编程语言、数学层面）
 equals() 定义了对象的相等关系（自反性、对称性、传递性）（有点抽象，更详细说明，请参考[javadoc](http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html#equals(java.lang.Object))) 。
 另外，它还具有一致性（也就是说，如果一个对象没有修改，那么对象的equals方法，应总是返回相同的值），此外，o.equals(null)应当总是返回false。
 hashCode()（[javadoc](http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html#hashCode()))也必须具备一致性的（也就是说，如果equal的结果没有变，那么hashcode()也应总是返回相同的值）
@@ -9,7 +9,7 @@ hashCode()（[javadoc](http://docs.oracle.com/javase/7/docs/api/java/lang/Object
 
 **假如a.equals(b)，那么a.hashCode() 应等于b.hashCode()**
 
-###实践上讲
+### 实践上讲
 
 **如果你重写了其中一个方法，那么务必重写另外一个方法**
 

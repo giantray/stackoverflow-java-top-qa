@@ -1,12 +1,12 @@
-##LinkedList、ArrayList各自的使用场景，如何确认应该用哪一个呢？
+## LinkedList、ArrayList各自的使用场景，如何确认应该用哪一个呢？
 
 一言以蔽之，在大部分情况下，使用ArrayList会好一些。
 
-###耗时上各有优缺点。ArrayList稍有优势
+### 耗时上各有优缺点。ArrayList稍有优势
 List只是一个接口，而LinkedList、ArrayList是List的不同实现。LinkedList的模型是双向链表，而ArrayList则是动态数组
 
 首先对比下常用操作的算法复杂度
-#####LinkedList
+##### LinkedList
 - get(int index) : O(n)
 - add(E element) : O(1)
 - add(int index, E element) : O(n)
@@ -14,7 +14,7 @@ List只是一个接口，而LinkedList、ArrayList是List的不同实现。Linke
 - Iterator.remove() : O(1) <--- LinkedList<E>的主要优点
 - ListIterator.add(E element) is O(1) <---  LinkedList<E>的主要优点
 
-#####ArrayList
+##### ArrayList
 - get(int index) : O(1) <---  ArrayList<E>的主要优点
 - add(E element) : 基本是O(1) , 因为动态扩容的关系，最差时是 O(n) 
 - add(int index, E element) : 基本是O( n - index) , 因为动态扩容的关系，最差时是 O(n) 
@@ -27,7 +27,7 @@ List只是一个接口，而LinkedList、ArrayList是List的不同实现。Linke
 
 **总之，get操作，ArrayList快一些。而add操作，两者差不多**。（除非是你希望在List中间插入节点，且维护了一个Iterator指向指定位置，这时候linkedList能快一些，但是，我们更多时候是直接在尾部插入节点，这种特例的情况并不多）
 
-###空间占用上，ArrayList完胜
+### 空间占用上，ArrayList完胜
 看下两者的内存占用图
 ![](http://img.blog.csdn.net/20141017095352885?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbGl6ZXlhbmc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
