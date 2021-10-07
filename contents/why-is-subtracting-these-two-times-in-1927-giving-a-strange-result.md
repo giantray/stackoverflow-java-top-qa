@@ -1,6 +1,6 @@
-##为什么这两个时间（1927年）相减会得到一个奇怪的结果？
+## 为什么这两个时间（1927年）相减会得到一个奇怪的结果？
 
-###问题描述
+### 问题描述
 如果我运行如下的程序，将两个相距一秒的日期解析成字符串并比较他们。
 ```
 public static void main(String[] args) throws ParseException {
@@ -48,7 +48,7 @@ lastRule=null]
 Locale(Locale.getDefault()): zh_CN
 ```
 
-###问题回答
+### 问题回答
 这是因为1927年11月31日上海的时区改变了。
 观看[此页](http://www.timeanddate.com/time/change/china/shanghai?year=1927)获得更多关于上海1927年的细节。
 这个问题主要是由于在1927年12月31日的午夜，时钟回调了5分钟零52秒。

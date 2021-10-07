@@ -1,4 +1,4 @@
-##如何分割（split）string字符串
+## 如何分割（split）string字符串
 使用[`String#split()`](http://docs.oracle.com/javase/8/docs/api/java/lang/String.html#split-java.lang.String-)方法
 
 如下所示：

@@ -1,11 +1,11 @@
 ## JSF, Servlet 和 JSP (三种技术)有什么区别？
 
-###问题
+### 问题
 JSP 和 Servlet 有什么关系？JSP 是某种 Servlet 吗？JSP 和 JSF 又有什么关系？JSF 是某种基于JSP的，预构建好的 UI 吗，像
 ASP.NET-MVC 那样？
 
 
-###回答1
+### 回答1
 
 #### JSP(Java Server Pages)
 JSP 是一种运行在服务器上的Java 视图技术，它允许你写入模版化的文本(例如客户端代码 HTML, CSS, JavaScript等)。JSP 支持标签库(taglibs)，标签库由Java 代码实现，让你可以动态地控制页面输出。JSTL 便是一种比较有名的标签库。JSP 同样支持表达式语言(expression language)，表达式语言可以用来访问后台数据(页面上可用的属性，request/session 对象等等), 通常与标签库结合使用。

@@ -1,6 +1,6 @@
-##StringBuilder和StringBuffer有哪些区别呢
+## StringBuilder和StringBuffer有哪些区别呢
 
-###最主要的区别，StringBuffer的实现用了synchronized（锁），而StringBuilder没有。
+### 最主要的区别，StringBuffer的实现用了synchronized（锁），而StringBuilder没有。
 
 因此，StringBuilder会比StringBuffer快。
 

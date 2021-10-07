@@ -1,6 +1,6 @@
-##安卓中“UserManger.isUserAGoat()”的合适案例？
+## 安卓中“UserManger.isUserAGoat()”的合适案例？
 
-###问题描述：
+### 问题描述：
 我正在看在安卓4.2里介绍的新API。当看到“UserManger”类时，我遇到了如下的“method”：
 public boolean isUserAGoat()
 Used to determine whether the user making this call is subject to teleportations.
@@ -8,7 +8,7 @@ Used to determine whether the user making this call is subject to teleportations
 Returns whether the user making this call is a goat.
 这个应该怎样使用和什么时候使用？
 
-###回答：
+### 回答：
 根据他们的资料，在API21前，这个“method”用来返回“false”
 /**
  * Used to determine whether the user making this call is subject to

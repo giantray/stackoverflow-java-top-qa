@@ -1,6 +1,6 @@
 如何用一行代码初始化一个ArrayList
 
-###问题
+### 问题
 为了测试，我需要临时快速创建一个list。一开始我这样做：
 ```java
 ArrayList<String> places = new ArrayList<String>();
@@ -15,9 +15,9 @@ ArrayList<String> places = new ArrayList<String>(
 ```
 是否有更加简便的方法呢？
 
-###回答
+### 回答
 
-####常见方式
+#### 常见方式
 实际上，也许“最好”的方式，就是你写的这个方式，因为它不用再创建新的`List`:
 ```
 ArrayList<String> list = new ArrayList<String>();
@@ -27,7 +27,7 @@ list.add("C");
 ```
 只是这个方式看上去要多写些代码，让人郁闷
 
-####匿名内部类
+#### 匿名内部类
 当然，还有其他方式，例如,写一个匿名内部类，然后在其中做初始化（也被称为 brace initialization）：
 ```
 ArrayList<String> list = new ArrayList<String>() {{
@@ -38,11 +38,11 @@ ArrayList<String> list = new ArrayList<String>() {{
 ```
 但是，我不喜欢这个方式。只是为了做个初始化，却要在`ArrayList`的同一行后面加这么一坨代码。
 
-####Arrays.asList
+#### Arrays.asList
 ```
 List<String> places = Arrays.asList("Buenos Aires", "Córdoba", "La Plata");
 ```
-####Collections.singletonList
+#### Collections.singletonList
 ```
 List<String> places = Collections.singletonList("Buenos Aires");
 ```

@@ -1,4 +1,4 @@
-##在java中如何对比（compare）string
+## 在java中如何对比（compare）string
 
 - `==`对应的是指针相等，也就是他们是否为同一个对象
 - `.equals()`对应的是值相等，也就是逻辑相等
@@ -39,6 +39,6 @@ new String("test") == new String("test") // --> false
 	}
 ```
 
-###其他
+### 其他
 - 如果你重写了equal方法，记得相对应地修改hashcode方法，否则将会违反这两个方法的对等关系，如果两个对象是相等（equal）的，那么两个对象调用hashCode必须产生相同的整数结果，即：equal为true，hashCode必须为true，equal为false，hashCode也必须为false
 - 如果要忽略大小写进行对比，可以用equalsIgnoreCase()方法

@@ -1,6 +1,6 @@
-##如何处理 java.lang.outOfMemoryError PermGen space error
+## 如何处理 java.lang.outOfMemoryError PermGen space error
 
-###问题
+###  问题
 
 最近，我在过运行我的web应用时得到：java.lang.OutOfMemoryError: PermGen space。
 我的应用是一个典型的 Hibernate/JPA + IceFaces/JSF的应用.运行于Tomcat6.0和jdk1.6.我发布了多次以后，产生了这个错误。
@@ -8,7 +8,7 @@
 是什么原因造成的，我如何避免？我怎样修复?
 
 
-#回答
+### 回答
 
 
 解决的方案是当TomeCat启时，在jvm的的命令行添加参数

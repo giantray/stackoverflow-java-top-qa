@@ -1,10 +1,10 @@
-##如何在classpath中设置多个jar包？
+## 如何在classpath中设置多个jar包？
 
-###问题
+### 问题
 是否有一个方法可以在classpath选项中包含一个文件夹（目录）下的所有jar包？
 我尝试运行`java -classpath lib/*.jar:. my.package.Program`，但是无法找到相应的类文件，可是这些类文件确实存在于命令中的jar包中。我是否需要在classpath中分别指定所有的jar包？
 
-###回答
+### 回答
 在使用Java6或者以上版本时，classpath选项可以支持通配符(wildcards)。使用方法如下：
 * 使用直接引用(`"`)
 * 使用 `*` 而不是 `*.jar`

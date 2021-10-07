@@ -1,6 +1,6 @@
-##为什么以下用随机生成的文字会得出 “hello world”?
+## 为什么以下用随机生成的文字会得出 “hello world”?
 
-###问题
+### 问题
 为什么以下用随机生成的文字会得出"hello world".
 有人能解释一下吗?
 
@@ -22,7 +22,7 @@ public static String randomString(int i)
    return sb.toString();
 }
 ```
-###回答1（最佳）
+### 回答1（最佳）
 在JAVA 里面，随机类的实现不是真正的随机,是伪随机.
 就是说如果随机类的种子是一样的话，他们会生成同一组的数字。
 
